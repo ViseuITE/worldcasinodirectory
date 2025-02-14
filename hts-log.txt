@@ -1,0 +1,41 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 13 Feb 2025 10:38:00 at https://www.worldcasinodirectory.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.worldcasinodirectory.com -O1 "C:\Users\rose\Documents\worldcasinodirectory" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:38:02	Warning: 	Note: due to https://www.worldcasinodirectory.com remote robots.txt rules, links beginning with these path will be forbidden: /message/, /usercp/, /admin, /ratings/, /logging, /newthread, /subscriptions/, /openads/, /search/, /ads/, /layout/, /luxe/, /site_management/, /feed/, /play/, /api (see in the options to disable this)
+11:06:54	Warning: 	link is probably looping, type unknown, aborting: https://www.worldcasinodirectory.com/casino/paradisus-punta-cana-3367
+11:10:04	Warning: 	link is probably looping, type unknown, aborting: https://www.worldcasinodirectory.com/casino/paradisus-punta-cana-3367
+11:11:22	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.worldcasinodirectory.com/)
+11:59:55	Error: 	"Not Found" (404) at link https://www.worldcasinodirectory.com/site.webmanifest (from https://www.worldcasinodirectory.com/)
+11:59:55	Error: 	"Not Found" (404) at link https://www.worldcasinodirectory.com/icon.png (from https://www.worldcasinodirectory.com/)
+12:04:55	Warning: 	Moved Permanently for www.worldcasinodirectory.com/robots.txt
+12:04:55	Warning: 	Redirected link is identical because of 'URL Hack' option: www.worldcasinodirectory.com/robots.txt and https://www.worldcasinodirectory.com/robots.txt
+12:04:55	Warning: 	Warning moved treated for www.worldcasinodirectory.com/robots.txt (real one is https://www.worldcasinodirectory.com/robots.txt)
+12:04:55	Error: 	"Bad Request" (400) at link www.worldcasinodirectory.com/casino/resort-world-casino-manila-3654#hotels (from https://www.worldcasinodirectory.com/)
+12:07:42	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.worldcasinodirectory.com/owners/norwegian-cruise-line (from https://www.worldcasinodirectory.com/)
+12:10:52	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.worldcasinodirectory.com/owners/royal-caribbean-cruises (from https://www.worldcasinodirectory.com/)
+12:11:49	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.worldcasinodirectory.com/puerto-rico (from https://www.worldcasinodirectory.com/)
+14:11:02	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.worldcasinodirectory.com/switzerland (from https://www.worldcasinodirectory.com/)
+14:23:50	Warning: 	Retry after error -4 (No data (connection closed)) at link www.worldcasinodirectory.com/uruguay/chuy (from https://www.worldcasinodirectory.com/)
+14:34:44	Error: 	"Not Found" (404) at link https://www.worldcasinodirectory.com/cameroon/yaounde (from https://www.worldcasinodirectory.com/)
+14:37:15	Error: 	"Not Found" (404) at link https://www.worldcasinodirectory.com/ghana/kusami (from https://www.worldcasinodirectory.com/)
+14:42:02	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.worldcasinodirectory.com/casino/carlton-casino-hotel (from https://www.worldcasinodirectory.com/)
+15:06:04	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.worldcasinodirectory.com/owners/princess-group-international (from https://www.worldcasinodirectory.com/)
+15:06:04	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.worldcasinodirectory.com/casino/casino-crown-coloninial-guatemala (from https://www.worldcasinodirectory.com/)
+15:57:53	Warning: 	Retry after error -4 (No data (connection closed)) at link www.worldcasinodirectory.com/how-to-play-caribbean-stud (from https://www.worldcasinodirectory.com/)
+15:59:46	Error: 	Exit requested by shell or user
+15:59:47	Warning: 	File not added due to mirror cancel: https://www.worldcasinodirectory.com/poker-room/atlantis-tournament-poker-room
+15:59:53	Error: 	Exit requested by shell or user
+15:59:53	Error: 	"" (-1) at link https://www.worldcasinodirectory.com/bahamas (from https://www.worldcasinodirectory.com/)
+15:59:53	Error: 	Exit requested by shell or user
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 hours 21 minutes 53 seconds : 9883 links scanned, 9529 files written (1923197099 bytes overall) [732353300 bytes received at 37920 bytes/sec], 1424129021 bytes transferred using HTTP compression in 5693 files, ratio 14%, 7.2 requests per connection
+(10 errors, 16 warnings, 0 messages)
+* * MIRROR ABORTED! * *
+The current temporary cache is required for any update operation and only contains data downloaded during the present aborted session.
+The former cache might contain more complete information; if you do not want to lose that information, you have to restore it and delete the current cache.
+This can easily be done here by erasing the hts-cache/new.* files]

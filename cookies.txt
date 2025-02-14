@@ -1,0 +1,14 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.worldcasinodirectory.com	TRUE	/	FALSE	1999999999	s	ltja1eo2bjubmp1dq6onu38ulm
+.worldcasinodirectory.com	TRUE	/	FALSE	1999999999	wcd_last_visit	1739417882
+.aweber.com	TRUE	/	FALSE	1999999999	__cf_bm	MROFV.dyOnjdTTROCe3RqbFhSA23SnL.MIYECgfbel8-1739419879-1.0.1.1-z3F8wlcQIl5AYiAsZAwyUkTZr05hsHPZtiOG0s52J7A34DUkQgaylZ8wOdUcE29B477NznOVDyg6Fe.D6Tcrhw
+.www.bugherd.com	TRUE	/	FALSE	1999999999	SameSite	None
+en.wikipedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access	13-Feb-2025
+.wikipedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access-Global	13-Feb-2025
+.wikipedia.org	TRUE	/	FALSE	1999999999	GeoIP	KH:::13.00:105.00:v4
+en.wikipedia.org	TRUE	/	FALSE	1999999999	NetworkProbeLimit	0.001
+en.wikipedia.org	TRUE	/	FALSE	1999999999	SameSite	Lax
+.highcharts.com	TRUE	/	FALSE	1999999999	_cfuvid	HySb.JTqwUBTAvkjqYEmfTq.xyKOeMaljRhkAPUk1i8-1739420696859-0.0.1.1-604800000
+code.highcharts.com	TRUE	/	FALSE	1999999999	SameSite	None
+

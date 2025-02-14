@@ -1,0 +1,3083 @@
+<!--./pages/countries.php - --><!DOCTYPE HTML>
+
+<html>
+	
+<!-- Mirrored from www.worldcasinodirectory.com/countries by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Feb 2025 04:24:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TMT3B35');</script>
+<!-- End Google Tag Manager -->
+
+		<title>
+Countries ranked by the number of Casinos they have</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+                		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="//www.worldcasinodirectory.com/assets/js/html5shiv.js"></script><![endif]-->
+		<script type="text/javascript" src="../ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script src="assets/jui/jquery-ui.js"></script>
+<script type="text/javascript"> 
+    $(document).ready(function () {
+        $("div h2:contains('Click a state for current lottery results')").hide(); 
+    $('.cb-breaking-news ul.animate').totemticker({
+	row_height  :   '33px',
+        mousestop   :   true
+    });
+    }); 
+
+</script>
+
+<link rel="stylesheet" href="assets/admin/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="assets/jui/jquery-ui.css" />
+<link rel="stylesheet" href="assets/css/style2e070.css?v=1.0.01" />
+
+<!-- <script src="//www.worldcasinodirectory.com/assets/admin/bootstrap/js/bootstrap.js"></script> -->
+
+                <!--script src="//load.sumome.com/" data-sumo-site-id="fe7e5f544f0cfd0e6560fb5b327088fabf85d12d59c3f4fd877415ce1dfa31b3" async></script-->
+<script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='8649fdc870efef0dcfc76245de3b7d04e665b1d0655c28ae1e386d3910da43f1';v.parentNode.insertBefore(j,v)})(window,document,'script','http://load.sumo.com/');</script>
+                <!--script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.15/slick.min.js"></script-->
+		<script type="text/javascript" src="assets/js/slick.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.totemticker.min.js"></script>
+
+                 <noscript>
+			<link rel="stylesheet" href="assets/css/skel.css" />
+			<link rel="stylesheet" href="assets/css/style.css" />
+			<link rel="stylesheet" href="assets/css/style-desktop.css" />
+		</noscript>
+
+		<link rel="stylesheet" href="https://www.worldcasinodirectory.com/layout/wcd/starratings.css" />
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="//www.worldcasinodirectory.com/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<meta name="google-site-verification" content="UiRMncoxFYQiTN62k9K2eySZfgf3J-grCBeGCtggfyc" />
+
+
+<link rel="canonical" href="countries.html" />
+<meta name="description" content="A dynamic graph of how many casinos are in each country with more details of each country and a review of every casino.">
+
+
+<script src="../code.highcharts.com/highcharts.html"></script>
+<script src="../code.highcharts.com/modules/exporting.html"></script>
+
+
+<style>
+    .section-white:first-of-type {
+        margin-top: 15px
+    }
+.country-imgs{
+width: 100%;
+}
+    a.linkXAxis {
+        font-family: "Oswald", sans-serif;
+        font-size: 1.8rem;
+        color: #94928f !important;
+    }
+    .highcharts-title {
+        font-size: 30px !important;
+        font-family: 'Roboto Condensed';
+        font-weight: 500;
+        line-height: 1.1;
+        color: #333 !important;
+        letter-spacing: -0.05em;
+        margin-top: 0;
+    }
+    .highcharts-menu-item:hover {
+        background-color: rgba(228, 173, 72, 1) !important;
+    }
+    #chartWrap {
+        padding-top: 2rem;
+    }
+    
+    @media screen and (max-width: 1199px) {
+        .country-imgs {
+            margin: 0 2rem 2rem 0;
+            float: left;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .country-imgs {
+            margin: 0 0rem 2rem 0;
+            float: none;
+        }
+        .highcharts-title {
+            font-size: 2rem !important;
+        }
+    }
+</style>
+
+
+ <!--GLOBAL CSS-->
+<link rel="stylesheet" href="assets/css/styleNewc385.css?v=4.01.037" />
+<link rel="stylesheet" href="assets/css/bonuses-style2333.css?v=1.7.001" />
+<link rel="stylesheet" href="assets/css/onlineCasinoResponsive583f.css?v=3.0.004" />
+<link rel="stylesheet" href="assets/css/style-desktop-2018b96d.css?v=1.00.002" />
+<link rel="stylesheet" href="assets/css/style2bacc.css?v=2.8.006" />
+<link rel="stylesheet" href="assets/css/component.css" />
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+<link rel='stylesheet' href='assets/css/swiper.min.css'>
+<!--GLOBAL CSS-->
+
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
+<!--GLOBAL JS-->
+<script type="text/javascript" src='assets/js/bootstrap.min.js'></script>
+<script type="text/javascript" src="assets/jui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.totemticker.min.js"></script>
+<script type="text/javascript" src="https://www.worldcasinodirectory.com/layout/wcd/CommentsRatings.js?v=1.00.003"></script>
+<script type="text/javascript" src='assets/js/swiper.min.js'></script>
+<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="assets/js/simple-bootstrap-paginator.min.js"></script>
+<script src="../www.google.com/recaptcha/api.js" async defer></script>
+
+<!--GLOBAL JS-->
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("div h2:contains('Click a state for current lottery results')").hide();
+    });
+</script>
+
+
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<style>
+    .cDescription {
+        color: #696969
+    }
+    .logosHolder a:first-of-type img {
+        width: 10%;
+        webkit-filter: grayscale(100%) brightness(60%) contrast(10000000%);
+        filter: grayscale(100%) brightness(60%) contrast(10000000%);
+        opacity: .5;
+    }
+</style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMT3B35" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="header-wrapper">
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12  newsletterWrapper">
+                    <!-- Logo -->
+                    <div class="col-md-2">
+                        <a href="index.html" id="logo" class="logo-wcd">
+                            <img src="assets/images/wcd-logo.png" alt="World Casino Directory">
+                        </a>
+                    </div>
+                    <div class="col-md-5 desktop-subscribe-placeholder">
+                        <div class="subscribeWrapp clearfix">
+    <div class="subscribeFormWrap clearfix">
+        <p class="subTxt1" style="color:#2b8a39;">The best gambling news source!  <span class="subTxt2" style="color:#ebebeb;"> Subscribe to get weekly updates:</span> </p>
+
+        <form action="http://www.worldcasinodirectory.com/lcb_newsletter/dosubscribe" method="post" id="subscribeH" class="newsletterForm clearfix">
+
+            <input name="email" class="newsletterMail" id="newsletterMailH" placeholder="Enter your email..." value="" type="text">
+            <button id="trigger-human-check" type="button">Subscribe</button>
+            <span class="certified-18">*By subscribing you are certifying that you are 18+ and accept our Privacy Policy</span>
+            <div id="human-check-holder">
+                <div id="human-check">
+                    <span id="human-check-close"><i class="fas fa-times"></i></span>
+                    <div class="human-check-inner">
+                        <h3 id="Please-confirm-that-you-are-not-a-robot-">Please confirm that you are not a robot.</h3>
+                        <div class="g-recaptcha" data-sitekey="6Lc5inAoAAAAAOx2XWOBUbhbTj6kRhuDUZZFzeRj">
+                        </div>
+                        <button type="submit" id="newsletterSubscribeH" class="buttonSubscribe">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                let popTrigger = document.getElementById('trigger-human-check');
+                let input = document.getElementById('newsletterMailH');
+                let pop = document.getElementById('human-check-holder');
+                let close = document.getElementById('human-check-close');
+                popTrigger.addEventListener('click', function() {
+                    if (input.value != '') {
+                        document.body.classList.add('unoverflow');
+                        pop.classList.add('visible-pop');
+                    }
+                });
+                close.addEventListener('click', function(){
+                    document.body.classList.remove('unoverflow');
+                        pop.classList.remove('visible-pop');
+                })
+                document.addEventListener('keydown', (e) => {
+                    if((e.keyCode == 27 || e.key === 'Escape') && pop.classList.contains('visible-pop')){
+                        document.body.classList.remove('unoverflow');
+                        pop.classList.remove('visible-pop');
+                    }
+                });
+                let stopSubmit = (e) => {
+                    if((document.activeElement === document.getElementById('newsletterMailH')) && (e.key === 'Enter' || e.keyCode === 13)){
+                        e.preventDefault();
+                        document.getElementById('trigger-human-check').click();
+                    }
+                }
+                document.addEventListener('keypress', (e) => {stopSubmit(e);});
+                document.addEventListener('keyup', (e) => {stopSubmit(e);});
+                document.addEventListener('keydown', (e) => {stopSubmit(e);});
+            </script>
+        </form>
+    </div>
+</div>                    </div>
+                    <div class="col-md-5">
+                        
+<div class="bannerHeader clearfix"> 
+	<a target="_blank" class="casino-url" rel="nofollow noopener" href="#">
+		<img class="image" src="#">
+	</a>
+</div>
+
+<script type = "text/javascript" >
+
+    $(document).ready(function() {
+
+        function get_banners(apiRequestUri, callback) {
+
+            $.ajax({
+                url: apiRequestUri,
+                success: function(data) {
+                    result = data['items'];
+                    if (result === null) {
+                        (".bannerHeader").hide();
+                        return;
+                    }
+
+//                    if (parseInt(data['count']['total']) == 0) {
+                    if (data['items'].length == 0) {
+                        $(".bannerHeader").hide();
+                    }
+
+                    $.each(result, function(i, casino) {
+
+                        $(".bannerHeader > .casino-url").attr("href", casino.casino_url);
+                        $(".casino-url > .image").attr("src", casino.image_url);
+
+                    });
+
+                    if (callback !== undefined) {
+                        callback(true);
+                    }
+                },
+                error: function() {
+                    $(".bannerHeader").hide();
+                }
+
+            });
+
+        }
+
+       let limit_start = 0;
+       let limit_increment_init = 1;
+        
+        all_increment = 10000;
+        country_code = "KH";
+        state_code = "";
+        if ((country_code == "US" && state_code) || (country_code == "CA" && state_code && state_code=="ON")) {
+            casino_region = "&country=" + country_code + "&state=" + state_code;
+        } else {
+            casino_region = "&country=" + country_code;
+        }
+
+       let apiRequest = "https://online.worldcasinodirectory.com/api?banner_data=header";
+
+       let apiRequestUri = apiRequest + casino_region;
+
+       let limit = "&offset=" + limit_start + "&limit=" + limit_increment_init;
+
+        get_banners(apiRequestUri + limit)
+
+    });
+
+</script>                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="padding: 0">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Nav -->
+                    <nav id="nav" class="clearfix cb-dark-menu" role="navigation">
+                        <div class="wrap clearfix">
+                            <div id="cb-main-menu" class="menu-main-menu-container">
+                                <ul class="nav main-nav clearfix">
+                                    <li id="mm-logo" class="sticky-header" style="display:none;"><a href="index.html" style="border-bottom:none;"><img src="assets/images/wcd-logo-headerbar.png" alt="World Casino Directory"></a></li>
+                                    <li class="search-input-field">
+                                        <form id="header-search-form" name="search" action="http://www.worldcasinodirectory.com/search" method="get">
+                                            <input id="header-search-box" name="search" type="search" placeholder="Search" value="">
+                                        </form>
+                                    </li>
+                                    <li class="dropdown  menu-selected" id="mm-world-casinos" data-tab="world-casinos"><a href="index.html">World Casinos </a>
+                                                                            <div class = "dropdown-content">
+                                        <div class="container">
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div id="mm-world-casinos-content" class="megamenu-content" style="">
+                                                        <!-- mm-start -->
+                                                        <div class="col-md-2">
+                                                            <b class="mm-h1">Continents</b>
+                                                             <ul class = "subMenus">
+                                                                <li>
+                                                                    <a href="region/north-america.html">
+                                                                        North America                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="region/south-america.html">
+                                                                        South America                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="region/central-america.html">
+                                                                        Central America                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="region/caribbean.html">
+                                                                        Caribbean                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="region/western-europe.html">
+                                                                        West Europe                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="region/eastern-europe.html">
+                                                                        East Europe                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="region/africa.html">
+                                                                        Africa                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="region/east-asia.html">
+                                                                        East Asia                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="region/central-asia.html">
+                                                                        Central Asia                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="region/oceania.html">
+                                                                        Oceania                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="region/middle-east.html">
+                                                                        Middle East                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="cruise-ships.html">
+                                                                        Cruiseships                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                        
+                                                        <div class="col-md-2">
+                                                            <b class="mm-h1 countriesMenu"><a style = "color: #484848 !important;font-family: 'Roboto';text-transform: uppercase;font-size: 14px;font-weight: 500;    padding: 0;
+                                                                background-color: transparent;" href="countries.html">Countries</a></b>
+                                                             <ul class = "subMenus">
+                                                                <li><a href="united-states.html"><img src="images/allflags/us.gif" height="11" width="16"> United States</a></li>
+                                                                <li><a href="macau.html"><img src="images/allflags/mo.gif" height="11" width="16"> Macau, China</a></li>
+                                                                <li><a href="france.html"><img src="images/allflags/fr.gif" height="11" width="16"> France</a></li>
+                                                                <li><a href="philippines.html"><img src="images/allflags/ph.gif" height="11" width="16"> Philippines</a></li>
+                                                                <li><a href="singapore.html"><img src="images/allflags/sg.gif" height="11" width="16"> Singapore</a></li>
+                                                                <li><a href="netherlands.html"><img src="images/allflags/nl.gif" height="11" width="16"> Netherlands</a></li>
+                                                                <li><a href="united-kingdom.html"><img src="images/allflags/gb.gif" height="11" width="16"> United Kingdom</a></li>
+                                                                <li><a href="canada.html"><img src="images/allflags/ca.gif" height="11" width="16"> Canada</a></li>
+                                                                <li><a href="argentina.html"><img src="images/allflags/ar.gif" height="11" width="16"> Argentina</a></li>
+                                                                <li><a href="germany.html"><img src="images/allflags/de.gif" height="11" width="16"> Germany</a></li>
+                                                                <li><a href="estonia.html"><img src="images/allflags/ee.gif" height="11" width="16"> Estonia</a></li>
+                                                                <li><a href="peru.html"><img src="images/allflags/pe.gif" height="11" width="16"> Peru</a></li>
+                                                                <li><a href="russia.html"><img src="images/allflags/ru.gif" height="11" width="16"> Russia</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                        
+                                                            <b class="mm-h1">Industry related features</b>
+                                                             <ul class = "subMenus">
+                                        
+                                                                <li>
+                                                                    <a href="http://www.worldcasinosales.com/">
+                                                                        Casinos for Sale                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="statistics.html">
+                                                                        Casino Statistics                                                                    </a>
+                                                                </li>
+                                        
+                                                                <li>
+                                                                    <a href="http://www.worldcasinojobs.com/">
+                                                                        Employment                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="http://online.worldcasinodirectory.com/owners">
+                                                                        Casinos by operator                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                            
+                                        
+                                                        </div>
+                                                       
+                                        
+                                                        <div class="col-md-5">
+                                                            <p class = "megaMenuNews">
+                                                                <img class="image left shadow" src="images/macau.jpg">
+                                                                <a class="mm-h1" href="macau/macau.html"><strong> MACAU </strong> </a>
+                                                                <span> High rollers, luxury casinos and hotels plus a rich heritage make Macau one of the world's premiere gaming destinations. </span>
+                                                            </p>
+                                                            <p class = "megaMenuNews">
+                                                                <img class="image left shadow" src="images/vegas-night.jpg">
+                                                                <a class="mm-h1" href="nevada/las-vegas.html"> <strong> LAS VEGAS </strong></a>
+                                                                <span> Las Vegas casino resorts have been long known for their entertaining shows, endless casino action and bright lights. </span>
+                                                            </p>
+                                                            <p class = "megaMenuNews">
+                                                                <img class="image left shadow" src="images/cotai.jpg">
+                                                                <a class="mm-h1" href="macau/cotai.html"><strong>COTAI STRIP</strong></a>
+                                                                <span>  Biggest casinos in the world + newest casinos in Macau; Cotai Strip threatens mainland Macau for top gambling destination. </span>
+                                                            </p>
+                                                            <p class = "megaMenuNews">
+                                                                <img class="image left shadow" src="images/6127.jpg">
+                                                                <a class="mm-h1" href="philippines.html"><strong>ENTERTAINMENT CITY</strong></a>
+                                                                <span> Sleeping giant of Asian casinos is the Philippines. Casino tour? Multiple multi-billion dollar casinos are operating here. </span>
+                                                            </p>
+                                                            <p class = "megaMenuNews">
+                                                                <img class="image left shadow" src="images/atlantic-city.jpg">
+                                                                <a class="mm-h1" href="new-jersey/atlantic-city.html"><strong>ATLANTIC CITY</strong></a>
+                                                                <span> Play in Atlantic City's wide variety of casinos and poker rooms. This is the place that inspired the board game <i>Monopoly</i>. </span>
+                                                            </p>
+                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>   </li>
+                                    <li id="mm-online-casinos" class="dropdown " data-tab="online-casinos"> <a href="http://online.worldcasinodirectory.com/"> Online Casinos </a>
+                                        <div class = "dropdown-content">
+<div class="container">
+    <div class="col-md-12">
+        <div class="row">
+            <div id="mm-online-casinos-content" class="megamenu-content" style="">
+                <div class="col-md-3">
+                                            <div class="topOnlineCasinosHeader">
+                            
+    <div class="col">
+        <div class="topOnlineCasinosHeader">
+            <div class="topListCasinosWrapper marginB20 clearfix section-box" id="toplist_box1">
+                <h3 class="flush-bottom">
+                                            <img id="toplist_box_flag" style="float: left; margin-right: 5px; margin-top: -5px;"
+                             src="assets/images/flags/32/KH.png">
+                                        <a href="https://online.worldcasinodirectory.com/cambodia" id="top-casinos-title-link">Top Online Casinos <span class='toplist-box-country'> </span></a>
+                </h3>
+
+                <div class="main-toplist-cell" id="toplist_seed1" hidden>
+                    <a rel="nofollow noopener" target="_blank" href="#" class="toplist-link">
+                        <div class="CasinoImg">
+                            <img src="#">
+                        </div>
+                        <div class="casinoTitle">
+
+                        </div>
+                                                <div class="casinoBonuses">
+                            <div class="innerBonuses">
+                                <span class="greenText"></span> <span class="up_to"></span><span
+                                class="currency_symbols"></span>
+                                <p><span class="bonusType" style="color: #3B3C3D;"></span>
+                                <span class="bonusSubType" style="color: #3B3C3D;"></span></p>
+                            </div>
+                        </div>
+                                                <div class="play-carret">
+                            <i class="fas fa-caret-right lotteryCarret" style="margin-left:10px;"></i>
+                        </div>
+
+                    </a>
+                    <p class="tnc-link-holder" style="text-align:right;font-size: 1.2rem;color: grey;margin-bottom: 0;padding:0.5rem 0; line-height:1"><a style="display: inline-block;text-align:center; min-width:32%; margin-right: 8%" class="tcUrl" rel="nofollow noopener" data-title="KH" data-showlink target="_blank" href="#">T&amp;C's Apply</a></p>
+                </div>
+                
+                <div id="toplist_buffer1" hidden></div>
+                <div class='loading-spinner' align="center"><img
+                            src="assets/images/spinner2.gif"></div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+
+            var country_code = 'KH';
+
+
+            var inc =1;
+            var buffer = "#toplist_buffer" + inc;
+            var seed = "#toplist_seed" + inc;
+            var toplist = "#toplist_box" + inc;
+            var up_to = 'up to';
+            var domain = 'https://online.worldcasinodirectory.com/api?best_casinos=1&amp;country=KH&amp;offset=0&amp;limit=5';
+
+            $.ajax({
+                url: domain,
+                success: function (result) {
+                    $(toplist + " .loading-spinner").remove();
+                                            $(buffer).attr("src", "assets/images/flags/32/KH.png");
+                    
+                //     if (country_code != 'US') {
+                                                if  (result.state_name) {
+                            $(toplist + ' .toplist-box-country').html('&nbspin ' + result.state_name);
+                        } else {
+                            $(toplist + ' .toplist-box-country').html('&nbspin ' + result.country_name);
+                        }
+                                        //    } else {
+                //        $(toplist + ' .toplist-box-country').remove();
+                //    }
+
+                    /*  if (typeof result.top_casinos !== 'undefined') {
+                          var casinos=result.top_casinos;
+                      }else{
+                          var casinos=result.bonuses;
+                      }*/
+
+                    var casinos = result.items;
+                    $.each(casinos, function (i, casino) {
+                        $(buffer).html($(seed).html());
+                        $(buffer + " a").attr("href", casino.casino_url);
+                        $(buffer + " img").attr("src", casino.casino_logo_url);
+                        $(buffer + " .casinoTitle").html(casino.name);
+
+                        if ((typeof casino.bonuses != 'undefined') && casino.bonuses.length > 0) {
+                            $(buffer + ' .greenText').html(casino.bonuses[0].text_1);
+                            $(buffer + " .up_to").html(up_to);
+                            if (!casino.bonuses[0].up_to) {
+                                $(buffer + ' .up_to').remove();
+                            }
+
+                            if (casino.bonuses[0].currency_symbols || casino.bonuses[0].text_2) {
+                                $(buffer + ' .currency_symbols').html(casino.bonuses[0].currency_symbols + casino.bonuses[0].text_2);
+                            } else {
+                                $(buffer + ' .currency_symbols').remove();
+                            }
+if (casino.bonuses[0].text_3.toUpperCase().includes('CASHBACK')) {
+    $(buffer + ' .bonusType').html('Cashback');
+    $(buffer + ' .bonusSubType').html(casino.bonuses[0].text_3.replace(/cashback bonus -|cashback bonus/gi, "").trim());
+} else if (casino.bonuses[0].text_3.toUpperCase().includes('NO DEPOSIT')) {
+    $(buffer + ' .bonusType').html('No deposit');
+    $(buffer + ' .bonusSubType').html(casino.bonuses[0].text_3.replace(/no deposit bonus -|no deposit bonus/gi, "").trim());
+} else {
+    $(buffer + ' .bonusType').remove();
+}
+
+                            $(buffer+' .tcUrl').attr('href',casino.bonuses[0].tc_url)
+                            if (casino.bonuses[0].tc_url==null || casino.bonuses[0].tc_url=='') {
+                                $(buffer + ' .tcUrl').filter('[data-showlink]').remove();
+                            }
+                        } else {
+                            $(buffer+' .bonusInfo').remove();
+                            $(buffer+' .tcUrl').remove();
+                        }
+
+
+                        /*    if (typeof casino.bonus_percent == 'undefined'){casino.bonus_percent=casino.bonuspercent}
+                            if(casino.text_1){
+                                $(buffer+" .greenText").html(casino.bonus_percent+'%');
+                                if(casino.text_1.indexOf("up to")!==-1){
+                                    $(buffer+" .up_to").html(up_to);   
+                                }else{
+                                    $(buffer+" .up_to").remove();
+                                }
+                            }else{
+                               $(buffer+" .up_to").remove();
+                               $(buffer+" .greenText").remove();
+                            }
+                            if ( casino.bonus_type!==null) {
+                                $(buffer+" .currency_symbols").html(casino.currency_symbols+casino.text_2);
+                            }else{
+                                 $(buffer+" .currency_symbols").remove();
+                            }*/
+
+                        /*    if ((typeof casino.id == 'undefined') || casino.id == null){ $(buffer+" .casinoBonuses").html("&nbsp")}
+                            if(country_code == 'GB') {$(buffer+" .casinoBonuses").html("&nbsp")}*/
+
+                        new_row = $("<div></div>").append($(buffer).html());
+                        new_row.attr("class", $(seed).attr("class"));
+
+                        $(toplist).append(new_row);
+
+
+                    });
+                    $(buffer).remove();
+                    $(seed).remove();
+
+
+                }
+            });
+
+        });
+    </script>
+
+                        </div>
+
+                                        </div>
+
+                <div class="col-md-3">
+
+                    <h3 class="flush-bottom">Casinos by category</h3>
+                    <ul class = "subMenus">
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/casinos">
+                                Full Directory                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/newest-casinos">
+                                New                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/livedealers">
+                                Live Dealer                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/countries">
+                                By Country                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/software">
+                                By Software                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/currencies">
+                                By Currency                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/languages">
+                                By Language                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/gamification-casinos">
+                                Gamification
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/rogue-blacklisted-casinos">
+                                Rogue                            </a>
+                        </li>
+
+
+                        
+                        <li>&nbsp;</li>
+
+
+
+
+                     
+
+
+                    </ul>
+                </div>
+                
+                <div class="col-md-2">
+
+                   <h3 class="flush-bottom">More Info</h3>
+                   <ul class = "subMenus">
+                        
+                       
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/online-casino-bonuses-promotions">
+                                Casino bonuses                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/payment-methods">
+                                Payment methods                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/jurisdictions">
+                                Gaming jurisdictions                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/online-casino-bonuses-promotions/no-deposit">
+                                No deposit casino bonuses
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/affiliate-programs">
+                                Affiliate programs
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/telegram-casinos">
+                                Telegram Casinos
+                            </a>
+                        </li>
+                         <li>
+                            <a href="http://online.worldcasinodirectory.com/social-casinos">
+                                Social Casinos
+                            </a>
+                        </li>
+                         <li>
+                            <a href="http://online.worldcasinodirectory.com/sweepstakes-casinos">
+                                Sweepstakes Casinos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 country-casinos">
+
+                    <h3 class="flush-bottom">
+                        Online Casinos by Country                    </h3>
+                    <ul class = "subMenus"> 
+                        <li>
+                            <a href="usonlinecasinos.html">
+                                <img src="images/allflags/us.gif" width="16" height="11">
+                                United States                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/united-kingdom">
+                                <img src="images/allflags/gb.gif" width="16" height="11">
+                                United Kingdom                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/australia">
+                                <img src="images/allflags/au.gif" width="16" height="11">
+                                Australia                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/south-africa">
+                                <img src="images/allflags/sa.gif" width="16" height="11">
+                                South Africa                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/canada">
+                                <img src="images/allflags/ca.gif" width="16" height="11">
+                                Canada                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/france">
+                                <img src="images/allflags/fr.gif" width="16" height="11">
+                                France                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/philippines">
+                                <img src="images/allflags/ph.gif" width="16" height="11">
+                                Philippines                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/nigeria">
+                                <img src="images/allflags/ng.gif" width="16" height="11">
+                                Nigeria                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/malaysia">
+                                <img src="images/allflags/my.gif" width="16" height="11">
+                                Malaysia                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/singapore">
+                                <img src="images/allflags/si.gif" width="16" height="11">
+                                Singapore                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/india">
+                                <img src="images/allflags/in.gif" width="16" height="11">
+                                India                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/finland">
+                                <img src="images/allflags/fi.gif" width="16" height="11">
+                                Finland
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/germany">
+                                <img src="images/allflags/de.gif" width="16" height="11">
+                                Germany
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/china">
+                                <img src="images/allflags/cn.gif" width="16" height="11">
+                                China
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/ukraine">
+                                <img src="images/allflags/ua.gif" width="16" height="11">
+                                Ukraine
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/hong-kong">
+                                <img src="images/allflags/hk.gif" width="16" height="11">
+                                Hong Kong
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/cyprus">
+                                <img src="images/allflags/cy.gif" width="16" height="11">
+                                Cyprus
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/turkey">
+                                <img src="images/allflags/tr.gif" width="16" height="11">
+                                Turkey
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/greece">
+                                <img src="images/allflags/gr.gif" width="16" height="11">
+                                Greece
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/netherlands">
+                                <img src="images/allflags/nl.gif" width="16" height="11">
+                                Netherlands
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/sweden">
+                                <img src="images/allflags/se.gif" width="16" height="11">
+                                Sweden
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/south-korea">
+                                <img src="images/allflags/kr.gif" width="16" height="11">
+                                South Korea
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/mexico">
+                                <img src="images/allflags/mx.gif" width="16" height="11">
+                                Mexico
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/poland">
+                                <img src="images/allflags/pl.gif" width="16" height="11">
+                                Poland
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div></li>
+                                    <li class="dropdown" id="mm-news" data-tab="news"> <a href="https://news.worldcasinodirectory.com/">News </a>
+                                        <div class = "dropdown-content">
+<div class="container">
+    <div class="col-md-12">
+        <div class="row">
+            <div id="mm-news-content" class="megamenu-content" style="">
+                <div class="col-md-3">
+                    <b class="mm-h1">News Categories</b>
+                    <ul class = "subMenus">
+                        <li>
+                            <a href="casinoopenings.html">
+                                Casino Openings                            </a>
+                        </li>
+                        <li>
+                            <a href="https://news.worldcasinodirectory.com/in-the-news/casino-news/casino-closures">
+                                Casino Closings                            </a>
+                        </li>
+                        <li>
+                            <a href="https://news.worldcasinodirectory.com/gaming-industry/gaming-law-legal-issues">
+                                Gaming Law & Legislation                            </a>
+                        </li>
+                        <li>
+                            <a href="http://news.worldcasinodirectory.com/world/asia/macau-casino-news">
+                                Macau                            </a>
+                        </li>
+                        <li>
+                            <a href="http://news.worldcasinodirectory.com/world/north-america/usa">
+                                United States                            </a>
+                        </li>
+                        <li>
+                            <a href="https://news.worldcasinodirectory.com/world/north-america/usa/nevada/las-vegas">
+                                Las Vegas                            </a>
+                        </li>
+                        <li>
+                            <a href="http://news.worldcasinodirectory.com/world/north-america/usa/new-jersey">
+                                Atlantic City                            </a>
+                        </li>
+                        <li>
+                            <a href="http://news.worldcasinodirectory.com/world/europe/united-kingdom">
+                                United Kingdom                            </a>
+                        </li>
+                        <li>
+                            <a href="http://news.worldcasinodirectory.com/world/europe/russia-europe">
+                                Russian                            </a>
+                        </li>
+                        <li>
+                            <a href="http://news.worldcasinodirectory.com/world/europe/germany">
+                                German                            </a>
+                        </li>
+                        <li>
+                            <a href="https://news.worldcasinodirectory.com/gaming-industry/casino-sales">
+                                For Sale                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-9">
+                    
+
+                    <div id="menu-header-news">
+                        <div id='loading-news-header'><img src="assets/images/spinner2.gif"></div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+        
+
+        </div> </li>
+                                    <li id="mm-games" class="dropdown " data-tab="games"" data-tab=" games"><a href="games.html"> Games and Rules </a>
+                                        <div class = "dropdown-content">
+<div class="container">
+    <div class="col-md-12">
+        <div class="row">
+
+            <div id="mm-games-content" class="megamenu-content" style="">
+                <div class="col-md-3">
+                    <b class="mm-h1">Games</b>
+
+                    <ul class = "subMenus">
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/video-poker">
+                                Video poker                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/blackjack">
+                                Blackjack                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/baccarat">
+                                Baccarat                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/roulette">
+                                Roulette                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/poker-games">
+                                Poker                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/keno">
+                                Keno                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/craps">
+                                Craps                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/unique-casino-games">
+                                Fixed Odds                            </a>
+                        </li>
+                      
+
+
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <b class="mm-h1">Slots</b>
+                     <ul class = "subMenus">
+                         <li>
+                            <a href="http://online.worldcasinodirectory.com/slots">
+                                Online                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/newest-slots">
+                                Newest                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/progressive-slots">
+                                Progressive                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-md-3 free-games-dropdown">
+                    <b class="mm-h1">Free games</b>
+                   <ul class = "subMenus">
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/free-games">
+                                All                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/free-games/video-slots">
+                                Video Slots                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/free-games/roulette">
+                                Roulette                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/free-games/blackjack">
+                                Blackjack                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/free-games/craps">
+                                Craps                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/free-games/reel-slots">
+                                Classic Slots                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/free-games/video-poker">
+                                Video Poker                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/free-games/keno">
+                                Keno                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/free-games/baccarat">
+                                Baccarat                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/free-games/scratch-games">
+                                Scratch                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/free-games/unique-casino-games">
+                                Unique                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div></li>
+                                    <li id="mm-poker" class="dropdown " data-tab="games"" data-tab=" poker"> <a href="https://online.worldcasinodirectory.com/poker"> Poker</a>
+                                        <div class = "dropdown-content">
+<div class="container">
+    <div class="col-md-12">
+        <div class="row">
+            <div id="mm-poker-content" class="megamenu-content" style="">
+
+                <div class="col-md-4">
+
+                                            <div class="topOnlineCasinosHeader">
+                            
+    <div class="col">
+        <div class="topOnlineCasinosHeader">
+            <div class="topListCasinosWrapper marginB20 clearfix section-box" id="toplist_box2">
+                <h3 class="flush-bottom">
+                                            <img id="toplist_box_flag" style="float: left; margin-right: 5px; margin-top: -5px;"
+                             src="assets/images/flags/32/KH.png">
+                                        <a href="https://online.worldcasinodirectory.com/cambodia" id="top-casinos-title-link">Top Online Poker <span class='toplist-box-country'> </span></a>
+                </h3>
+
+                <div class="main-toplist-cell" id="toplist_seed2" hidden>
+                    <a rel="nofollow noopener" target="_blank" href="#" class="toplist-link">
+                        <div class="CasinoImg">
+                            <img src="#">
+                        </div>
+                        <div class="casinoTitle">
+
+                        </div>
+                                                <div class="casinoBonuses">
+                            <div class="innerBonuses">
+                                <span class="greenText"></span> <span class="up_to"></span><span
+                                class="currency_symbols"></span>
+                                <p><span class="bonusType" style="color: #3B3C3D;"></span>
+                                <span class="bonusSubType" style="color: #3B3C3D;"></span></p>
+                            </div>
+                        </div>
+                                                <div class="play-carret">
+                            <i class="fas fa-caret-right lotteryCarret" style="margin-left:10px;"></i>
+                        </div>
+
+                    </a>
+                    <p class="tnc-link-holder" style="text-align:right;font-size: 1.2rem;color: grey;margin-bottom: 0;padding:0.5rem 0; line-height:1"><a style="display: inline-block;text-align:center; min-width:32%; margin-right: 8%" class="tcUrl" rel="nofollow noopener" data-title="KH" data-showlink target="_blank" href="#">T&amp;C's Apply</a></p>
+                </div>
+                
+                <div id="toplist_buffer2" hidden></div>
+                <div class='loading-spinner' align="center"><img
+                            src="assets/images/spinner2.gif"></div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+
+            var country_code = 'KH';
+
+
+            var inc =2;
+            var buffer = "#toplist_buffer" + inc;
+            var seed = "#toplist_seed" + inc;
+            var toplist = "#toplist_box" + inc;
+            var up_to = 'up to';
+            var domain = 'https://online.worldcasinodirectory.com/api?type=poker&amp;country=KH&amp;offset=0&amp;limit=5';
+
+            $.ajax({
+                url: domain,
+                success: function (result) {
+                    $(toplist + " .loading-spinner").remove();
+                                            $(buffer).attr("src", "assets/images/flags/32/KH.png");
+                    
+                //     if (country_code != 'US') {
+                                                if  (result.state_name) {
+                            $(toplist + ' .toplist-box-country').html('&nbspin ' + result.state_name);
+                        } else {
+                            $(toplist + ' .toplist-box-country').html('&nbspin ' + result.country_name);
+                        }
+                                        //    } else {
+                //        $(toplist + ' .toplist-box-country').remove();
+                //    }
+
+                    /*  if (typeof result.top_casinos !== 'undefined') {
+                          var casinos=result.top_casinos;
+                      }else{
+                          var casinos=result.bonuses;
+                      }*/
+
+                    var casinos = result.items;
+                    $.each(casinos, function (i, casino) {
+                        $(buffer).html($(seed).html());
+                        $(buffer + " a").attr("href", casino.casino_url);
+                        $(buffer + " img").attr("src", casino.casino_logo_url);
+                        $(buffer + " .casinoTitle").html(casino.name);
+
+                        if ((typeof casino.bonuses != 'undefined') && casino.bonuses.length > 0) {
+                            $(buffer + ' .greenText').html(casino.bonuses[0].text_1);
+                            $(buffer + " .up_to").html(up_to);
+                            if (!casino.bonuses[0].up_to) {
+                                $(buffer + ' .up_to').remove();
+                            }
+
+                            if (casino.bonuses[0].currency_symbols || casino.bonuses[0].text_2) {
+                                $(buffer + ' .currency_symbols').html(casino.bonuses[0].currency_symbols + casino.bonuses[0].text_2);
+                            } else {
+                                $(buffer + ' .currency_symbols').remove();
+                            }
+if (casino.bonuses[0].text_3.toUpperCase().includes('CASHBACK')) {
+    $(buffer + ' .bonusType').html('Cashback');
+    $(buffer + ' .bonusSubType').html(casino.bonuses[0].text_3.replace(/cashback bonus -|cashback bonus/gi, "").trim());
+} else if (casino.bonuses[0].text_3.toUpperCase().includes('NO DEPOSIT')) {
+    $(buffer + ' .bonusType').html('No deposit');
+    $(buffer + ' .bonusSubType').html(casino.bonuses[0].text_3.replace(/no deposit bonus -|no deposit bonus/gi, "").trim());
+} else {
+    $(buffer + ' .bonusType').remove();
+}
+
+                            $(buffer+' .tcUrl').attr('href',casino.bonuses[0].tc_url)
+                            if (casino.bonuses[0].tc_url==null || casino.bonuses[0].tc_url=='') {
+                                $(buffer + ' .tcUrl').filter('[data-showlink]').remove();
+                            }
+                        } else {
+                            $(buffer+' .bonusInfo').remove();
+                            $(buffer+' .tcUrl').remove();
+                        }
+
+
+                        /*    if (typeof casino.bonus_percent == 'undefined'){casino.bonus_percent=casino.bonuspercent}
+                            if(casino.text_1){
+                                $(buffer+" .greenText").html(casino.bonus_percent+'%');
+                                if(casino.text_1.indexOf("up to")!==-1){
+                                    $(buffer+" .up_to").html(up_to);   
+                                }else{
+                                    $(buffer+" .up_to").remove();
+                                }
+                            }else{
+                               $(buffer+" .up_to").remove();
+                               $(buffer+" .greenText").remove();
+                            }
+                            if ( casino.bonus_type!==null) {
+                                $(buffer+" .currency_symbols").html(casino.currency_symbols+casino.text_2);
+                            }else{
+                                 $(buffer+" .currency_symbols").remove();
+                            }*/
+
+                        /*    if ((typeof casino.id == 'undefined') || casino.id == null){ $(buffer+" .casinoBonuses").html("&nbsp")}
+                            if(country_code == 'GB') {$(buffer+" .casinoBonuses").html("&nbsp")}*/
+
+                        new_row = $("<div></div>").append($(buffer).html());
+                        new_row.attr("class", $(seed).attr("class"));
+
+                        $(toplist).append(new_row);
+
+
+                    });
+                    $(buffer).remove();
+                    $(seed).remove();
+
+
+                }
+            });
+
+        });
+    </script>
+
+                        </div>
+
+                </div>
+
+
+                <div class="col-md-2">
+
+                    <b class="mm-h1">Play online</b>
+                     <ul class = "subMenus">
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/poker">
+                                Online poker rooms                            </a>
+                        </li>
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/poker-games">
+                                Online poker games                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <b class="mm-h1">News and tournaments</b>
+                    <ul class = "subMenus">
+                        <li>
+                            <a href="http://news.worldcasinodirectory.com/poker">
+                                Poker news                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <b class="mm-h1">Reference</b>
+                     <ul class = "subMenus">
+                        <li>
+                            <a href="free-poker-games.html">
+                                Free poker games                            </a>
+                        </li>
+                        <li>
+                            <a href="pokerodds.html">
+                                Poker odds calculators                            </a>
+                        </li>
+                        <li>
+                            <a href="articles/ranking-poker-hands.html">
+                                Ranking poker hands                            </a>
+                        </li>
+                        <li><a href="articles/poker-game-variations.html"> Poker rules and variation</a></li>
+                        <li>
+                            <a href="https://online.worldcasinodirectory.com/games/texas-holdem">
+                        How to play Texas Hold'em                    </a>
+                        </li>
+                        <li>
+                            <a href="articles/poker-terms-dictionary.html">
+                                Poker dictionary                            </a>
+                        </li>
+                        <li>
+                            <a href="articles/poker-history.html">
+                                History of poker                            </a>
+                        </li>
+                        <li>
+                            <a href="articles/history-of-texas-holdem.html">
+                        History of Texas Hold'em                    </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div></li>
+                                    <li class="dropdown " data-tab="games"" id=" mm-bingo" data-tab="bingo"><a href="http://online.worldcasinodirectory.com/bingo"> Bingo </a>
+                                        <div class = "dropdown-content">
+        <div class="container">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div id="mm-bingo-content" class="megamenu-content" style="">
+                            <div class="col-md-4">
+                                                                    <div class="topOnlineCasinosHeader">
+                                        
+    <div class="col">
+        <div class="topOnlineCasinosHeader">
+            <div class="topListCasinosWrapper marginB20 clearfix section-box" id="toplist_box3">
+                <h3 class="flush-bottom">
+                                            <img id="toplist_box_flag" style="float: left; margin-right: 5px; margin-top: -5px;"
+                             src="assets/images/flags/32/KH.png">
+                                        <a href="https://online.worldcasinodirectory.com/cambodia" id="top-casinos-title-link">Top Online Bingo <span class='toplist-box-country'> </span></a>
+                </h3>
+
+                <div class="main-toplist-cell" id="toplist_seed3" hidden>
+                    <a rel="nofollow noopener" target="_blank" href="#" class="toplist-link">
+                        <div class="CasinoImg">
+                            <img src="#">
+                        </div>
+                        <div class="casinoTitle">
+
+                        </div>
+                                                <div class="casinoBonuses">
+                            <div class="innerBonuses">
+                                <span class="greenText"></span> <span class="up_to"></span><span
+                                class="currency_symbols"></span>
+                                <p><span class="bonusType" style="color: #3B3C3D;"></span>
+                                <span class="bonusSubType" style="color: #3B3C3D;"></span></p>
+                            </div>
+                        </div>
+                                                <div class="play-carret">
+                            <i class="fas fa-caret-right lotteryCarret" style="margin-left:10px;"></i>
+                        </div>
+
+                    </a>
+                    <p class="tnc-link-holder" style="text-align:right;font-size: 1.2rem;color: grey;margin-bottom: 0;padding:0.5rem 0; line-height:1"><a style="display: inline-block;text-align:center; min-width:32%; margin-right: 8%" class="tcUrl" rel="nofollow noopener" data-title="KH" data-showlink target="_blank" href="#">T&amp;C's Apply</a></p>
+                </div>
+                
+                <div id="toplist_buffer3" hidden></div>
+                <div class='loading-spinner' align="center"><img
+                            src="assets/images/spinner2.gif"></div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+
+            var country_code = 'KH';
+
+
+            var inc =3;
+            var buffer = "#toplist_buffer" + inc;
+            var seed = "#toplist_seed" + inc;
+            var toplist = "#toplist_box" + inc;
+            var up_to = 'up to';
+            var domain = 'https://online.worldcasinodirectory.com/api?type=bingo&amp;country=KH&amp;offset=0&amp;limit=5';
+
+            $.ajax({
+                url: domain,
+                success: function (result) {
+                    $(toplist + " .loading-spinner").remove();
+                                            $(buffer).attr("src", "assets/images/flags/32/KH.png");
+                    
+                //     if (country_code != 'US') {
+                                                if  (result.state_name) {
+                            $(toplist + ' .toplist-box-country').html('&nbspin ' + result.state_name);
+                        } else {
+                            $(toplist + ' .toplist-box-country').html('&nbspin ' + result.country_name);
+                        }
+                                        //    } else {
+                //        $(toplist + ' .toplist-box-country').remove();
+                //    }
+
+                    /*  if (typeof result.top_casinos !== 'undefined') {
+                          var casinos=result.top_casinos;
+                      }else{
+                          var casinos=result.bonuses;
+                      }*/
+
+                    var casinos = result.items;
+                    $.each(casinos, function (i, casino) {
+                        $(buffer).html($(seed).html());
+                        $(buffer + " a").attr("href", casino.casino_url);
+                        $(buffer + " img").attr("src", casino.casino_logo_url);
+                        $(buffer + " .casinoTitle").html(casino.name);
+
+                        if ((typeof casino.bonuses != 'undefined') && casino.bonuses.length > 0) {
+                            $(buffer + ' .greenText').html(casino.bonuses[0].text_1);
+                            $(buffer + " .up_to").html(up_to);
+                            if (!casino.bonuses[0].up_to) {
+                                $(buffer + ' .up_to').remove();
+                            }
+
+                            if (casino.bonuses[0].currency_symbols || casino.bonuses[0].text_2) {
+                                $(buffer + ' .currency_symbols').html(casino.bonuses[0].currency_symbols + casino.bonuses[0].text_2);
+                            } else {
+                                $(buffer + ' .currency_symbols').remove();
+                            }
+if (casino.bonuses[0].text_3.toUpperCase().includes('CASHBACK')) {
+    $(buffer + ' .bonusType').html('Cashback');
+    $(buffer + ' .bonusSubType').html(casino.bonuses[0].text_3.replace(/cashback bonus -|cashback bonus/gi, "").trim());
+} else if (casino.bonuses[0].text_3.toUpperCase().includes('NO DEPOSIT')) {
+    $(buffer + ' .bonusType').html('No deposit');
+    $(buffer + ' .bonusSubType').html(casino.bonuses[0].text_3.replace(/no deposit bonus -|no deposit bonus/gi, "").trim());
+} else {
+    $(buffer + ' .bonusType').remove();
+}
+
+                            $(buffer+' .tcUrl').attr('href',casino.bonuses[0].tc_url)
+                            if (casino.bonuses[0].tc_url==null || casino.bonuses[0].tc_url=='') {
+                                $(buffer + ' .tcUrl').filter('[data-showlink]').remove();
+                            }
+                        } else {
+                            $(buffer+' .bonusInfo').remove();
+                            $(buffer+' .tcUrl').remove();
+                        }
+
+
+                        /*    if (typeof casino.bonus_percent == 'undefined'){casino.bonus_percent=casino.bonuspercent}
+                            if(casino.text_1){
+                                $(buffer+" .greenText").html(casino.bonus_percent+'%');
+                                if(casino.text_1.indexOf("up to")!==-1){
+                                    $(buffer+" .up_to").html(up_to);   
+                                }else{
+                                    $(buffer+" .up_to").remove();
+                                }
+                            }else{
+                               $(buffer+" .up_to").remove();
+                               $(buffer+" .greenText").remove();
+                            }
+                            if ( casino.bonus_type!==null) {
+                                $(buffer+" .currency_symbols").html(casino.currency_symbols+casino.text_2);
+                            }else{
+                                 $(buffer+" .currency_symbols").remove();
+                            }*/
+
+                        /*    if ((typeof casino.id == 'undefined') || casino.id == null){ $(buffer+" .casinoBonuses").html("&nbsp")}
+                            if(country_code == 'GB') {$(buffer+" .casinoBonuses").html("&nbsp")}*/
+
+                        new_row = $("<div></div>").append($(buffer).html());
+                        new_row.attr("class", $(seed).attr("class"));
+
+                        $(toplist).append(new_row);
+
+
+                    });
+                    $(buffer).remove();
+                    $(seed).remove();
+
+
+                }
+            });
+
+        });
+    </script>
+
+                                    </div>
+                            </div>
+                            <div class="col-md-3">
+                                <b class="mm-h1">Bingo</b>
+                                 <ul class = "subMenus">
+                                    <li>
+                                        <a href="articles/bingo-guide-online-bingo-bingo-halls.html">
+                                            Bingo guide                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://news.worldcasinodirectory.com/search/bingo">
+                                            Bingo news                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="articles/how-to-play-bingo.html">
+                                            How to play bingo                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="articles/history-of-bingo.html">
+                                            History of bingo                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div> </li>
+                                    <li class="dropdown " data-tab="games"" id=" mm-sports" data-tab="sports"> <a href="https://online.worldcasinodirectory.com/sports-betting"> Sports </a>
+                                        <div class = "dropdown-content"> 
+
+<div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <div id="mm-sports-content" class="megamenu-content" style="">
+                    <div class="col-md-4">
+                                                                            <div class="topOnlineCasinosHeader">
+                                
+    <div class="col">
+        <div class="topOnlineCasinosHeader">
+            <div class="topListCasinosWrapper marginB20 clearfix section-box" id="toplist_box4">
+                <h3 class="flush-bottom">
+                                            <img id="toplist_box_flag" style="float: left; margin-right: 5px; margin-top: -5px;"
+                             src="assets/images/flags/32/KH.png">
+                                        <a href="https://online.worldcasinodirectory.com/cambodia" id="top-casinos-title-link">Top Online Sportsbooks <span class='toplist-box-country'> </span></a>
+                </h3>
+
+                <div class="main-toplist-cell" id="toplist_seed4" hidden>
+                    <a rel="nofollow noopener" target="_blank" href="#" class="toplist-link">
+                        <div class="CasinoImg">
+                            <img src="#">
+                        </div>
+                        <div class="casinoTitle">
+
+                        </div>
+                                                <div class="casinoBonuses">
+                            <div class="innerBonuses">
+                                <span class="greenText"></span> <span class="up_to"></span><span
+                                class="currency_symbols"></span>
+                                <p><span class="bonusType" style="color: #3B3C3D;"></span>
+                                <span class="bonusSubType" style="color: #3B3C3D;"></span></p>
+                            </div>
+                        </div>
+                                                <div class="play-carret">
+                            <i class="fas fa-caret-right lotteryCarret" style="margin-left:10px;"></i>
+                        </div>
+
+                    </a>
+                    <p class="tnc-link-holder" style="text-align:right;font-size: 1.2rem;color: grey;margin-bottom: 0;padding:0.5rem 0; line-height:1"><a style="display: inline-block;text-align:center; min-width:32%; margin-right: 8%" class="tcUrl" rel="nofollow noopener" data-title="KH" data-showlink target="_blank" href="#">T&amp;C's Apply</a></p>
+                </div>
+                
+                <div id="toplist_buffer4" hidden></div>
+                <div class='loading-spinner' align="center"><img
+                            src="assets/images/spinner2.gif"></div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+
+            var country_code = 'KH';
+
+
+            var inc =4;
+            var buffer = "#toplist_buffer" + inc;
+            var seed = "#toplist_seed" + inc;
+            var toplist = "#toplist_box" + inc;
+            var up_to = 'up to';
+            var domain = 'https://online.worldcasinodirectory.com/api?type=sports&amp;country=KH&amp;offset=0&amp;limit=5';
+
+            $.ajax({
+                url: domain,
+                success: function (result) {
+                    $(toplist + " .loading-spinner").remove();
+                                            $(buffer).attr("src", "assets/images/flags/32/KH.png");
+                    
+                //     if (country_code != 'US') {
+                                                if  (result.state_name) {
+                            $(toplist + ' .toplist-box-country').html('&nbspin ' + result.state_name);
+                        } else {
+                            $(toplist + ' .toplist-box-country').html('&nbspin ' + result.country_name);
+                        }
+                                        //    } else {
+                //        $(toplist + ' .toplist-box-country').remove();
+                //    }
+
+                    /*  if (typeof result.top_casinos !== 'undefined') {
+                          var casinos=result.top_casinos;
+                      }else{
+                          var casinos=result.bonuses;
+                      }*/
+
+                    var casinos = result.items;
+                    $.each(casinos, function (i, casino) {
+                        $(buffer).html($(seed).html());
+                        $(buffer + " a").attr("href", casino.casino_url);
+                        $(buffer + " img").attr("src", casino.casino_logo_url);
+                        $(buffer + " .casinoTitle").html(casino.name);
+
+                        if ((typeof casino.bonuses != 'undefined') && casino.bonuses.length > 0) {
+                            $(buffer + ' .greenText').html(casino.bonuses[0].text_1);
+                            $(buffer + " .up_to").html(up_to);
+                            if (!casino.bonuses[0].up_to) {
+                                $(buffer + ' .up_to').remove();
+                            }
+
+                            if (casino.bonuses[0].currency_symbols || casino.bonuses[0].text_2) {
+                                $(buffer + ' .currency_symbols').html(casino.bonuses[0].currency_symbols + casino.bonuses[0].text_2);
+                            } else {
+                                $(buffer + ' .currency_symbols').remove();
+                            }
+if (casino.bonuses[0].text_3.toUpperCase().includes('CASHBACK')) {
+    $(buffer + ' .bonusType').html('Cashback');
+    $(buffer + ' .bonusSubType').html(casino.bonuses[0].text_3.replace(/cashback bonus -|cashback bonus/gi, "").trim());
+} else if (casino.bonuses[0].text_3.toUpperCase().includes('NO DEPOSIT')) {
+    $(buffer + ' .bonusType').html('No deposit');
+    $(buffer + ' .bonusSubType').html(casino.bonuses[0].text_3.replace(/no deposit bonus -|no deposit bonus/gi, "").trim());
+} else {
+    $(buffer + ' .bonusType').remove();
+}
+
+                            $(buffer+' .tcUrl').attr('href',casino.bonuses[0].tc_url)
+                            if (casino.bonuses[0].tc_url==null || casino.bonuses[0].tc_url=='') {
+                                $(buffer + ' .tcUrl').filter('[data-showlink]').remove();
+                            }
+                        } else {
+                            $(buffer+' .bonusInfo').remove();
+                            $(buffer+' .tcUrl').remove();
+                        }
+
+
+                        /*    if (typeof casino.bonus_percent == 'undefined'){casino.bonus_percent=casino.bonuspercent}
+                            if(casino.text_1){
+                                $(buffer+" .greenText").html(casino.bonus_percent+'%');
+                                if(casino.text_1.indexOf("up to")!==-1){
+                                    $(buffer+" .up_to").html(up_to);   
+                                }else{
+                                    $(buffer+" .up_to").remove();
+                                }
+                            }else{
+                               $(buffer+" .up_to").remove();
+                               $(buffer+" .greenText").remove();
+                            }
+                            if ( casino.bonus_type!==null) {
+                                $(buffer+" .currency_symbols").html(casino.currency_symbols+casino.text_2);
+                            }else{
+                                 $(buffer+" .currency_symbols").remove();
+                            }*/
+
+                        /*    if ((typeof casino.id == 'undefined') || casino.id == null){ $(buffer+" .casinoBonuses").html("&nbsp")}
+                            if(country_code == 'GB') {$(buffer+" .casinoBonuses").html("&nbsp")}*/
+
+                        new_row = $("<div></div>").append($(buffer).html());
+                        new_row.attr("class", $(seed).attr("class"));
+
+                        $(toplist).append(new_row);
+
+
+                    });
+                    $(buffer).remove();
+                    $(seed).remove();
+
+
+                }
+            });
+
+        });
+    </script>
+
+                            </div>
+                    </div>
+                    <div class="col-md-4">
+    
+                        <b class="mm-h1">Sports Betting 101</b>
+                         <ul class = "subMenus">
+                            <li>
+                                <a href="articles/the-basics-of-sports-betting.html">
+                                    The basics of sports betting                                </a>
+                            </li>
+                            <li>
+                                <a href="articles/different-types-of-sports-bets.html">
+                                    Different types of sports bets                                </a>
+                            </li>
+                            <li>
+                                <a href="articles/tips-for-selecting-a-sportsbook.html">
+                                    Tips for selecting a sportsbook                                </a>
+                            </li>
+                            <li>
+                                <a href="articles/understanding-and-evaluating-sports-betting-odds.html">
+                                    Understanding and evaluating odds                                </a>
+                            </li>
+                            <li>
+                                <a href="articles/betting-on-sports-futures-props-and-lay-bets.html">
+                                    Betting on sports futures, props and lay bets                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <b class="mm-h1">Daily Fantasy Sports</b>
+                         <ul class = "subMenus">
+                            <li>
+                                <a href="http://online.worldcasinodirectory.com/daily-fantasy-sports">
+                                    Daily fantasy sports                                </a>
+                            </li>
+                        </ul>
+    
+                        <b class="mm-h1">eSports</b>
+                         <ul class = "subMenus">
+                            <li>
+                                <a href="http://online.worldcasinodirectory.com/esports">
+                                    eSports                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+    
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+</div> </li>
+                                    <li class="dropdown " data-tab="games"" id=" mm-racing" data-tab="racing"><a href="https://online.worldcasinodirectory.com/racebooks"> Racing</a>
+                                        <div class = "dropdown-content">
+<div class="container">
+    <div class="col-md-12">
+        <div class="row">
+            <div id="mm-racing-content" class="megamenu-content" style="">
+
+                <div class="col-md-4">
+                    
+
+
+    <div class="topOnlineCasinosHeader">
+        <div class="col">
+            <div class="topOnlineCasinosHeader">
+                <div class="topListCasinosWrapper marginB20 clearfix section-box"
+                     id="toplist_box5">
+                    <h3 class="flush-bottom">
+<!--                        -->                            <img id="toplist_box_flag" style="float: left; margin-right: 5px; margin-top: -5px;"
+                                 src="assets/images/flags/32/KH.png">
+<!--                            -->
+                        <span>
+		                Top Online Racebooks		                </span>
+                        <span class='toplist-box-country'> </span>
+                    </h3>
+                    <div class="main-toplist-cell" id="toplist_seed5" hidden>
+                        <a class="toplist-link" rel="nofollow noopener" target="_blank" href="#">
+                            <div class="casinoTitle" style="width:90%"></div>
+                            <div class="play-carret" style="padding-top:0"><i class="fas fa-caret-right lotteryCarret"
+                                                                              style="margin-left:10px;"></i></div>
+                        </a>
+                    </div>
+                    <div id="toplist_buffer5" hidden></div>
+                    <div class='loading-spinner' align="center"><img
+                                src="assets/images/spinner2.gif"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+
+            var country_code = 'KH';
+
+
+            var inc =5;
+            var buffer = "#toplist_buffer" + inc;
+            var seed = "#toplist_seed" + inc;
+            var toplist = "#toplist_box" + inc;
+
+            var domain = '//www.worldcasinodirectory.com/feed/topOCDB/KH/21';
+
+            $.ajax({
+                url: domain,
+                success: function (result) {
+                    $(toplist + " .loading-spinner").remove();
+                    $(buffer).attr("src", result.country_flag_url);
+
+                    if (country_code != 'US') {
+
+                        $(toplist + ' .toplist-box-country').html(' in ' + result.country_name);
+                    } else {
+
+                        $(toplist + ' .toplist-box-country').remove();
+                    }
+
+
+                    var casinos = result.top_seven;
+
+
+                    $.each(casinos, function (i, casino) {
+                        $(buffer).html($(seed).html());
+                        $(buffer + " a").attr("href", casino.casino_url);
+
+                        $(buffer + " .casinoTitle").html(casino.casino_name);
+
+
+                        new_row = $("<div></div>").append($(buffer).html());
+                        new_row.attr("class", $(seed).attr("class"));
+
+                        $(toplist).append(new_row);
+
+
+                    });
+                    $(buffer).remove();
+                    $(seed).remove();
+
+
+                }
+            });
+
+        });
+    </script>
+
+                </div>
+
+                <div class="col-md-4">
+                    <b class="mm-h1">Horse Racing</b>
+                    
+                   <ul class = "subMenus">
+                        <li>
+                            <a href="http://online.worldcasinodirectory.com/racebooks">
+                                Horse Racing                            </a>
+                        </li>
+                        <li>
+                            <a href="articles/types-of-horse-races.html">
+                                Types of horse races                            </a>
+                        </li>
+                        <li>
+                            <a href="articles/greyhound-racing-wagering-dograces.html">
+                                Greyhound                            </a>
+                        </li>
+                        <li>
+                            <a href="articles/racetracks.html">
+                                Racetracks                            </a>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+ </li>
+                                    <li class="dropdown " data-tab="games"" id=" mm-lottery" data-tab="lottery"><a href="lottery.html"> Lottery </a>
+                                        
+
+
+<div class = "dropdown-content">
+<div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <div id="mm-lottery-content" class="megamenu-content" style="">
+                    <div class="col-md-8">
+                        <h3 class="flush-bottom" style="width:45%;"> <img style="margin-right:5px;" src="images/top-lottery.png"> Top World Lotteries</h3>
+<div  id = "top_lottery_list"  class="main-toplist" style="background-size: auto 100%;background-position: right top;     padding: 0 1em 1em 0;"></div>
+<div  id = "top_lottery_seed" class="top-world-lotteries-1" hidden>
+   <a class="lottery_url" style="width:40%; display: table; height: 100%; padding:0;" rel="nofollow noopener" target="_blank" href="#" data-style="lotteryToggle">
+      <div class="top-lottery-jackpot-row1" href="#" style="width:100%; padding-right: 3px ; display: table-cell;
+         vertical-align: middle;">
+         <img src="#" class="lottery-sml-logo" style="width: 60%;" title="">
+      </div>
+   </a>
+   <a class="jackpot-info" style="display:flex;"  href="#">
+      <div style="display:table; height:100%;"> <span style="display:table-cell; vertical-align:middle;" class="jackpot" title=""> </span></div>
+      <div class= "tickets-info" style="width: 6em;text-align: center;display:  table;height:  100%; cursor:pointer;">
+         <span class="button-mini">Tickets</span>
+         <span class="button-mini1">
+            <svg class="svg-inline--fa fa-caret-right fa-w-6" style="color: #3FA83D;font-size: 5rem; margin-left: 10px; width:20px;" aria-hidden="true" data-prefix="fas" data-icon="caret-right" role="img" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg="">
+               <path fill="currentColor" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path>
+            </svg>
+         </span>
+      </div>
+   </a>
+</div>
+<div id="top_lottery_buffer" hidden > </div>
+<div class='loading-spinner' id='more_lottery_loadingDiv' align="center"><img src="assets/images/spinner2.gif"></div>
+<script>
+   $(document).ready(function () {
+   
+     var load_div = '#load_casino';
+     var loading = '#more_lottery_loadingDiv';
+    // var no_results = '#no_results';
+   //  var failure = '#failure';
+     var buffer = '#top_lottery_buffer';
+     var seed = '#top_lottery_seed';
+     var list = '#top_lottery_list';
+          
+   
+   
+   
+     function get_casinos(apiRequestUri, callback){ 
+       
+       $.ajax({url: apiRequestUri,
+         success: function (data) {
+               result=data['items'];
+               if (result === null) {
+                 $(load_div).hide();
+                 if (callback !== undefined) {
+                   callback(false);
+                 }else{
+                   $(no_results).slideDown();
+                 }
+                 return;
+               }
+               
+   
+               $.each(result, function (i, casino) {
+                 parseData(casino, buffer, seed, list);
+               });
+   
+                 if (callback !== undefined) {
+                   callback(true);
+                 }
+           },
+           error: function () {
+               $(failure).show();
+               $(load_div).hide();
+           }
+           
+       });
+       
+     }
+    
+     limit_start=0;
+     limit_increment_init = "10";
+   
+     country_code = "KH";
+     apiRequest = "https://online.worldcasinodirectory.com/api?type=lottery_results&amp;offset=0&amp;limit=10";
+     apiRequestUri = apiRequest+"&country="+country_code;
+     apiRequestAll = apiRequest+"&check_country="+country_code;
+   
+     limit="&offset="+limit_start+"&limit="+limit_increment_init;
+       
+     get_casinos(apiRequestUri+limit, function(res) {
+       if (res===false) {
+         
+         get_casinos(apiRequestAll+limit);
+         apiRequestUri = apiRequestAll;
+       }
+     })
+   
+     limit_increment=10;
+     ls_1=limit_increment_init-limit_increment;
+      
+     function parseData(casino,buffer, seed, list)
+     {
+       $(buffer).html($(seed).html());
+   
+       
+   
+         $(buffer+' .lottery_url').attr("href", '//www.worldcasinodirectory.com/lottery/'+casino.url_title);
+         $(buffer+' .top-lottery-jackpot-row1').attr("href", casino.affiliate_url);
+         $(buffer+' .lottery-sml-logo').attr("src", "https://www.worldcasinodirectory.com/assets/images/lottery/original/"+casino.gameid+".png");
+         $(buffer+' .lottery-sml-logo').attr("title", casino.game_name);
+         $(buffer+' .jackpot-info').attr("href", casino.affiliate_url);
+         $(buffer+' .jackpot').html(casino.currency_symbol+""+ casino.jackpot);
+         $(buffer+' .jackpot').attr("title",casino.currency_symbol+""+ casino.jackpot);
+        
+      if(casino.affiliate_url){
+        $(buffer+' .tickets-info').show();
+      }else{
+        $(buffer+' .tickets-info').hide();
+      }
+        
+                 
+          
+         new_row = $("<div style=' display:flex;'></div>").append($(buffer).html());  
+         new_row.attr("class",$(seed).attr("class"));
+         
+         $(loading).hide();
+         $(list).append(new_row);
+     } 
+        
+     
+   });
+   
+   
+</script>
+<script>
+   $(document).on("mouseover", ".top-world-lotteries-1", function(){
+      $(this).find('.button-mini').addClass('hide');
+   $(this).find('.button-mini1').addClass('show1');
+     	
+     });
+   $(document).on("mouseleave", ".top-world-lotteries-1", function(){
+     $(this).find('.button-mini').removeClass('hide');
+   $(this).find('.button-mini1').removeClass('show1');
+     	
+     });
+   
+   
+</script>                    </div>
+                    <div class="col-md-3">
+                        <h3 class="flush-bottom" style="border-bottom:none;"> World lottery results</h3>
+                        <ul class = "subMenus">
+                            <li><img src="images/allflags/us.gif" height="11" width="16"> <a href="united-states/lottery.html">USA lottery results</a></li>
+                            <li><img src="images/allflags/ca.gif" height="11" width="16"> <a href="canada/lottery.html">Canadian lottery results</a></li>
+                            <li><img src="images/allflags/gb.gif" height="11" width="16"> <a href="united-kingdom/lottery.html">UK lottery results</a></li>
+                            <li><img src="images/allflags/de.gif" height="11" width="16"> <a href="germany/lottery.html">German lottery results</a></li>
+                            <li><img src="images/allflags/ie.gif" height="11" width="16"> <a href="ireland/lottery.html">Ireland lottery results</a></li>
+                            <li><img src="images/allflags/nz.gif" height="11" width="16"> <a href="new-zealand/lottery.html">New Zealand lottery results</a></li>
+                            <li><img src="images/allflags/pr.gif" height="11" width="16"> <a href="puerto-rico/lottery.html">Puerto Rico lottery results</a></li>
+                            <li><a href="multistatelotto.html">EuroMillions lottery results</a></li>
+                            <li><a href="state_of_illinois_online_lottery.html">State of Illinois Online Lottery</a></li>
+                        </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div></li>
+                                                                            <li id="mm-register"><a href="https://www.worldcasinodirectory.com/logging">Login / Register</a></li>
+                                                                        <li class="container_search_switcher"></li>
+                                    
+                                                                        <div id="header-search-form-spacer" style="display:none;">&nbsp;</div>
+                                    <script type="text/javascript">
+                                        $(function() {
+                                            var elem = encodeURI(document.getElementById('header-search-box').value);
+                                            $("#header-search-button").click(function(e) {
+                                                e.preventDefault();
+                                                $("#header-search-form").submit();
+                                            });
+
+                                        });
+                                    </script>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <script>
+                        $(".container_search_switcher").click(function() {
+
+                            $(".search-input-field").css("display", "inline-block");
+                            $("#mm-register").css("display", "none");
+                            $("#mm-profile").css("display", "none");
+                            setTimeout(() => {
+                                document.getElementById('header-search-box').focus();
+                            }, 300);
+
+                            var menu_items = jQuery(".main-nav li");
+
+                            menu_items.each(function() {
+                                if (jQuery(this).hasClass("dropdown")) {
+                                    $(".dropdown").addClass("disappear");
+                                    $(".disappear").removeClass("dropdown");
+                                }
+                            });
+                            $(document).click(function() {
+                                $(".disappear").addClass("dropdown");
+                                $(".dropdown").removeClass("disappear");
+                                $("#mm-register").css("display", "inline-block");
+                                $("#mm-profile").css("display", "inline-block");
+                                $(".search-input-field").css("display", "none");
+                            });
+                            $(".main-nav").click(function(e) {
+                                e.stopPropagation();
+                            });
+                        });
+                    </script>
+
+                                            <div id="nav-spacer" style="display: none;">&nbsp;</div>
+                </div>
+                <div class="col-md-12">
+                    <!-- Secondary Menu -->
+                    <div id="cb-top-menu" class="clearfix cb-dark-menu">
+                        <div class="wrap clearfix clear-bypass">
+                            <script>
+                                $(document).ready(function() {
+                                    $.ajax({
+                                        url: "https://news.worldcasinodirectory.com/api.php?key=lcAWxG96k2h5z6pA&nobp=20",
+                                        success: function(result) {
+                                            var div = '';
+                                            posts = result.recent_blog_posts;
+                                            div += ' <span style = "">Latest casino news :</span> ';
+                                            for (i = 0; i < posts.length; i++) {
+                                                div += ' <li><a class="breaking-news-header-link" href="https://news.worldcasinodirectory.com/' + posts[i].post_name + '-' + posts[i].ID + '">' + posts[i].post_title + '</a></li>';
+                                            }
+                                            $("#news-header").html(div);
+                                            var div = '<div class="row">';
+                                            posts = result.recent_blog_posts;
+                                            for (i = 0; i < 3; i++) {
+                                                div += '<div class="col-md-4 newsW newsW-header"><div class="news-thumb-container"><div class="news-thumb-headline newsMenu"><span class="news-thumb-date">' + posts[i].post_date_nice + '</span> <br> <a class="news-thumb-link" style = "font-weight:bold;" href="//news.worldcasinodirectory.com/' + posts[i].post_name + '-' + posts[i].ID + '">' + posts[i].post_title + '</a></div>'
+                                                if (posts[i].thumbnail) {
+                                                    div += '<a  href="//news.worldcasinodirectory.com/' + posts[i].post_name + '-' + posts[i].ID + '"><img width=266 src="' + posts[i].thumbnail + '" class="attachment-thumbnail-medium size-thumbnail-medium wp-post-image" alt=""/></a>'
+                                                }
+                                                div += '</div><div class="news-thumb-stats">'
+                                                if (posts[i].comment_count > 0) {
+                                                    div += '&nbsp;&nbsp;<i class="fas fa-comment"></i> <span class="news-thumb-date">' + posts[i].comment_count + ' comment'
+                                                    if (posts[i].comment_count > 1) {
+                                                        div += 's'
+                                                    }
+                                                    div += '</span>'
+                                                }
+                                                div += '</div></div>';
+                                            }
+                                            div += '</div>';
+                                            $("#menu-header-news").html(div);
+                                            $('#loading-news-header').hide();
+                                        }
+                                    });
+                                });
+                            </script>
+
+                            <div class="container">
+                                <div class="col-md-5">
+                                    <div class="cb-breaking-news">
+                                        <ul class="animate" id="news-header">
+                                            <li>Loading...</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="cb-breaking-news news-bypass">
+                                        <ul id="grey-menu" class="cb-top-nav">
+                                            <li id="menu-item-4043" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4043">
+                                                <a href="https://news.worldcasinodirectory.com/gaming-industry/gaming-law-legal-issues">
+                                                    Gaming law                                                </a>
+                                            </li>
+                                            <li id="menu-item-4042" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4042">
+                                                <a href="https://news.worldcasinodirectory.com/world/north-america/usa/tribal-gaming">
+                                                    Tribal gaming                                                </a>
+                                            </li>
+                                            <li id="menu-item-5221" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children cb-has-children menu-item-5221">
+                                                <a href="https://news.worldcasinodirectory.com/in-the-news/casino-news">
+                                                    Major Casino News                                                </a> <i class="fas fa-caret-down"></i>
+                                                <ul class="sub-menu">
+                                                    <div class="arrow">
+                                                    </div>
+                                                    <li id="menu-item-5222" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5222">
+                                                        <a href="https://news.worldcasinodirectory.com/in-the-news/casino-news/casino-openings/casino-proposals">
+                                                            Casino proposals                                                        </a>
+                                                    </li>
+                                                    <li id="menu-item-5224" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5224">
+                                                        <a href="https://news.worldcasinodirectory.com/in-the-news/casino-news/casino-openings/casino-project-updates">
+                                                            Casino project updates                                                        </a>
+                                                    </li>
+                                                    <li id="menu-item-4044" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4044">
+                                                        <a href="https://news.worldcasinodirectory.com/in-the-news/casino-news/casino-openings">
+                                                            Casino openings                                                        </a>
+                                                    </li>
+                                                    <li id="menu-item-5223" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5223">
+                                                        <a href="https://news.worldcasinodirectory.com/in-the-news/casino-news/casino-openings/casino-expansion-projects">
+                                                            Casino expansion projects                                                        </a>
+                                                    </li>
+                                                    <li id="menu-item-4045" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4045">
+                                                        <a href="https://news.worldcasinodirectory.com/in-the-news/casino-news/casino-closures">
+                                                            Casino closings                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-4241" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children cb-has-children menu-item-4241">
+                                                <a href="https://news.worldcasinodirectory.com/world">
+                                                    Gaming news by region                                                </a> <i class="fas fa-caret-down"></i>
+                                                <ul class="sub-menu">
+                                                    <div class="arrow">
+                                                    </div>
+                                                    <li id="menu-item-4242" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4242"><a href="https://news.worldcasinodirectory.com/world/asia">Asia</a></li>
+                                                    <li id="menu-item-4244" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4244"><a href="https://news.worldcasinodirectory.com/world/north-america">North America</a></li>
+                                                    <li id="menu-item-4245" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4245"><a href="https://news.worldcasinodirectory.com/world/central-south-america">Central &amp; South America</a></li>
+                                                    <li id="menu-item-4246" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4246"><a href="https://news.worldcasinodirectory.com/world/caribbean-casino-news">Caribbean</a></li>
+                                                    <li id="menu-item-4247" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4247"><a href="https://news.worldcasinodirectory.com/world/europe">Europe</a></li>
+                                                    <li id="menu-item-4243" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4243"><a href="https://news.worldcasinodirectory.com/world/oceania-casinos-news">Oceania</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Secondary Menu -->
+                                </div>
+            </div>
+        </div>
+    </header>
+</div>
+<div class="container remove-padding">
+    <div class="header_mobile-mobile">
+        <div class="col-md-12 col-sm-12 col-xs-12 remove-padding z-index-10">
+            <div class="header_mobile header_mobile_new">
+                <div class="logoWrap">
+                    <a href="index.html" class="logo-mobile"><img src="assets/images/wcd-logo-headerbar.png" alt="World Casino Directory"></a>
+                </div>
+
+                <div class="header_mobile_buttons">
+                    <button id="show-mobile-search">
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-times"></i>
+                    </button>
+                                            <a class="logging-trigger" href="https://www.worldcasinodirectory.com/logging"><i class="fas fa-user" data-toggle="modal" data-target="#exampleModal"></i></a>
+                                    <div id="dl-menu" class="dl-menuwrapper">
+                    <button class="dl-trigger">Open Menu</button>
+                    <ul class="dl-menu">
+                        <li><a href="index.html">World Casinos<i class="fas fa-caret-right"></i></a>
+                            <ul class="dl-submenu">
+                                <li><a href="index.html">SHOW ALL WORLD CASINOS </a></li>
+                                <li><a href="#">Continets</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="region/north-america.html">North America</a></li>
+                                        <li><a href="region/south-america.html">South America</a></li>
+                                        <li><a href="region/central-america.html"> Central America</a> </li>
+                                        <li><a href="region/caribbean.html">Caribbean</a></li>
+                                        <li><a href="region/western-europe.html"> West Europe </a></li>
+                                        <li> <a href="region/eastern-europe.html"> East Europe </a> </li>
+                                        <li><a href="region/africa.html"> Africa </a> </li>
+                                        <li><a href="region/east-asia.html"> East Asia </a></li>
+                                        <li><a href="region/central-asia.html"> Central Asia</a> </li>
+                                        <li><a href="region/oceania.html"> Oceania</a> </li>
+                                        <li><a href="region/middle-east.html"> Middle East </a> </li>
+                                        <li><a href="cruise-ships.html"> Cruiseships </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="countries.html">Countries</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="united-states.html"><img src="images/allflags/us.gif" height="11" width="16"> United States</a> </li>
+                                        <li><a href="macau.html"><img src="images/allflags/mo.gif" height="11" width="16"> Macau, China</a></li>
+                                        <li><a href="france.html"><img src="images/allflags/fr.gif" height="11" width="16"> France</a></li>
+                                        <li><a href="philippines.html"><img src="images/allflags/ph.gif" height="11" width="16"> Philippines</a></li>
+                                        <li><a href="singapore.html"><img src="images/allflags/sg.gif" height="11" width="16"> Singapore</a></li>
+                                        <li><a href="netherlands.html"><img src="images/allflags/nl.gif" height="11" width="16"> Netherlands</a></li>
+                                        <li><a href="united-kingdom.html"><img src="images/allflags/gb.gif" height="11" width="16"> United Kingdom</a></li>
+                                        <li><a href="canada.html"><img src="images/allflags/ca.gif" height="11" width="16"> Canada</a></li>
+                                        <li><a href="argentina.html"><img src="images/allflags/ar.gif" height="11" width="16"> Argentina</a></li>
+                                        <li><a href="germany.html"><img src="images/allflags/de.gif" height="11" width="16"> Germany</a></li>
+                                        <li><a href="estonia.html"><img src="images/allflags/ee.gif" height="11" width="16"> Estonia</a></li>
+                                        <li><a href="peru.html"><img src="images/allflags/pe.gif" height="11" width="16"> Peru</a></li>
+                                        <li><a href="russia.html"><img src="images/allflags/ru.gif" height="11" width="16"> Russia</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Industry related features </a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="http://www.worldcasinosales.com/">Casinos for Sale</a> </lI>
+                                        <li><a href="statistics.html">Casino Statistics</a></lI>
+                                        <li><a href="http://www.worldcasinojobs.com/">Employment</a></lI>
+                                        <li><a href="http://online.worldcasinodirectory.com/owners"> Casinos by operator </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Online Casinos <i class="fas fa-caret-right"></i></a>
+                            <ul class="dl-submenu">
+                                <li><a href="http://online.worldcasinodirectory.com/casinos">SHOW ALL ONLINE CASINOS </a> </li>
+                                <li><a href="#">Casinos by category</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="http://online.worldcasinodirectory.com/casinos"> Online casino directory</a> </li>
+                                        <li><a href="http://online.worldcasinodirectory.com/newest-casinos">New online casinos</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/livedealers"> Live dealer casinos</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/countries">Casinos by country</a> </li>
+                                        <li><a href="http://online.worldcasinodirectory.com/software"> Casino software</a> </li>
+                                        <li><a href="http://online.worldcasinodirectory.com/currencies"> Casinos by currency </a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/languages"> Casinos by language</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/rogue-blacklisted-casinos">Rogue Casinos</a> </li>
+                                        <li><a href="http://online.worldcasinodirectory.com/slots"> Online slots</a> </li>
+                                        <li><a href="http://online.worldcasinodirectory.com/online-casino-bonuses-promotions"> Casino bonuses</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/payment-methods">Payment methods</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/jurisdictions">Gaming jurisdictions</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/online-casino-bonuses-promotions/no-deposit">No deposit casino bonuses</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/affiliate-programs">Affiliate programs</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/telegram-casinos">Telegram Casinos</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Online Casinos by Country </a>
+                                    <ul class="dl-submenu">
+                                        <li> <a href="usonlinecasinos.html"><img src="images/allflags/us.gif" width="16" height="11"> United States</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/united-kingdom"><img src="images/allflags/gb.gif" width="16" height="11"> United Kingdom</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/australia"><img src="images/allflags/au.gif" width="16" height="11"> Australia</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/south-africa"><img src="images/allflags/sa.gif" width="16" height="11"> South Africa</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/canada"><img src="images/allflags/ca.gif" width="16" height="11"> Canada</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/france"><img src="images/allflags/fr.gif" width="16" height="11"> France</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/philippines"><img src="images/allflags/ph.gif" width="16" height="11"> Philippines</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/nigeria"><img src="images/allflags/ng.gif" width="16" height="11"> Nigeria</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/malaysia"><img src="images/allflags/my.gif" width="16" height="11"> Malaysia</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/singapore"><img src="images/allflags/si.gif" width="16" height="11"> Singapore</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/india"><img src="images/allflags/in.gif" width="16" height="11"> India</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/finland"><img src="images/allflags/fi.gif" width="16" height="11"> Finland</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/germany"><img src="images/allflags/de.gif" width="16" height="11"> Germany</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/china"><img src="images/allflags/cn.gif" width="16" height="11"> China</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/ukraine"><img src="images/allflags/ua.gif" width="16" height="11"> Ukraine</a> </li>
+                                        <li><a href="http://online.worldcasinodirectory.com/hong-kong"><img src="images/allflags/hk.gif" width="16" height="11"> Hong Kong</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/cyprus"><img src="images/allflags/cy.gif" width="16" height="11"> Cyprus</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/turkey"><img src="images/allflags/tr.gif" width="16" height="11"> Turkey</a> </li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/greece"><img src="images/allflags/gr.gif" width="16" height="11"> Greece</a> </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">News <i class="fas fa-caret-right"></i></a>
+                            <ul class="dl-submenu">
+                                <li><a href="https://news.worldcasinodirectory.com/">SHOW ALL ONLINE NEWS </a></li>
+                                <li><a href="#">Categories</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="casinoopenings.html"> Casino Openings</a></li>
+                                        <li><a href="https://news.worldcasinodirectory.com/in-the-news/casino-news/casino-closures">Casino Closings</a></li>
+                                        <li><a href="https://news.worldcasinodirectory.com/gaming-industry/gaming-law-legal-issues">Gaming Law & Legislation</a></li>
+                                        <li><a href="http://news.worldcasinodirectory.com/world/asia/macau-casino-news">Macau casino news</a></li>
+                                        <li><a href="http://news.worldcasinodirectory.com/world/north-america/usa">United States casino news</a></li>
+                                        <li><a href="https://news.worldcasinodirectory.com/world/north-america/usa/nevada/las-vegas">Las Vegas casino news</a></li>
+                                        <li><a href="http://news.worldcasinodirectory.com/world/north-america/usa/new-jersey">Atlantic City casino news</a></li>
+                                        <li><a href="http://news.worldcasinodirectory.com/world/europe/united-kingdom">U.K. casino news</a></li>
+                                        <li><a href="http://news.worldcasinodirectory.com/world/europe/russia-europe">Russian casino news</a></li>
+                                        <li>
+                                            <a href="http://news.worldcasinodirectory.com/world/europe/germany">
+                                                German casino news                                            </a>
+                                        </li>
+                                        <li> <a href="https://news.worldcasinodirectory.com/gaming-industry/casino-sales">Casinos for sale</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Games and Rules <i class="fas fa-caret-right"></i>
+                            </a>
+                            <ul class="dl-submenu">
+                                <li> <a href="games.html"> SHOW ALL GAMES AND RULES </a> </li>
+                                <li> <a href="#"> Games </a>
+                                    <ul class="dl-submenu">
+                                        <li> <a href="http://online.worldcasinodirectory.com/video-poker"> Video poker </a> </li>
+                                        <li><a href="http://online.worldcasinodirectory.com/blackjack">Blackjack</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/baccarat">Baccarat</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/roulette">Roulette </a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/poker-games">Poker</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/keno">Keno</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/craps">Craps</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/unique-casino-games">Fixed Odds</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"> Slots</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="http://online.worldcasinodirectory.com/newest-slots">Newest slots</a></li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/video-slots">Video slots</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/progressive-slots">Progressive slots</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/reel-slots">Reel slots</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"> Free games</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="http://online.worldcasinodirectory.com/free-games">Free casino games</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/free-games/video-slots">Free video slots</a> </li>
+                                        <li><a href="http://online.worldcasinodirectory.com/free-games/roulette">Free roulette</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/free-games/blackjack">Free blackjack</a> </li>
+                                        <li><a href="http://online.worldcasinodirectory.com/free-games/craps">Free craps</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/free-games/reel-slots"> Free classic slots</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/free-games/video-poker">Free video poker</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/free-games/keno">Free keno games</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/free-games/baccarat">Free baccarat games</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/free-games/scratch-games">Free scratch games</a></li>
+                                        <li><a href="http://online.worldcasinodirectory.com/free-games/unique-casino-games">Free unique games</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li> <a href="#">Poker <i class="fas fa-caret-right"></i></a>
+                            <ul class="dl-submenu">
+                                <li><a href="https://online.worldcasinodirectory.com/poker"> SHOW ALL POKER... </a></li>
+                                <li><a href="#">Play online</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="http://online.worldcasinodirectory.com/poker">Online poker rooms</a></li>
+                                        <li> <a href="http://online.worldcasinodirectory.com/poker-games">Online poker games</a></li>
+                                    </ul>
+                                </li>
+                                <li> <a href="#">News and tournaments</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="http://news.worldcasinodirectory.com/poker">Poker news</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Reference</a>
+                                    <ul class="dl-submenu">
+                                        <li> <a href="free-poker-games.html">Free poker games</a></li>
+                                        <li> <a href="pokerodds.html">Poker odds calculators</a></li>
+                                        <li> <a href="articles/ranking-poker-hands.html">Ranking poker hands</a></li>
+                                        <li> <a href="articles/poker-game-variations.html">Poker rules and variations</a></li>
+                                        <li> <a href="https://online.worldcasinodirectory.com/games/texas-holdem">How to play Texas Hold'em</a></li>
+                                        <li> <a href="articles/poker-terms-dictionary.html">Poker dictionary</a></li>
+                                        <li><a href="articles/poker-history.html">History of poker</a></li>
+                                        <li><a href="articles/history-of-texas-holdem.html">History of Texas Hold'em</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Bingo <i class="fas fa-caret-right"></i></a>
+                            <ul class="dl-submenu">
+                                <li><a href="http://online.worldcasinodirectory.com/bingo">SHOW ALL BINGO... </a> </li>
+                                <li><a href="articles/bingo-guide-online-bingo-bingo-halls.html">Bingo guide</a></li>
+                                <li> <a href="https://news.worldcasinodirectory.com/search/bingo"> Bingo news</a></li>
+                                <li> <a href="articles/how-to-play-bingo.html"> How to play bingo </a> </li>
+                                <li class="last"><a href="articles/history-of-bingo.html">History of bingo</a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="#"> Sports<i class="fas fa-caret-right"></i></a>
+                            <ul class="dl-submenu">
+                                <li><a href="https://online.worldcasinodirectory.com/sports-betting">SHOW ALL SPORT... </a></li>
+                                <li> <a href="#">Sports Betting 101</a>
+                                    <ul class="dl-submenu">
+                                        <li> <a href="articles/the-basics-of-sports-betting.html">The basics of sports betting</a> </li>
+                                        <li> <a href="articles/different-types-of-sports-bets.html">Different types of sports bets</a> </li>
+                                        <li> <a href="articles/tips-for-selecting-a-sportsbook.html">Tips for selecting a sportsbook</a> </li>
+                                        <li> <a href="articles/understanding-and-evaluating-sports-betting-odds.html">Understanding and evaluating odds</a> </li>
+                                        <li> <a href="articles/betting-on-sports-futures-props-and-lay-bets.html">Betting on sports futures, props and lay bets </a> </li>
+                                    </ul>
+                                </li>
+                                <li> <a href="#">Daily Fantasy Sports</a>
+                                    <ul class="dl-submenu">
+                                        <li> <a href="http://online.worldcasinodirectory.com/daily-fantasy-sports"> Daily fantasy sports </a> </li>
+                                    </ul>
+                                </li>
+                                <li> <a href="#">eSports </a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="http://online.worldcasinodirectory.com/esports"> eSports</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li> <a href="#"> Racing <i class="fas fa-caret-right"></i> </a>
+                            <ul class="dl-submenu">
+                                <li> <a href="https://online.worldcasinodirectory.com/racebooks"> SHOW ALL RACING... </a> </li>
+                                <li> <a href="#">Horse Racing</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="http://online.worldcasinodirectory.com/racebooks">Horse Racing</a></li>
+                                        <li><a href="articles/types-of-horse-races.html">Types of horse races</a></li>
+                                        <li><a href="articles/greyhound-racing-wagering-dograces.html">Greyhound</a></li>
+                                        <li class="last"><a href="articles/racetracks.html">Racetracks</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li> <a href="#"> Lottery <i class="fas fa-caret-right"></i> </a>
+                            <ul class="dl-submenu">
+                                <li> <a href="lottery.html"> SHOW ALL LOTTERY... </a> </li>
+                                <li> <a href="#">World lottery results </a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="united-states/lottery.html"><img src="images/allflags/us.gif" height="11" width="16">USA lottery results</a></li>
+                                        <li><a href="canada/lottery.html"><img src="images/allflags/ca.gif" height="11" width="16">Canadian lottery results</a></li>
+                                        <li><a href="united-kingdom/lottery.html"><img src="images/allflags/gb.gif" height="11" width="16">UK lottery results</a></li>
+                                        <li><a href="germany/lottery.html"><img src="images/allflags/de.gif" height="11" width="16">German lottery results</a></li>
+                                        <li><a href="ireland/lottery.html"><img src="images/allflags/ie.gif" height="11" width="16">Ireland lottery results</a></li>
+                                        <li><a href="new-zealand/lottery.html"><img src="images/allflags/nz.gif" height="11" width="16">New Zealand lottery results</a></li>
+                                        <li><a href="puerto-rico/lottery.html"><img src="images/allflags/pr.gif" height="11" width="16">Puerto Rico lottery results</a></li>
+                                        <li><a href="multistatelotto.html">EuroMillions lottery results</a></li>
+                                        <li><a href="state_of_illinois_online_lottery.html">State of Illinois Online Lottery</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+</div>
+                </div>
+            </div>
+        </div>
+                    <div class="mobile-subscribe-placeholder"></div>
+                <form id="header-search-form_mobile" name="search" action="http://www.worldcasinodirectory.com/search" method="get">
+            <input id="header-search-box_mobile" name="search" type="text" placeholder="Search" value="">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        <script>
+            let showSearch = document.querySelector('#show-mobile-search');
+            let searchForm = document.querySelector('#header-search-form_mobile');
+            showSearch.addEventListener('click', function() {
+                this.classList.toggle('active');
+                searchForm.classList.toggle('search-active');
+            })
+        </script>
+    </div>
+</div>    <!-- Header -->
+    <script type="text/javascript" src="assets/js/jquery.dlmenu.js"></script>
+    <script>
+        $(function() {
+            $('#dl-menu').dlmenu();
+        });
+    </script>
+
+    <div id="content-wrapper">
+        <div id="content" class="container-fluid search-content" >
+<div class = "container">
+    <div class = "row">
+        <div class = "col-md-7 mobile-padding">
+            <div class = "section-white remove-padding mobile-padding">
+                <div id="chartWrap" style="min-width: 310px; max-width: 100%; height: 6000px; margin: 0 auto"></div>
+            </div>
+        </div>
+        <div class = "col-md-5 remove-padding mobile-padding">
+        <div class = "section-white cDescription mobile-padding">
+        <p>Gambling is big business internationally. Almost every country in the world has casinos. With the exception of China, most of the countries without casinos are either predominantly Muslim or are remote island nations without the ability to attract many tourists. The <a href="united-states.html">Uni<wbr />ted States</a> has more casinos within its borders and on Indian reservations than the next ten countries combined.</p>
+        <img class="country-imgs" src="images/articles/img.jpg">
+        <p>Of the five most populated countries - China, India, United States, Indonesia, and Brazil - only the U.S. and India have licensed casinos, and there are only a few in <a href="india.html">India</a>. Of course, China is a major feeder market for other Asian gambling jurisdictions including the special administrative region of Macau, the Philippines, and South Korea. Indians with discretionary income take to the internet to gamble, and many Indonesians travel to nearby casinos like Resorts World Sentosa and Marina Bay Sands in Singapore; Resorts World Genting in Malaysia, or to Entertainment City in Parañaque, Metro Manila where they will find a sort of mini-Macau.</p>
+
+        <p>The fifth most populated country in the world, Brazil, seems to be on the verge of passing casino legislation. If it does, expect to see big international players like Las Vegas Sands Corp, MGM Resorts, Caesars Entertainment, Wynn Resorts and even possibly a few big names from Macau throw their hats into the ring for integrated casino resort licenses there. Who wouldn't want to add world class casino gambling to their Rio de Janeiro vacation?</p>
+
+        <h2 id="How-many-casinos-are-in-the-United-States-">How many casinos are in the United States?</h2>
+
+        <img class="country-imgs" src="images/articles/how_many_casinos_are_in_the_united_states.jpg">
+
+        <p>The World Casino Directory currently lists 2190 casinos which are open and accepting bets from the gambling public. Almost every state in the country offers casino gambling. With only a few exceptions, if the state doesn't regulate gambling you can be sure to find Native American casinos operating. Some states offer both. Nevada alone, home of Fabulous Las Vegas, has {360} casinos. The only states without any casinos are Utah, Hawaii, and Alaska. New Hampshire has card rooms and Washington D.C. residents don't have far to go to visit <a href="casino/mgm-national-harbor.html">MGM National Harbor</a> about 10 minutes away in Oxon Hill, MD.</p>
+
+        <p>Casinos in America directly employ over half a million people, host over 900,000 slot machines, and generate over $70 billion in revenue each year.</p>
+
+        <p>North America is also home to Canada and Mexico, #2 and #3 on the list of countries with the most gambling facilities. According to Statista, North America has more casinos than the next five regions combined: Western Europe, Eastern Europe, South America, Africa, and all Caribbean nations combined.</p>
+
+        <h2 id="The-Casinos-of-Canada">The Casinos of Canada</h2>
+        <!--<img class="country-imgs" src="//www.worldcasinodirectory.com/images/articles/the_casinos_of_canada.jpg">-->
+
+        <p>Canadians love to gamble just like their southern neighbors. Most <a href="canada.html">Canadian casinos</a> are owned and regulated by lottery corporations, sometimes in joint ventures with private entities like Great Canadian and Gateway. First Nation peoples also own and operate their own casinos and have gambling commissions under provincial jurisdiction. See our Canada casino guide for more information and reviews of casinos in the Land of the Maple Leaf.</p>
+
+        <h2 id="The-Casinos-of-Mexico">The Casinos of Mexico</h2>
+        <img class="country-imgs" src="images/articles/the_casinos_of_mexico.jpg">
+
+        <p><a href="mexico.html">Casinos in Mexico</a> run the gamut from what are essentially electronic bingo parlors with sports books to state-of-the-art gaming venues. One thing they all have in common is that none of the slot machines have a stand-alone RNG or program - they are all run from central servers. The industry in Mexico is dominated by a few major players like Codere, Big Bola, and Emotion. Many of the casinos have <a href="https://online.worldcasinodirectory.com/mexico">online counterparts</a>. Whether you hop the border to play in Tijuana, play Las Vegas-style at Casino Life in Mexico City, or try one of the resort casinos in Riviera Maya - you will find over 2000 gambling facilities in Mexico.</p>
+
+        <h2 id="The-Magnificent-Casinos-of-France">The Magnificent Casinos of France</h2>
+        <!--<img class="country-imgs" src="//www.worldcasinodirectory.com/images/articles/the_magnificent_casinos_of_france.jpg">-->
+
+        <p>Jumping across the ocean from North America, we find France in a tight race for the #3 position in a list of countries with the most casinos. <a href="france.html">France</a> presents a very different gambling environment than you would find in North America. Many of the casinos here are ancient and gilded not only in gold but historical importance.</p>
+
+        <p>The Casino Palais de le Mediterranee in Nice opened in 1929; Casino Partouche d’Evaux-les-Bains is an opulent venue and the only casino in the Limousin region, and <a href="casino/casino-barri-re-de-deauville-564.html">Casino Barriere Deauville</a>, which opened in 1912, is one of the most impressive casinos in the world.</p>
+
+        <h2 id="Gambling-Facilities-in-the-United-Kingdom">Gambling Facilities in the United Kingdom</h2>
+        <!--<img class="country-imgs" src="//www.worldcasinodirectory.com/images/articles/gambling_facilities_in_the_united_kingdom.jpg">-->
+
+        <p>If every location to place a bet was counted as a "gambling facility" the <a href="united-kingdom.html">Un<wbr />ited Kingdom</a> would top the list. Brits, especially, love to gamble. There are over 1,000 sports betting shops in London alone, and over 2 million people in the UK gamble online. It's estimated that as many as 70% of the population over 18 plays the national lottery on a regular basis. But let's not forget the casinos of Mayfair and Piccadilly.</p>
+
+        <p>The <a href="casino/ritz-club-1791.html">Ritz Club</a> at 150 Piccadilly is a luxurious private member club decked out in gold and red. Les Ambassadeurs Club is another exclusive luxury casino in London that has had its share of fame from James Bond movies to The Beatles' Hard Day's Night video. Everywhere you go in the UK - from Wales to Scotland to the Isle of Man you will find casinos.</p>
+
+        <h2 id="Casinos-in-other-Countries-and-Regions">Casinos in other Countries and Regions</h2>
+        <img class="country-imgs" src="images/articles/casinos_in_other_countries_and_regions.jpg">
+
+        <p>Western Europe is the second most casino-populated continent or region after North America. In addition to French and UK casinos, there are over a hundred casinos between Germany, Spain, and Italy. And then there's <a href="monaco.html">Monaco</a> with four iconic casinos in Monte Carlo. Although the Nordic countries don't have a great number of casinos, people in the region love to gamble on-land and online. There are casinos in <a href="sweden/stockholm.html">Stockholm</a> and <a href="denmark/copenhagen.html">Copenhagen</a>, and <a href="switzerland.html">Switz<wbr />erland</a> has about 20 casinos from Zürich to Geneva.</p>
+
+        <p>One of the most interesting developments in the region, whether you place Cyprus in Europe, Western Asia, or the Middle East, is construction underway in 2017 of Europe's first and largest integrated casino resort in <a href="cyprus/limassol.html">L<wbr />imassol</a>. A consortium including Hard Rock International from the USA and Melco Entertainment of Macau won the exclusive license there. The resort is expected to open in phases beginning in 2020 - but temporary or satellite casinos could open before then.</p>
+
+        <p>The World Casino Directory attempts to list every casino on the planet. To read reviews and see pictures of some of the most opulent casinos in the world, visit our <a href="macau.html">Macau casino</a> pages. While Macau may not have anywhere near as many casinos as Las Vegas, the money that changes hands there is many orders of magnitude higher and has been since 2006. The <a href="casino/venetian-casino-resort-3428.html">largest casino in the world</a> is located in Macau, and seven of the top earning casino firms in the world have properties there.</p>
+
+        <p>Macau is not the only place in Asia that you'll find amazing casinos. Resorts World Sentosa and Marina Bay Sands in Singapore are two of the most breathtaking casino resorts anywhere. Annual gross gaming revenue, from just two casinos, has never been below $4 billion since they opened in 2010. If you travel to Malaysia, you'll find Resorts World Genting in the Genting Highlands - the only casino in the country. First World Hotel there is the largest hotel in the world by room count. The RWG casino has over 400 table games and more than 3,000 gaming machines on a 204,514 square foot gaming floor.</p>
+
+        <p>The Philippines has become a gambling haven as well. There are over 50 casinos outside of <a href="philippines/paranaque.html">Entertainment City</a> which includes Okada Manila, a $5 billion casino resort; City of Dreams Manila, and Solaire Resort and Casino. Resorts World (Genting) and Travellers International Hotel Group are opening a property there in 2020 that will include a casino, several luxury hotels, and a Grand Opera House to seat 3,000.</p>
+
+        <p>South Korea has a booming casino industry and Vietnam recently decided to let citizens play at casinos in the country. But the most significant development in Asia since Macau began welcoming mega-resorts is Japan's late 2016 decision to allow integrated casino resorts to operate there. As of late 2017, the exact landscape is still unknown, but Some have estimated the yearly revenue from casinos there could range from $5 billion a year to $25 billion. The low estimate assumes two resorts, and the high estimate is projected based on two integrated resorts in major metro areas and 10 regional casinos. The reality will probably fall somewhere in between.</p>
+
+        <h2 id="Oceania-Casinos">Oceania Casinos</h2>
+        <img class="country-imgs" src="images/articles/oceania_casinos.jpg">
+        <p>Big things are happening in Australasia and Oceania in general. Two massive casino-hotel developments are underway in <a href="australia.html">Austral<wbr />ia</a>. Crown Sydney at Barangaroo South will cost about $1.5 billion to complete with VIP gaming facilities and six-star hotel accommodations. The Star Brisbane will be at Queen's Wharf on the river and feature five hotels; three will have six-star ratings. The <a href="casino/conrad-treasury-brisbane-104.html">Treasury Casino</a> license will be used for gaming there, and the iconic building will be preserved.</p>
+
+        <p>For now, there are about 20 casinos in the country. The Crown Casino Melbourne is the largest with over 200,000 sq ft of gaming space.</p>
+
+        <h2 id="Casinos-in-Africa-and-the-Middle-East">Casinos in Africa and the Middle East</h2>
+        <!--<img class="country-imgs" src="//www.worldcasinodirectory.com/images/articles/casinos_in_africa_and_the_middle_east.jpg">-->
+
+        <p>There's not much new happening in the Middle East or Africa, but some may be surprised to know there are about a dozen casinos in <a href="egypt/cairo.html">Cairo<wbr />, Egypt</a>, including a Caesars and a Crockford's.</p>
+
+        <p>Morocco offers beach resort casinos and many non-Muslim dominated countries like Botswana, Cameroon, Ghana, Namibia, and Zimbabwe offer casino gaming as well.</p>
+
+        <p>South Africa, home of Sun City, has the most and largest casinos on the continent. There are 42 casino licenses there. The newest casino there is <a href="casino/time-square-pretoria-casino.html">Time Square Peoria</a>, otherwise known as the Menlyn Maine casino which opened in 2017. The casino with the most gaming positions is  GrandWest Casino & Entertainment World in Cape Town. There are casinos spread throughout the country. See our <a href="south-africa%23map.html">South Africa casino map</a> to learn more about the many casinos in the Land of Hope, or if you prefer, the Rainbow Nation.</p>
+
+        <p>There are casinos located throughout South and Central America, the Caribbean, and Eastern Europe. Russia is developing several gambling zones after earlier outlawing and shutting down all the casinos there. There are casino resorts in <a href="russia/sochi.html">Soch<wbr />i</a> and near <a href="russia/vladivostok.html">Vladivostok</a>, with several more to come.</p>
+</div>
+</div>
+    </div>
+</div>
+
+
+<script>
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    if (scroll >= 100) {
+$('.sticky-header').show();
+        $("#nav").addClass("sticky");
+    } else {
+        $("#nav").removeClass("sticky");
+$('.sticky-header').hide();
+    }
+});
+
+/*$('.cDescription img').filter(function() {
+    if( $(this).css('float') == 'right' )  { 
+        $(this).css({ "margin-left": "20px"});
+    }
+});*/
+
+$('div.casinoReviewBlock iframe').parent().addClass('wrapperIframe');
+
+   $('.section-white.cDescription.mobile-padding.clearfix>p').each(function() {
+   var $this = $(this);
+   if($this.html().replace(/\s|&nbsp;/g, '').length == 0)
+       $this.remove();
+});
+
+</script>
+
+</div>
+</div>
+<!-- /content wrapper -->
+
+
+
+<!-- Footer -->
+<div id="footer-wrapperDesktop">
+    <footer id="footer" class="container">
+        <!-- Links -->
+
+        <div class="row">
+
+                            
+
+                                <div class = "container">
+      <div id = "banner_list" class = "row" style = "margin: 0 auto"></div>
+      </div>
+        <div id= "banner_seed" class="footerBannerBox" hidden>
+            <div class = "BannerBoxImg">
+                <a class="FooterBannerLink" target="_blank" rel="nofollow noopener" href="https://lcb.org/onlinecasinobonusforum">
+                    <img class="FooterBannerImg" style="max-width: 100%;padding-top:25px;" src="../news.worldcasinodirectory.com/wp-content/uploads/2015/02/FORUM3.html">
+                </a>
+            </div>
+        </div>
+        <div id="banner_buffer" hidden> </div>  
+  <script>
+    $(document).ready(function () {
+  
+      var buffer = '#banner_buffer';
+      var seed = '#banner_seed';
+      var list = '#banner_list'; 
+  
+      function get_casinos(apiRequestUri, callback){ 
+        
+        $.ajax({url: apiRequestUri,
+          success: function (data) {
+                result=data['items'];
+                if (result === null) {
+                 // $(load_div).hide();
+                  if (callback !== undefined) {
+                    callback(false);
+                  }
+                  return;
+                }
+                
+              new_row = $("<div></div>").append($(seed).html());  
+              new_row.attr("class",$(seed).attr("class"));
+              $(list).append(new_row);
+               
+                $.each(result, function (i, banner) {
+                  parseData(banner, buffer, seed, list);
+                });
+  
+                  if (callback !== undefined) {
+                    callback(true);
+                  }
+            },
+            error: function () {
+            },           
+        });
+        
+      }
+     
+     let limit_start=0;
+     let limit_increment_init = 3;
+          
+    let all_increment=10000;
+    let country_code = "KH";
+    let request_uri = "/countries";
+    let state_code = "";
+        if ((country_code == "US" && state_code) || (country_code == "CA" && state_code && state_code=="ON")) {
+            casino_region = "&country=" + country_code + "&state=" + state_code;
+        } else {
+            casino_region = "&country=" + country_code;
+        }
+
+   let apiRequest = "https://online.worldcasinodirectory.com/api?banner_data=footer";
+   
+    let apiRequestUri = apiRequest+casino_region; 
+    if(request_uri=="/social-casinos" || request_uri=="/sweepstakes-casinos"){
+        apiRequestUri = apiRequest+casino_region+"&social=true";
+    }
+    let limit="&offset="+limit_start+"&limit="+limit_increment_init;
+        
+      get_casinos(apiRequestUri+limit, function(res) {
+        
+      })
+  
+    
+      function parseData(banner,buffer, seed, list)
+      {
+        $(buffer).html($(seed).html());
+        if (banner.casino_url) {
+          $(buffer+' .FooterBannerLink').attr("href", banner.casino_url);
+        }else{
+          $(buffer+' .FooterBannerLink').attr("href", "");
+        }
+        if (banner.image_url) {
+          $(buffer+' .FooterBannerImg').attr("src", banner.image_url);
+        }else{
+          $(buffer+' .FooterBannerImg').remove();
+        }
+                   
+          new_row = $("<div></div>").append($(buffer).html());  
+          new_row.attr("class",$(seed).attr("class"));
+          
+         
+          $(list).append(new_row);
+      } 
+             
+    });
+
+  </script>
+                      <div class="col-md-12 partnersWrapper footerDesktop">
+                        <div class="sidebar-links">
+                           
+                          
+                            <a href="https://twitter.com/WCDCasinos" style = "padding-right:5%;" target="_blank"><img class = "socialIcon"  src="assets/images/twitter.png"></a>
+                            &copy; 2003-
+                            2025                                All rights reserved.                                <a href="about.html">
+                                   | About us                                </a> 
+                                <a href="contact.html">
+                                    | Contact us                                </a> 
+                                <a href="wcdtac.html">
+                                    | Terms & Conditions                                </a> 
+                                <a href="wcdprivpol.html">
+                                    | Privacy Policy                                </a>
+                                <a href="links/casino-links.html">
+                                    | Other gaming resources                                </a>
+                                <a href="gambling_age_chart.html">
+                                    | Gambling age chart                                </a>
+                            <style type="text/css">
+                                .sidebar-links a {
+                                    font-size: 13px;
+                                }
+
+                                .partnersList li {
+                                    float: left;
+                                }
+                            </style>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12">
+
+                        <div class="col-md-12">
+
+                            <!-- Blurb -->
+                            <section class="responsibly footerDesktop">
+                                <div class="logosHolder" style="text-align:center; padding-top:10px;">
+                                    <a href="http://www.gamcare.org.uk/" target="blank"><img
+                                                src="assets/images/gam_care.svg"/></a>
+                                    <a href="wcdtac.html"><img
+                                                src="assets/images/18plus.png"/></a>
+                                    <a class="third" href="https://www.gambleaware.org/" target="blank"> <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 78.6 40" width="64" height="32">
+                        <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+                        <defs>
+                            <style>
+                            .st0 {
+                                fill: #777;
+                            }
+                            </style>
+                        </defs>
+                        <g class="st0">
+                            <path d="M.3,10.1C.3,3.7,3.1.4,7.6.4s5.4,1.5,6,4.9v.5c.1,0-2.5.6-2.5.6v-.5c-.6-2.3-1.9-3.1-3.6-3.1s-4.3,2.1-4.3,7.2,1.7,6.8,4.2,6.8,3.7-.9,3.7-4.1v-.5h-3.8v-2.2h6.4v8.9h-2.3l-.2-2.2c-.9,1.8-2.5,2.5-4.5,2.5-3.9,0-6.5-3.1-6.5-9Z"/>
+                            <path d="M23.6,17.6c-.8.9-1.9,1.5-3.6,1.5-2.4,0-4-1.6-4-3.7s1.9-3.4,3.5-3.8l4-1.1v-.5c0-1.4-.9-2.2-2.3-2.2s-2.4.8-2.8,1.8v.2c0,0-2.1-1.1-2.1-1.1v-.3c.7-1.2,2.3-2.8,5.2-2.8s4.8,1.5,4.8,4.1v6.8c0,.6,0,1.5.2,2.1v.2c0,0-2.6,0-2.6,0h0c0-.5-.1-.9-.2-1.2h0ZM20.8,17.1c1.2,0,2.2-.7,2.8-1.4v-3.3l-2.8.9c-1.1.3-2,.9-2,2s.7,1.9,1.9,1.9h0Z"/>
+                            <path d="M41.9,7.9c-1.1,0-2.2.7-2.8,1.3v9.5h-2.7v-8.9c0-1.3-.7-2-2-2s-2.2.7-2.8,1.3v9.5h-2.7V5.9h2.6v1.4c1-1,2.4-1.7,3.8-1.7s2.9.8,3.4,2c1-1.2,2.5-2,4-2,2.7,0,3.7,1.8,3.7,3.7v9.5h-2.7v-8.9c0-1.3-.7-2-2-2h0Z"/>
+                            <path d="M52,17.6l-.3,1.2h-2.3V.7h2.7v6.2c.8-.9,2-1.4,3.2-1.4,2.9,0,4.9,2.2,4.9,6.6s-2.1,6.9-5,6.9-2.5-.5-3.3-1.5h0ZM54.7,16.9c1.5,0,2.8-1.4,2.8-4.7s-1.3-4.5-2.9-4.5-1.9.5-2.5,1.2v6.7c.7.7,1.5,1.2,2.6,1.2Z"/>
+                            <path d="M62.5.7h2.7v18.1h-2.7V.7Z"/>
+                            <path d="M67.6,12.5c0-4.1,2-6.9,5.6-6.9s5.1,1.5,5.1,6.1v1.2h-8.1v.2c0,2.5,1.3,3.9,3.1,3.9s2.1-.5,2.7-1.6l.2-.3,2.1.9v.3c-1.1,1.9-2.8,2.9-5.1,2.9-3.3,0-5.6-2.3-5.6-6.6h0ZM75.8,11.2v-.2c0-2.3-1.2-3.2-2.6-3.2s-2.7,1-2.9,3.4h5.5,0Z"/>
+                        </g>
+                        <g>
+                            <path class="st0" d="M5.4,21.2h3.9l5.1,18.1h-2.9l-1.3-4.7h-6l-1.3,4.7H.3l5.1-18.1ZM9.6,32.3l-2.4-8.9-2.4,8.9h4.7Z"/>
+                            <path class="st0" d="M13.7,26.4h2.7l2.1,9.2,2.3-9.2h2.5l2.3,9.2,2.2-9.2h2.5l-3.3,12.9h-2.7l-2.3-9.2-2.3,9.2h-2.6l-3.3-12.9h0Z"/>
+                            <path class="st0" d="M38.3,38c-.8.9-1.9,1.5-3.6,1.5-2.4,0-4-1.6-4-3.7s1.9-3.4,3.5-3.8l4-1.1v-.5c0-1.4-.9-2.2-2.3-2.2s-2.4.8-2.8,1.8v.2c0,0-2.1-1.1-2.1-1.1v-.3c.7-1.2,2.3-2.8,5.2-2.8s4.8,1.5,4.8,4.1v6.8c0,.6,0,1.5.2,2.1v.2c0,0-2.6,0-2.6,0h0c0-.5-.1-.9-.2-1.2h0ZM35.4,37.5c1.2,0,2.2-.7,2.8-1.4v-3.3l-2.8.9c-1.1.3-2,.9-2,2s.7,1.9,1.9,1.9h0Z"/>
+                            <path class="st0" d="M43.5,26.4h2.5v2.4c1.7-2,3.2-2.6,4.5-2.6v2.5c-1.8,0-3.2,1-4.3,2v8.6h-2.7v-12.9h0Z"/>
+                            <path class="st0" d="M50.8,33c0-4.1,2-6.9,5.6-6.9s5.1,1.5,5.1,6.1v1.2h-8.1v.2c0,2.5,1.3,3.9,3.1,3.9s2.1-.5,2.7-1.6l.2-.3,2.1.9v.3c-1.1,1.9-2.8,2.9-5.1,2.9-3.3,0-5.6-2.3-5.6-6.6h0ZM59,31.6v-.2c0-2.3-1.2-3.2-2.6-3.2s-2.7,1-2.9,3.4h5.5Z"/>
+                        </g>
+                        </svg></a> 
+                                    <a href="https://www.gamblingtherapy.org/" target="blank"><img
+                                                src="assets/img/gamblingtherapy_black.svg"
+                                                style="height:40px;opacity:.5;filter:grayscale(100%) brightness(60%) contrast(10000000%);"/></a>
+
+                                </div>
+                            </section>
+                                                    </div>
+
+                        <div class="col-md-12 footerDesktop">
+
+                            <!-- Copyright -->
+                            <div id="copyright" style="width:100%; text-align:center;padding-bottom:0;">
+
+                                <div class="admin-edit-link"></div>
+                            </div>
+                        </div>
+                    </div>
+        <script type="text/javascript">
+            $(function () {
+                $(".dropdown dt").click(function () {
+                    $(".dropdown dd ul").toggle();
+                });
+
+                $(".dropdown dd ul li a").click(function () {
+                    var text = $(this).html();
+                    $(".dropdown dt a span").html(text);
+                    $(".dropdown dd ul").hide();
+                });
+
+                function getSelectedValue(id) {
+                    return $("#" + id).find("dt a span.value").html();
+                }
+
+                function setSelectedValue() {
+                    var text = $(".dropdown dd ul li .dropdown-selected").html();
+                    $(".dropdown dt a span").html(text);
+                }
+
+                $(document).bind('click', function (e) {
+                    var $clicked = $(e.target);
+                    if (!$clicked.parents().hasClass("dropdown"))
+                        $(".dropdown dd ul").hide();
+                });
+
+                setSelectedValue();
+            });
+        </script>
+</div>
+</div>
+</footer>
+</div>
+
+
+<!-- Google Analytics (universal) -->
+
+<!-- /Google Analytics (universal) -->
+
+<!-- Aweber web hit code -->
+<script type="text/javascript" src="../analytics.aweber.com_443/js/awt_analytics85ff.js?id=3_Od"></script>
+<!-- /Aweber web hit code -->
+
+<script type="text/javascript" src="../cdnjs.cloudflare.com/ajax/libs/retina.js/1.3.0/retina.min.js"></script>
+
+
+
+<script type='text/javascript'>
+    (function (d, t) {
+        var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        bh.type = 'text/javascript';
+        bh.src = '../sidebar.bugherd.com/embed5538.js?apikey=9xffqu2x3rv81nyq7knaxg';
+        s.parentNode.insertBefore(bh, s);
+    })(document, 'script');
+
+</script>
+
+<div id="footer-wrapperMobile">
+    <footer id="footer" class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="mobileFooter">
+                    <div class="bs-example">
+                        <div class="panel-group" id="accordion">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseDeopsitory">  WORLD CASINO DEPOSITORY &nbsp; <i class="fas fa-caret-right floatRight"></i> </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseDeopsitory" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <a style = "padding-left:5px;"href="//www.worldcasinodirectory.com/about">
+                                            About us                                        </a> <br>
+                                        <a href="contact.html">
+                                            Contact us                                        </a> <br>
+                                        <a href="wcdtac.html">
+                                            Terms & Conditions                                        </a> <br>
+                                        <a href="wcdprivpol.html">
+                                            Privacy Policy                                        </a><br>
+                                        <div class="admin-edit-link"></div>
+                                        &copy; 2003-
+                                        2025                                            E3WD Inc. All rights reserved.                                                <!--a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a>| -->
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseUsefulLinks" style="text-transform: uppercase;">
+                                            Useful links &nbsp; <i class="fas fa-caret-right floatRight"></i> </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseUsefulLinks" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <!--<a href="http://www.worldcasinojobs.com">Casino jobs and employment</a><br>
+                                    <a href="//www.worldcasinodirectory.com/search">Casino search engine</a><br>
+                                    <a href="//www.worldcasinodirectory.com/casinosuppliers-countries.htm">Casino vendors and suppliers</a><br>-->
+                                        <a href="links/casino-links.html">
+                                            Other gaming resources                                        </a><br>
+                                        <a href="gambling_age_chart.html">
+                                            Gambling age chart                                        </a><br>
+                                        <!--<a href="//www.worldcasinodirectory.com/usonlinecasinos.htm">Still accepts U.S. players</a><br>
+                                    <a href="//www.worldcasinodirectory.com/worldcasinos.htm">World Casino List</a><br>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseNote" style="text-transform: uppercase;">
+                                            Please note &nbsp; <i class="fas fa-caret-right floatRight"></i> </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseNote" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>
+                                             There are thousands of jurisdictions worldwide with access to the internet. It is <u>your</u> responsibility to determine whether it is legal for you to place a wager in the jurisdiction in which you are located based on local regulatory and age restrictions. World Casino Directory is an independent information provider and does not process any money. The links on our site are for entertainment and informational purposes only.                                                Accuracy is intended but is not guaranteed.                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseResponsibly" style="text-transform: uppercase;">
+                                            Play responsibly &nbsp; <i class="fas fa-caret-right floatRight"></i> </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseResponsibly" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>
+                                            Know when to stop before you start. If you think you or someone you know may have a problem with gambling, visit <a href="http://www.gamcare.org.uk/" rel="nofollow noopener" target="_blank">GamCare</a> for support.                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-4">
+            <a href="https://twitter.com/WCDCasinos" target="_blank"><img class = "socialIcon" src="assets/images/twitter.png"></a>
+
+        </div>
+
+        <div class="col-xs-8">
+            <p style="margin-top:5px;"> &copy; 2003-
+                2025                    All rights reserved.                        <!--a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a>| -->
+            </p>
+        </div>
+
+    </footer>
+</div>
+
+
+<script>
+$(document).ready(
+    function(){
+        $('.cookie-bar-alert').delay(3000).show(1000);
+        $('.hide-cookie-bar').click(function(){
+                $('.cookie-bar-alert').fadeOut('fast');
+                createCookie('using_cookie', "cookie notification", 365);
+                console.log("done");
+            }
+        )
+    }
+)
+
+function createCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+
+/*function removeEmptyPara(){
+    $('p').each(function() {
+   var $this = $(this);
+   if($this.html().replace(/\s|&nbsp;/g, '').length == 0)
+       $this.remove();
+})
+}
+
+$(window).load(function() {
+    removeEmptyPara();
+});*/
+
+
+$('.stats-info-table').on('click', '[href]', function () {
+  const element = $($(this).attr('href'));
+  var offset = element.offset().top - 100;
+  $('html, body').animate({
+     scrollTop: offset
+  });
+});
+if (window.outerWidth <= 480) {
+        let shareShow = '';
+        let listenShareClick = () => {
+            shareShow.innerHTML = '<i class="fas fa-share-alt"></i>';
+            let shareBlock = document.querySelector('.sumome-share-client-wrapper.sumome-share-client-wrapper-desktop-bottom-bar, .sumome-share-client-wrapper.sumome-share-client-wrapper-mobile-bottom-bar');
+            shareShow.addEventListener('click', () => {
+                shareBlock.classList.toggle('shown');
+            });
+        }
+        let getShare = setInterval(() => {
+            if (shareShow == '' || shareShow == null) {
+                shareShow = document.querySelector('.sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-counts .sumome-share-client-count.sumome-share-client-share-share');
+            } else {
+                clearInterval(getShare);
+                listenShareClick();
+            }
+        }, 150);
+    }
+</script>
+<script src="assets/js/custom6b58.js?v=1.00.014"></script>
+</body>
+
+
+<!-- Mirrored from www.worldcasinodirectory.com/countries by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Feb 2025 04:25:19 GMT -->
+</html>
+<script>
+        jQuery(document).ready(function () {
+            var categoryLinks = {
+                 'United States': '//www.worldcasinodirectory.com/united-states' ,  'Serbia': '//www.worldcasinodirectory.com/serbia' ,  'Romania': '//www.worldcasinodirectory.com/romania' ,  'Czech Republic': '//www.worldcasinodirectory.com/czech-republic' ,  'Italy': '//www.worldcasinodirectory.com/italy' ,  'Spain': '//www.worldcasinodirectory.com/spain' ,  'Bulgaria': '//www.worldcasinodirectory.com/bulgaria' ,  'United Kingdom': '//www.worldcasinodirectory.com/united-kingdom' ,  'Canada': '//www.worldcasinodirectory.com/canada' ,  'Slovakia': '//www.worldcasinodirectory.com/slovakia' ,  'Mexico': '//www.worldcasinodirectory.com/mexico' ,  'Australia': '//www.worldcasinodirectory.com/australia' ,  'France': '//www.worldcasinodirectory.com/france' ,  'Netherlands': '//www.worldcasinodirectory.com/netherlands' ,  'Austria': '//www.worldcasinodirectory.com/austria' ,  'Croatia': '//www.worldcasinodirectory.com/croatia' ,  'Belgium': '//www.worldcasinodirectory.com/belgium' ,  'Argentina': '//www.worldcasinodirectory.com/argentina' ,  'Colombia': '//www.worldcasinodirectory.com/colombia' ,  'Latvia': '//www.worldcasinodirectory.com/latvia' ,  'Germany': '//www.worldcasinodirectory.com/germany' ,  'Philippines': '//www.worldcasinodirectory.com/philippines' ,  'Panama': '//www.worldcasinodirectory.com/panama' ,  'South Africa': '//www.worldcasinodirectory.com/south-africa' ,  'Lithuania': '//www.worldcasinodirectory.com/lithuania' ,  'Peru': '//www.worldcasinodirectory.com/peru' ,  'Albania': '//www.worldcasinodirectory.com/albania' ,  'Costa Rica': '//www.worldcasinodirectory.com/costa-rica' ,  'Estonia': '//www.worldcasinodirectory.com/estonia' ,  'Poland': '//www.worldcasinodirectory.com/poland' ,  'Cambodia': '//www.worldcasinodirectory.com/cambodia' ,  'Macau': '//www.worldcasinodirectory.com/macau' ,  'Denmark': '//www.worldcasinodirectory.com/denmark' ,  'Slovenia': '//www.worldcasinodirectory.com/slovenia' ,  'Kenya': '//www.worldcasinodirectory.com/kenya' ,  'Cyprus': '//www.worldcasinodirectory.com/cyprus' ,  'Vietnam': '//www.worldcasinodirectory.com/vietnam' ,  'Dominican Republic': '//www.worldcasinodirectory.com/dominican-republic' ,  'South Korea': '//www.worldcasinodirectory.com/south-korea' ,  'Ireland': '//www.worldcasinodirectory.com/ireland' ,  'Chile': '//www.worldcasinodirectory.com/chile' ,  'Uruguay': '//www.worldcasinodirectory.com/uruguay' ,  'Belarus': '//www.worldcasinodirectory.com/belarus' ,  'Puerto Rico': '//www.worldcasinodirectory.com/puerto-rico' ,  'Japan': '//www.worldcasinodirectory.com/japan' ,  'Egypt': '//www.worldcasinodirectory.com/egypt' ,  'Nicaragua': '//www.worldcasinodirectory.com/nicaragua' ,  'Switzerland': '//www.worldcasinodirectory.com/switzerland' ,  'Zimbabwe': '//www.worldcasinodirectory.com/zimbabwe' ,  'Barbados': '//www.worldcasinodirectory.com/barbados' ,  'India': '//www.worldcasinodirectory.com/india' ,  'Bosnia and Herzegovina': '//www.worldcasinodirectory.com/bosnia-and-herzegovina' ,  'Paraguay': '//www.worldcasinodirectory.com/paraguay' ,  'Suriname': '//www.worldcasinodirectory.com/suriname' ,  'Russia': '//www.worldcasinodirectory.com/russia' ,  'Uganda': '//www.worldcasinodirectory.com/uganda' ,  'Malta': '//www.worldcasinodirectory.com/malta' ,  'Mauritius': '//www.worldcasinodirectory.com/mauritius' ,  'Finland': '//www.worldcasinodirectory.com/finland' ,  'Ghana': '//www.worldcasinodirectory.com/ghana' ,  'Jamaica': '//www.worldcasinodirectory.com/jamaica' ,  'Curaçao': '//www.worldcasinodirectory.com/curacao' ,  'Aruba': '//www.worldcasinodirectory.com/aruba' ,  'Nigeria': '//www.worldcasinodirectory.com/nigeria' ,  'Sint Maarten': '//www.worldcasinodirectory.com/sint-maarten' ,  'Hungary': '//www.worldcasinodirectory.com/hungary' ,  'Nepal': '//www.worldcasinodirectory.com/nepal' ,  'Zambia': '//www.worldcasinodirectory.com/zambia' ,  'Portugal': '//www.worldcasinodirectory.com/portugal' ,  'Kazakhstan': '//www.worldcasinodirectory.com/kazakhstan' ,  'Tanzania': '//www.worldcasinodirectory.com/tanzania' ,  'Botswana': '//www.worldcasinodirectory.com/botswana' ,  'Angola': '//www.worldcasinodirectory.com/angola' ,  'Georgia': '//www.worldcasinodirectory.com/country-of-georgia' ,  'Singapore': '//www.worldcasinodirectory.com/singapore' ,  'Turkey': '//www.worldcasinodirectory.com/turkey' ,  'Greece': '//www.worldcasinodirectory.com/greece' ,  'Morocco': '//www.worldcasinodirectory.com/morocco' ,  'Senegal': '//www.worldcasinodirectory.com/senegal' ,  'Northern Mariana Islands': '//www.worldcasinodirectory.com/northern-mariana-islands' ,  'Mozambique': '//www.worldcasinodirectory.com/mozambique' ,  'Sri Lanka': '//www.worldcasinodirectory.com/sri-lanka' ,  'Trinidad and Tobago': '//www.worldcasinodirectory.com/trinidad-and-tobago' ,  'Seychelles': '//www.worldcasinodirectory.com/seychelles' ,  'Norway': '//www.worldcasinodirectory.com/norway' ,  'Madagascar': '//www.worldcasinodirectory.com/madagascar' ,  'Venezuela': '//www.worldcasinodirectory.com/venezuela' ,  'Macedonia': '//www.worldcasinodirectory.com/macedonia' ,  'Benin': '//www.worldcasinodirectory.com/benin' ,  'Bahamas': '//www.worldcasinodirectory.com/bahamas' ,  'Belize': '//www.worldcasinodirectory.com/belize' ,  'United Arab Emirates': '//www.worldcasinodirectory.com/united-arab-emirates' ,  'Hong Kong': '//www.worldcasinodirectory.com/hong-kong' ,  'Namibia': '//www.worldcasinodirectory.com/namibia' ,  'Liechtenstein': '//www.worldcasinodirectory.com/liechtenstein' ,  'Antigua and Barbuda': '//www.worldcasinodirectory.com/antigua-and-barbuda' ,  'New Zealand': '//www.worldcasinodirectory.com/new-zealand' ,  'Malawi': '//www.worldcasinodirectory.com/malawi' ,  'Malaysia': '//www.worldcasinodirectory.com/malaysia' ,  'Tunisia': '//www.worldcasinodirectory.com/tunisia' ,  'Democratic Republic of the Congo': '//www.worldcasinodirectory.com/congo' ,  'Sweden': '//www.worldcasinodirectory.com/sweden' ,  'Montenegro': '//www.worldcasinodirectory.com/montenegro' ,  'U.S. Virgin Islands': '//www.worldcasinodirectory.com/virgin-islands' ,  'Myanmar': '//www.worldcasinodirectory.com/myanmar' ,  'Swaziland': '//www.worldcasinodirectory.com/swaziland' ,  'Reunion': '//www.worldcasinodirectory.com/reunion' ,  'Cameroon': '//www.worldcasinodirectory.com/cameroon' ,  'Monaco': '//www.worldcasinodirectory.com/monaco' ,  'Gambia': '//www.worldcasinodirectory.com/gambia' ,  'Vanuatu': '//www.worldcasinodirectory.com/vanuatu' ,  'Equatorial Guinea': '//www.worldcasinodirectory.com/equatorial-guinea' ,  'Thailand': '//www.worldcasinodirectory.com/thailand' ,  'Laos': '//www.worldcasinodirectory.com/laos' ,  'Liberia': '//www.worldcasinodirectory.com/liberia' ,  'Rwanda': '//www.worldcasinodirectory.com/rwanda' ,  'Ukraine': '//www.worldcasinodirectory.com/ukraine' ,  'China': '//www.worldcasinodirectory.com/china' ,  'Gibraltar': '//www.worldcasinodirectory.com/gibraltar' ,  'El Salvador': '//www.worldcasinodirectory.com/el-salvador' ,  'Bolivia': '//www.worldcasinodirectory.com/bolivia' ,  'Turks and Caicos': '//www.worldcasinodirectory.com/turks-and-caicos' ,  'Guatemala': '//www.worldcasinodirectory.com/guatemala' ,  'Lebanon': '//www.worldcasinodirectory.com/lebanon' ,  'Guyana': '//www.worldcasinodirectory.com/guyana' ,  'Honduras': '//www.worldcasinodirectory.com/honduras' ,  'New Caledonia': '//www.worldcasinodirectory.com/new-caledonia' ,  'Haiti': '//www.worldcasinodirectory.com/haiti' ,  'Lesotho': '//www.worldcasinodirectory.com/lesotho' ,  'Armenia': '//www.worldcasinodirectory.com/armenia' ,  'Gabon': '//www.worldcasinodirectory.com/gabon' ,  'Moldova': '//www.worldcasinodirectory.com/moldova' ,  'Cape Verde': '//www.worldcasinodirectory.com/cape-verde' ,  'Guadeloupe': '//www.worldcasinodirectory.com/guadeloupe' ,  'Sierra Leone': '//www.worldcasinodirectory.com/sierra-leone' ,  'Bonaire': '//www.worldcasinodirectory.com/bonaire' ,  'Dominica': '//www.worldcasinodirectory.com/dominica' ,  'Samoa': '//www.worldcasinodirectory.com/samoa' ,  'Saint Kitts and Nevis': '//www.worldcasinodirectory.com/saint-kitts-and-nevis' ,  'Bermuda': '//www.worldcasinodirectory.com/bermuda' ,  'Martinique': '//www.worldcasinodirectory.com/martinique' ,  'Algeria': '//www.worldcasinodirectory.com/algeria' ,  'Brazil': '//www.worldcasinodirectory.com/brazil' ,  'Netherlands Antilles': '//www.worldcasinodirectory.com/netherlands-antilles' ,  'Andorra': '//www.worldcasinodirectory.com/andorra' ,  'Saint Lucia': '//www.worldcasinodirectory.com/saint-lucia' ,  'Turkmenistan': '//www.worldcasinodirectory.com/turkmenistan' ,  'Luxembourg': '//www.worldcasinodirectory.com/luxembourg' ,  'Ivory Coast': '//www.worldcasinodirectory.com/cote-ivoire' ,  'Israel': '//www.worldcasinodirectory.com/israel' ,  'French Guiana': '//www.worldcasinodirectory.com/french-guiana' ,  'South Sudan': '//www.worldcasinodirectory.com/south-sudan' ,  'Aland Islands': '//www.worldcasinodirectory.com/aland-islands' ,  'Saint Martin': '//www.worldcasinodirectory.com/saint-martin' ,  'Mali': '//www.worldcasinodirectory.com/mali' ,  'Bahrain': '//www.worldcasinodirectory.com/bahrain' ,  'Djibouti': '//www.worldcasinodirectory.com/djibouti' ,  'French Polynesia': '//www.worldcasinodirectory.com/french-polynesia' ,  'Burundi': '//www.worldcasinodirectory.com/burundi'             };
+            Highcharts.chart('chartWrap', {
+                chart: {
+                    type: 'bar'
+                },
+                title: {
+                    text: 'Countries worldwide ranked by number of casinos'
+                },
+                xAxis: {
+                    categories: [ 'United States', 'Serbia', 'Romania', 'Czech Republic', 'Italy', 'Spain', 'Bulgaria', 'United Kingdom', 'Canada', 'Slovakia', 'Mexico', 'Australia', 'France', 'Netherlands', 'Austria', 'Croatia', 'Belgium', 'Argentina', 'Colombia', 'Latvia', 'Germany', 'Philippines', 'Panama', 'South Africa', 'Lithuania', 'Peru', 'Albania', 'Costa Rica', 'Estonia', 'Poland', 'Cambodia', 'Macau', 'Denmark', 'Slovenia', 'Kenya', 'Cyprus', 'Vietnam', 'Dominican Republic', 'South Korea', 'Ireland', 'Chile', 'Uruguay', 'Belarus', 'Puerto Rico', 'Japan', 'Egypt', 'Nicaragua', 'Switzerland', 'Zimbabwe', 'Barbados', 'India', 'Bosnia and Herzegovina', 'Paraguay', 'Suriname', 'Russia', 'Uganda', 'Malta', 'Mauritius', 'Finland', 'Ghana', 'Jamaica', 'Curaçao', 'Aruba', 'Nigeria', 'Sint Maarten', 'Hungary', 'Nepal', 'Zambia', 'Portugal', 'Kazakhstan', 'Tanzania', 'Botswana', 'Angola', 'Georgia', 'Singapore', 'Turkey', 'Greece', 'Morocco', 'Senegal', 'Northern Mariana Islands', 'Mozambique', 'Sri Lanka', 'Trinidad and Tobago', 'Seychelles', 'Norway', 'Madagascar', 'Venezuela', 'Macedonia', 'Benin', 'Bahamas', 'Belize', 'United Arab Emirates', 'Hong Kong', 'Namibia', 'Liechtenstein', 'Antigua and Barbuda', 'New Zealand', 'Malawi', 'Malaysia', 'Tunisia', 'Democratic Republic of the Congo', 'Sweden', 'Montenegro', 'U.S. Virgin Islands', 'Myanmar', 'Swaziland', 'Reunion', 'Cameroon', 'Monaco', 'Gambia', 'Vanuatu', 'Equatorial Guinea', 'Thailand', 'Laos', 'Liberia', 'Rwanda', 'Ukraine', 'China', 'Gibraltar', 'El Salvador', 'Bolivia', 'Turks and Caicos', 'Guatemala', 'Lebanon', 'Guyana', 'Honduras', 'New Caledonia', 'Haiti', 'Lesotho', 'Armenia', 'Gabon', 'Moldova', 'Cape Verde', 'Guadeloupe', 'Sierra Leone', 'Bonaire', 'Dominica', 'Samoa', 'Saint Kitts and Nevis', 'Bermuda', 'Martinique', 'Algeria', 'Brazil', 'Netherlands Antilles', 'Andorra', 'Saint Lucia', 'Turkmenistan', 'Luxembourg', 'Ivory Coast', 'Israel', 'French Guiana', 'South Sudan', 'Aland Islands', 'Saint Martin', 'Mali', 'Bahrain', 'Djibouti', 'French Polynesia', 'Burundi' ],
+                    title: {
+                        text: null
+                    },
+                    labels: {
+                        formatter: function () {
+                            return '<a class="linkXAxis" href="' + categoryLinks[this.value] + '">' +
+                                    this.value + '</a>';
+                        },
+                        useHTML: true
+                    }
+                },
+                yAxis: {
+                    min: 0,
+                    title: {
+                        text: 'Number of casinos',
+                        align: 'high'
+                    },
+                    labels: {
+                        overflow: 'justify'
+                    }
+                },
+                tooltip: {
+                    valueSuffix: ' '
+                },
+                plotOptions: {
+                    bar: {
+                        dataLabels: {
+                            enabled: true
+                        }
+                    }
+                },
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -40,
+                    y: 240,
+                    floating: true,
+                    borderWidth: 1,
+                    backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
+                    shadow: true
+                },
+                colors: ['rgba(0, 174, 239, 1)'],
+                credits: {
+                    enabled: false
+                },
+                series: [{
+                        name: 'Number of casinos',
+                        data: [2190, 522, 448, 401, 391, 340, 340, 278, 219, 204, 201, 195, 190, 182, 167, 153, 149, 147, 128, 112, 90, 79, 64, 60, 60, 58, 53, 50, 49, 49, 48, 47, 45, 44, 42, 40, 40, 35, 32, 31, 31, 29, 28, 26, 26, 25, 25, 24, 23, 22, 20, 20, 19, 19, 18, 17, 16, 16, 15, 15, 15, 14, 14, 13, 12, 12, 12, 11, 11, 11, 11, 10, 10, 10, 10, 9, 8, 8, 8, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 6, 6, 6, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+                    }]
+            });
+        });
+    </script>

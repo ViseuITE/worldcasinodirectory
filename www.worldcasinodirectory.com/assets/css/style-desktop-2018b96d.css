@@ -1,0 +1,4603 @@
+body {
+    color: #191919;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500i');
+
+
+*[id]{
+    scroll-margin-top: 100px;
+}
+.container-fluid {
+    background-image: url('../images/banner-background-image.jpg');
+}
+
+
+
+.bonus-heading {
+    color: #4d4d4d;
+}
+
+
+.main-toplist-cell {
+    border-bottom:1px solid #efefef;
+    padding:0;
+}
+.topListCasinosWrapper .main-toplist-cell:hover {
+transition: all 0.2s ease-in-out 0s;
+background-color: #efefef;
+
+}
+
+#mm-poker-content .col-md-4 .CasinoImg {
+    margin-top: 0;
+}
+
+.topListCasinosWrapper.marginB20.section-box.section-white .toplist-link.main-toplist-cell{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+#content .topListCasinosWrapper.marginB20.section-box.section-white h2 {
+    border-bottom: 1px solid #efefef
+}
+
+.topOnlineCasinosHeader .topListCasinosWrapper .main-toplist-cell {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 1%;
+}
+
+.casinoTitle {
+    font-weight:bold;
+    padding-left: 4%;
+    text-align:center;
+    line-height:1.3;
+    float:left;
+    display: flex;
+    align-items: center;
+    text-align:left;
+    width: 51%;
+    color: #323648;
+
+}
+
+#top_front_casino_list .casinoTitle{
+    width: 40%;
+}
+#top_front_casino_list .casinoBonuses{
+    width: 32%;
+}
+.innerBonuses span.up_to {
+    color: #323648;
+}
+
+.innerBonuses span.currency_symbols {
+    display: block;
+}
+.casinoBonuses {
+width: 28%;
+float: left;
+text-align: center;
+line-height: 1.3;
+padding-right: 0;
+font-weight: 500;
+display: table;
+}
+.casinoPlay {
+    width:22%; 
+    float:right; 
+    background-color: #3FA83D !important;
+    font-weight: bold;
+    padding: 1rem 1.2rem;
+    margin-bottom: 1rem;
+    text-shadow: none;
+    font-family: 'Open Sans';
+}
+
+.casinoPlay:hover {
+background-color: #3FA83D;
+}
+
+.casinoBonuses{
+    width:45%;
+    padding-top:2%;
+    height: 60px;
+}
+
+.innerBonuses {
+    display: table-cell;
+    vertical-align: middle;
+}
+.play-carret{
+    width: 8%;
+    float: right;
+    padding-top: 4%;
+}
+
+.CasinoImg{
+    width: 20%;
+    line-height: 60px;
+}
+
+.topOnlineCasinosHeader .topListCasinosWrapper .main-toplist-cell img {
+    width:100%;
+}
+
+span.greenText {
+    padding-top:0;
+
+}
+.top-world-lotteries {
+    border-bottom:1px solid #efefef;
+    cursor: pointer;    
+}
+
+.lotteryCarret {
+    font-size: 40px;
+    color:#3FA83D;
+    opacity: 0;
+}
+
+.jackpot:link,
+.jackpot:visited,
+.top-world-lotteries span {
+    font-family: 'roboto';
+    font-weight: 500;
+    color: #323648;
+    padding-left: 0;
+}
+
+.top-world-lotteries:hover {
+    background-color: #efefef;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.top-world-lotteries:hover
+.jackpot {
+    color:#3FA83D;
+    font-weight: 500;
+}
+
+.flush-bottom {
+    width: 90%;
+}
+
+.bonus span.greenText,
+.bonus span.currency_symbols {
+    color:#3FA83D;
+}
+
+.innerBonuses span.greenText,
+.innerBonuses span.currency_symbols {
+    color:#3FA83D;
+    font-weight: 600;
+    display: block;
+}
+
+.topListCasinosWrapper .main-toplist-cell:hover
+.lotteryCarret {
+    background-color: #efefef;
+    transition: all 0.2s ease-in-out 0s;
+    opacity: 1.0;
+}
+
+#NewsOnlineCasino {
+    height: 350px;
+}
+
+.newsW {
+    border-right: 1px solid #efefef;
+}
+
+.page-toplist-logo img{
+    padding: 1rem;
+}
+.events-archive .cb-sticky-sidebar{
+    display:none!important}
+
+#content .\39 u h2 , #content .\39 u\24 h2 {
+    margin-top: 2rem;
+}
+
+#content h2.mainTitle.titleInDarkGreyBlock,
+#content h2.mainTitle.lottery-result-heading,
+#content h2.mainTitle.lottery-results-heading {
+    background-color:#fff;
+    border-bottom:1px solid #efefef;
+    text-align:left;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Roboto Condensed';
+}
+
+.contentInGreyBlock.bonusesWrapper.greyBlock,
+.lottery-results-table {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.bonusesTable tr,
+.lottery-results-table tr th.blockheader  {
+    border-bottom:1px solid #efefef;
+}
+
+.bonusesTable tr th,
+.lottery-results-table tr th.blockheader {
+    color: #9bb7d3;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#content .lottery-results-table tr td.lr-game-name {
+    width: 10%;
+    padding-left: 1%;
+}
+
+#content .lottery-results-table tr td.lr-game-name a {
+    font-style: italic;
+}
+
+
+#content .lottery-results-table tr td.lr-numbers-cell, 
+#content .lottery-results-table tr td.lr-game-name a {
+    color: #00aeef;
+    font-weight: 600;
+}
+
+#content .lottery-results-table tr td.lr-numbers-cell {
+    padding-left: 5%;
+}
+
+
+#content .lottery-results-table tr td.jackpot {
+    padding-left: 2%;
+}
+
+#content .lottery-results-table tr td.jackpot span.jackpot {
+   color:#2b8a3e; 
+}
+
+.lottery-results-table tr {
+    height: 60px;
+    border-bottom: 1px solid #efefef;
+}
+
+
+.lottery-results-table tr:first-of-type{
+    height: 20px;
+    padding: 5%;
+}
+
+.lottery-results-table tr th.blockheader {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.lottery-results-table tr th.blockheader:first-of-type {
+    padding-left: 1%;
+}
+
+#content .lottery-results-table tr div.btn-5.btn-play.btn.btnVisit {
+    min-width: 60px;
+    height: 40px;
+    line-height: 2.2 !important;
+    font-size: 14px;
+    font-weight: 400;
+    float: right;
+    margin-right: 15%;
+
+}
+
+
+#content .lottery-results-table tr div.btn-5.btn-play.btn.btnVisit a {
+    color: #fff;
+}
+
+
+.lottery-table-image {
+    width:100%;
+}
+
+
+
+#content .lottery-results-table tr td.lr-numbers-cell span.draw-date {
+    color: #4d5160;
+    font-weight: 500;
+}
+
+.bonusesTable tr.body-info td {
+    padding:15px 5px;;
+    font-weight: bold;
+    color:#4d5160;
+    
+}
+
+.bonusesTable tr.body-info td.bonus-t {
+    color:#00aeef;
+    font-weight: bold;
+}
+
+.bonusesTable tr.body-info td.max-value-t {
+    font-weight: bold;
+    color:#39924b;
+}
+
+
+
+
+
+.detailsDescription-mobile {
+    display: none;
+}
+
+.pricingTable {
+    max-height: 345px;
+}
+
+.bonus-block {
+    width:170px;
+    border-right: 1px solid #e2dae2;
+}
+
+.signUpOneBonus {
+    margin-bottom:0;
+}
+
+
+.rightColumninner-mobile {
+    display: none;
+}
+
+
+
+.panel-body:empty::after{
+    content: ".";
+    visibility:hidden;
+
+.news-thumb-container {
+    min-height: 260px;
+}
+.detailsDescription {
+    display:none;
+    text-align: center;
+    margin-top: 20px;
+    max-height: 210px;
+}
+.gamesWrapper {
+    border: 1px solid #efefef;
+    margin-top: 20px;
+    padding: 10px;
+}
+.profile-menu-bar a {
+    color:#4d4d4d !important;
+}
+.breadcrumb-separator {
+    color:#4d4d4d;
+    margin: 0 !important;
+}
+.news-thumb-link {
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 400;
+}
+.readMoreNews {
+    font-weight: 500 !important;
+    color: #00aeef !important;
+}
+.panel-body a {
+    color:#4d4d4d !important;
+}
+#content h3, #content h4 {    
+    background-color: rgba(0, 0, 0, 0);
+    border-left: medium none;
+    border-top: medium none;
+    box-shadow: none;
+    font-family: 'Roboto';
+    color: #4d4d4d;
+    font-size: 1.5em;
+    margin: 0 0 20px;
+    padding: 0;
+    line-height: 110%;
+}
+#content h4 {
+    font-size: 1.3em;
+    line-height: 110%;
+}
+#content h5 {
+    font-size: 1.4em;
+    font-family: 'Roboto';
+}
+#content h6 {
+    font-size: 1.3em;
+    font-family: 'Roboto';
+    margin-bottom: 1rem;
+    line-height: 120%; 
+}
+
+ul.styledList {
+    margin-left: 2rem;
+}
+ul.styledList li {
+    list-style-type: disc;
+}
+
+.news-section{    
+    background: #f0f0f0;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    border-radius: 5px;
+    padding-bottom: 2rem;
+}
+.news-section .\36 u, .\36 u\24 {display: inline-block;float: left;}
+.news-section .wp-post-image { width: 100%;}
+
+#content h2.flush-top {
+    margin-bottom: 10px;
+}
+#content .leftSidebar  {
+    background-color: #f0f0f0;
+    padding: 5%;
+    margin-bottom: 20px;
+}
+#content .leftSidebar ul {
+    margin-bottom: 0;
+}
+#content .leftSidebar ul li {
+    color: #4d4d4d;
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    line-height: 120%;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #E9DBCA;
+}
+#content .leftSidebar ul li a {
+    text-decoration: none;
+    color: #4d4d4d;
+    text-transform: none;
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+#content .leftSidebar ul li img {
+    margin-right: 10px;
+}
+
+#content .leftSidebar ul li.last {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0px;
+}
+#content .leftSidebar ul li a:hover {
+    transition: all 0.2s ease-in-out 0s;
+    color: #a98d6b;
+}
+#content .leftSidebar h3 {
+    background-color: rgba(0, 0, 0, 0);
+    border-left: medium none;
+    border-top: medium none;
+    box-shadow: none;
+    font-family: 'Roboto';
+    color: #4d4d4d;
+    font-size: 1.5em;
+    margin: 0 0 20px;
+    padding: 0;
+}
+#content .onlinecasino-cell h2, #content .onlineSlots h2 
+{
+    border-bottom: medium none;
+    text-align: left;
+    padding-top: 0;
+    background: transparent;
+}
+#content .onlinecasino-cell h2 a, #content .onlineSlots h2 a {
+    color: #f5c994 !important;
+}
+.onlinecasino-cell > div, .onlineSlots, .softwareWrapper, .greyWrapper {
+    background-color: #44392c !important;
+    box-shadow: none;
+    margin: 0 !important;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 3% !important;
+    border-radius: 5px;
+}
+.onlinecasino-cell > div {
+    min-height: 280px;
+    float: left;
+}
+.onlinecasino-cell > div img.casinoThumbnail {
+    width: 100%;
+    height: 7rem;
+}
+.onlineSlots, .greyWrapper {
+    margin-bottom: 20px !important;
+}
+.onlinecasino-cell div h2, #content .onlineSlots h2 {
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+.onlinecasino-cell > div a.button-small.button-small-play-free {
+    background: #a98d6b;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.onlinecasino-cell > div a.button-small.button-small-play-free:hover {
+    transition: all 0.2s ease-in-out 0s;
+    background: #7b654b;
+}
+.onlinecasino-cell > div a.button-small.button-small-play-free.buttonRed {
+    background-color: #ee3333;
+}
+a.buttonGold {
+    background-color: #a98d6b;
+    border-radius: 7px;
+    color: #ffffff !important;
+    display: block;
+    font-size: 1.3rem;
+    margin: 10% 10% 0 0;
+    padding: 2% 7%;
+    line-height: 100%;
+    text-align: center;
+}
+.softwareWrapper {
+    margin-bottom: 20px !important;
+}
+.softwareWrapper .element {
+    float: left;
+    margin: 0 2% 3% 0;
+    width: 48%;
+    line-height: 100%
+}
+.softwareWrapper .element:nth-child(2n+1) {
+    clear: left;
+}
+.softwareWrapper .element a {
+    font-size: 1.3rem;
+}
+.greyWrapper .element {
+    float: left;
+}
+.greyWrapper .element a.imagelink {
+    font-size: 1.5rem;
+}
+.greyWrapper .element p {
+    font-size: 1.3rem;
+    line-height: 1.1em;
+}
+/*------------ http://online.worldcasinodirectory.com/casinos  ---------*/
+.newsWrapper {
+    margin-bottom: 20px;
+}
+.bannerWrapper {
+    background-color: transparent;
+    margin: 0 auto 20px;
+    padding: 20px 0 0 0;
+    text-align: center;
+    width: 100%;
+}
+#wcdDelivery250 {
+    background: transparent;
+    margin: 0 auto 20px;
+    padding: 0;
+}
+.menu-banner-centered {
+    background-color: transparent;
+    text-align: center;
+    padding: 20px 0;
+}
+.contentInGreyBlock {
+    background-color: #f0f0f0;
+    padding: 5%;
+    margin-bottom: 20px;
+    /*font-family: "Oswald",sans-serif;*/
+    font-size: 1.5rem;
+}
+.contentInGreyBlock ul {
+    margin-bottom: 0;
+}
+.infoWrapper {
+    float: right;
+    font-size: 13px;
+    text-transform: lowercase;
+    line-height: 100%;
+    margin: 2.5% 2% 0 0;
+}
+.divInside {
+    float: right;
+    margin-left: 20px;
+}
+.leftSidebar .imagelink > img {
+    max-width: 100%;
+}
+
+.page-toplist-cell2 {
+    background-color: #f2e9db;
+}
+.storyWrapper {
+    margin-bottom:20px;    
+}
+.storyWrapper a {
+    line-height: 100%;
+    font-family: 'Roboto';
+    font-size: 1.05em;
+}
+.storyWrapper p {
+    margin-bottom: 0;
+}
+.attachment-thumbnail-medium.wp-post-image {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.onlinecasino-listRow {
+    border-bottom: 1px solid #a98d6b;
+}
+.onlinecasino-casino-list.feature-block-grey {
+    width: 100%;
+}
+#content .onlinecasino-listRow {
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    display: block;
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+}
+#content .onlinecasino-listRow h1 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+#content .onlinecasino-listRow p {
+    font-size: 0.8em;
+    line-height: 100%;
+    margin-bottom: 0;
+}
+
+/*---------------- LOTTERY -------------------*/
+
+.main-toplist {
+    background-image: none;
+    padding-top:10px;
+}
+
+.main-toplist table a.jackpot {
+    font-size: 1.3rem;
+    text-align: center;
+}
+.lotteryTable {
+    width: 24%;
+    float: left;
+    padding-left: 2%;
+    box-sizing: border-box;
+}
+#content .lotteryTable a {
+    color: #4d4d4d;
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+}
+img.map {
+    max-width: 76%;
+    float: right;
+    height: auto;
+    margin: 0 0 0px 0;
+}
+.tabelImgWrapper {
+    margin-bottom: 20px;
+    background-color: #f6f6f6;
+}
+.table2 a {
+    font-size: 1.3rem;
+    font-family: 'Roboto';
+}
+
+/*----------------------- LANGUAGES ----------------------*/
+
+.blockFeatured {
+    background-color: #f6f6f6;
+    border: 2px solid #666;
+    font-family: 'Roboto';
+    padding: 2%;
+}
+#content .onlinecasino-listRow.languageWrapper {
+    border-bottom: none;
+    padding: 0 2% 2% 0;
+    margin-bottom: 0;
+}
+#content .onlinecasino-listRow.languageWrapper:nth-child(4n+1) {
+    clear: left;
+}
+
+/*----------------------- game-types ----------------------------*/
+.gameWrapper  {
+    border-bottom: 1px solid #cccccc;
+    clear: left;
+    float: left;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.gameWrapper img.thumb {
+    float: left;
+    margin: 0 20px 10px 0;
+}
+#content .gameWrapper h4 {
+    margin-bottom: 10px;
+}
+.gameWrapper p.games {
+    margin-bottom: 5px;
+    color: #999;
+    font-size: 0.8em;
+}
+.gameWrapper p {
+    margin-bottom: 0px;
+}
+.ocblockheader.titleHolder {
+    width: 100%;
+}
+.formWrapper {
+    width: 100%;
+}
+.formWrapper label {
+    float: left;
+    margin: 0.5em 1em 0 0;
+}
+.formWrapper select {
+    width: auto;
+}
+.styled-select {
+    background: url(../images/small_arrow_down.jpg) no-repeat 96% 0;
+    height: 29px;
+    overflow: hidden;
+    width: 240px;
+}
+
+.styled-select select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px; /* If you add too much padding here, the options won't show in IE */
+    width: 268px;
+}
+
+.styled-select.slate {
+    background: url(../images/arrow_down.jpg) no-repeat right center;
+    height: 34px;
+    width: 240px;
+    border-right: 1px solid #cccccc;
+}
+
+.styled-select.slate select {
+    border: 1px solid #ccc;
+    font-size: 1.5rem;
+    height: 34px;
+    width: 250px;
+    border-radius: 0px;
+}
+.free-casino-games ul li a.imagelink {
+    float: left;
+    display: block;
+    margin: 0 5px 5px 0;
+}
+.free-casino-games ul li a.imagelink img {
+    margin: 0;
+    padding: 1px;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
+#content .free-casino-games ul li {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+#content .free-casino-games ul li.first {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#content .free-casino-games ul li h1 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+#content .free-casino-games ul li span {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    line-height: 100%;
+}
+/*----------------------- software -  online.worldcasinodirectory.com/software ----------------------------*/
+.index-banner img {
+    max-width: 100%;
+    height: auto;
+}
+.listSoftwareWrapper .element {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.listSoftwareWrapper .element table.elementTable tr td {
+    vertical-align: top;
+}
+.listSoftwareWrapper .element table.elementTable tr td p {
+    margin-bottom: 0px;
+    font-size: 0.8em; 
+    line-height: 140%;
+}
+
+/*----------------------- online-casino-bonuses-promotions - online.worldcasinodirectory.com/online-casino-bonuses-promotions ----------------------------*/
+
+.half {
+    width: 50%;
+    float: left;
+}
+.half.trustedCasinosWrapper {
+    width: 49%;
+    margin-right: 1%;
+}
+.ocdb-panel-titlebar-div {
+    padding: 2% 5%;
+    background-color: #4d4d4d;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+#content .ocdb-panel-titlebar-div h2 {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 0px;
+}
+#content .ocdb-panel-titlebar-div p {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 1.3rem;
+}
+table.trustedCasinosTable {
+    background-color: #f0f0f0;
+}
+table.trustedCasinosTable tr {
+    border-bottom: 1px solid #e3e1e1
+}
+table.trustedCasinosTable tr td {
+    font-size: 12px;
+    padding: 2%;
+    line-height: 120%;
+    width: 120px;
+    /*    white-space: nowrap;*/
+}
+table.trustedCasinosTable tr td.secondTd {
+    width: 150px;
+    font-size: 1.4rem;
+    font-family: 'Roboto';
+}
+table.trustedCasinosTable tr td.thirdTd {
+    text-align: center;
+}
+table.trustedCasinosTable tr td a.play-review-button {
+    background-color: #ee3333;
+    border-radius: 5px;
+    color: #ffffff !important;
+    margin: 0 auto;
+    padding: 5% 20%;
+    text-transform: uppercase;
+}
+table.trustedCasinosTable tr td a.play-review-button:hover {
+    transition: all 0.2s ease-in-out 0s;
+    background-color: #4d4d4d;
+}
+.visitBlock {
+    background-color: #404040;
+    -webkit-border-radius: 0 0 5px 5px ;
+    border-radius: 0 0 5px 5px;
+    background-image: none;
+    color: #999999;
+    float: left;
+    font-size: 12px;
+    line-height: 150%;
+    padding: 7px;
+    text-align: center;
+    width: 100%;
+}
+
+/*----------------------- payment-methods - online.worldcasinodirectory.com/payment-methods  ----------------------------*/
+
+.toponlineCasinosWrapper h3 {
+    font-size: 1.6rem !important;
+    line-height: 120% !important;
+}
+.toponlineCasinosWrapper .toplist-casino-name {
+    font-family: 'Roboto';
+    color:#ffffff!important
+}
+.toponlineCasinosWrapper .main-toplist tr {
+    border-bottom:1px solid #6f6d6d;
+}
+.toponlineCasinosWrapper .review-btn {
+    color:#c2a068!important;
+    font-family: 'Roboto';
+}
+.toponlineCasinosWrapper .main-toplist {
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    background-color: #343434 !important;
+}
+.toponlineCasinosWrapper .main-toplist tr td {
+    padding: 0.2rem 0;
+}
+#content .toponlineCasinosWrapper .main-toplist a.toplist-link {
+    font-family: 'Roboto';
+    color: #fff;
+    line-height: 120%;
+    display: block;
+    word-wrap: break-word;
+    width: 120px;
+}
+#content .toponlineCasinosWrapper .main-toplist a.toplist-link.button-mini {
+    font-family: inherit;
+    width: 100%;
+}
+
+/*--------------------------- online.worldcasinodirectory.com/jurisdictions  ---------------------------------*/
+
+.jurisdictionWrapper {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.leftSide {
+    width: 78%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 1%;
+}
+#content .leftSide h1 {
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+.leftSide p.casinos {
+    margin-bottom: 5px;
+    color: #999;
+    font-size: 1.2rem;
+}
+.leftSide p.description {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+.rightSide {
+    width: 22%;
+    float: right;
+}
+
+/*----------------------- online.worldcasinodirectory.com/all-slots-casino ---------------------------*/
+
+#content .casinoWrapper h2 {
+    padding: 0;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-bottom: none;
+}
+.greyBlock {
+    /*    background-color: #44392c;*/
+    background-color: #616060;
+    color: #fff;
+}
+
+/*------------------------------------ online.worldcasinodirectory.com  --------------------------------------*/
+.casinosWrapp {
+    margin-bottom: 20px;
+}
+.rowWrapp {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+.rowWrapp .column {
+    float: left;
+    width: 20%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+.rowWrapp .column a.button-mini {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    padding: 1.1rem;
+}
+#content .rowWrapp .column h2 {
+    background-color: transparent;
+    padding: 0 0 10px 0;
+    font-size: 2rem;
+    text-transform: none;
+    border-bottom: none;
+}
+#content .rowWrapp .column a.bonus {
+    line-height: 140%;
+    display: block;
+    font-family: 'Roboto';
+    color: #238d3e;
+    font-size: 1.6rem;
+    text-align: center;
+}
+#content .rowWrapp .column .ratingInfo {
+    margin: 0 0 10px 0 !important;
+    color: #191919;
+}
+.button-mini {
+    box-shadow: none;
+    background: #00aeef;
+}
+.button-mini:hover {
+    box-shadow: none;
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out 0s;
+}
+a.button-gold, .button-gold {
+    background: #897252;
+    border: none;
+    box-shadow: none;
+}
+a.button-gold:hover, .button-gold:hover {
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out 0s;
+    background: #897252;
+    box-shadow: none;
+}
+.featureContainer, .newCasinosContainer {
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+.topCasinoWrapper, .newCasinoWrapper {
+    padding: 3%;
+    margin: 3%;
+    border: 1px solid #a98d6b;
+    background-color: #fff;
+}
+.newCasinoWrapper {
+    min-height: 16rem;
+}
+#content .topCasinoWrapper h2,
+#content .newCasinoWrapper h2 {
+    background-color: transparent;
+    text-transform: none;
+    border-bottom: none;
+    padding: 0;
+    margin-bottom: 10px;
+    line-height: 120%;
+}
+.topCasinoWrapper .imgButtonWrapp,
+.newCasinoWrapper .imgButtonWrapp {
+    float: left; 
+    margin-right: 10px;
+}
+.newCasinoWrapper .imgButtonWrapp img {
+    margin-bottom: 20px;
+}
+.topCasinoWrapper p.softwarelinks,
+.newCasinoWrapper p.softwarelinks {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    line-height: 100%;
+}
+.newCasinoWrapper p.bonus {
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+.newCasinoWrapper p.bonus span {
+    color: #238d3e !important;
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+}
+.topCasinoWrapper p.bonus a {
+    color: #238d3e !important;
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+}
+.topCasinoWrapper .ratingInfo,
+.newCasinoWrapper .ratingInfo {
+    margin-top: 5px;
+}
+.newCasinosContainer .childElement:nth-child(2n+1) {
+    clear: left;
+}
+.newCasinoWrapper .infoBrowser {
+    float: left;
+    margin: 0;
+    width: 62%;
+}
+.topCasinoWrapper .column.columnOne {
+    width: 45%;
+}
+.topCasinoWrapper .column.columnTwo {
+    width: 55%;
+    padding-left: 0;
+}
+.topCasinoWrapper .column .button-mini.buttonRed {
+    padding: 1.2rem;
+}
+
+/*--------------------------- Free casino games ----------------------------*/
+
+.freeGamesWrapper .element {
+    float: left;
+    padding: 0 1%;
+    text-align: center;
+    clear: none;
+}
+.freeGamesWrapper .element .image {
+    margin-bottom: 0.5rem;
+}
+.freeGamesWrapper .element:nth-child(6n+1) {
+    clear: left;
+}
+#content .freeGamesWrapper .element h3 {
+    line-height: 120%;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    height: 4rem;
+    overflow: hidden;
+}
+.topSoftwareWrapper .element {
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding-right: 1%;
+}
+.topSoftwareWrapper .element:nth-child(6n+1) {
+    clear: left;
+}
+.topSoftwareWrapper .element .imgHolder img {
+    display: block;
+    margin: 0 auto 1rem;
+}
+#content .topSoftwareWrapper .element  h4 {
+    font-size: 1.5rem;
+}
+.slotWrapper {
+    float: left;
+    padding: 0 2% 2% 0;  
+    width: 16.6%;
+}
+.slotWrapper:nth-child(6n+1) {
+    clear: left;
+}
+#content .slotContent h4 {
+    margin: 10px 0 0 0;
+    font-size: 1.4rem;
+}
+
+.imageHolder {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    border: 1px solid #d2ab67;
+    padding: 3%;
+}
+.imageHolder * {
+    text-align: center;
+    vertical-align: middle;
+    max-width: 100%;
+}
+.contentInGreyBlock.sideBar .slotWrapper {
+    width: 50%;
+}
+.contentInGreyBlock.sideBar .slotWrapper:nth-child(6n+1) {
+    clear: none;
+}
+.contentInGreyBlock.sideBar .slotWrapper:nth-child(2n+1) {
+    clear: left;
+}
+.contentInGreyBlock.sideBar .slotWrapper:nth-child(2n) {
+    padding-right: 0;
+}
+#contentInTabs .nav-pills > li > a {
+    border-radius: 0;
+    background-color: #616060;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Oswald",sans-serif;
+    outline: none;
+}
+#contentInTabs .nav-pills > li.active > a {
+    background-color: #b03425;
+    color: #fff;
+    outline: none;
+}
+
+#contentInTabs .tab-content {
+    color : white;
+    background-color: #dad8d8;
+    padding : 3%;
+}
+#contentInTabs .rowWrapp .column:nth-child(1) {
+    width: 15%;
+}
+#contentInTabs .rowWrapp .column:nth-child(3) {
+    width: 25%;
+}
+#contentInTabs .rowWrapp .column img {
+    width: 70%;
+    vertical-align: top;
+}
+
+.contentInGreyBlock.paddingSmall {
+    padding: 1%;
+}
+.rowWrapp .column.quarterWidth {
+    width: 25%;
+}
+.rowWrapp .column.quarterWidth p.number {
+    color: #999;
+    margin-bottom: 5px;
+    line-height: 100%;
+}
+.rowWrapp .column.quarterWidth p.number span {
+    color: #414141;
+}
+.freeGamesWrapper.freeGamesleftColumn .element:nth-child(6n+1) {
+    clear: none;
+}
+.freeGamesWrapper.freeGamesleftColumn .element:nth-child(2n+1) {
+    clear: left;
+}
+.gamesHolder h2 a.simpleLink {
+    font-size: 1.6rem;
+    text-transform: none;
+}
+.elRow {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.topSoftwareHolder .column {
+    width: 50%;
+    float: left;
+}
+#content .topSoftwareHolder .column  h4 {
+    margin-bottom: 5px;
+    line-height: 100%;
+    font-size: 1.8rem;
+}
+.topSoftwareHolder .column.col1 {
+    width: 46%;
+    padding-right: 4%;
+}
+.topSoftwareHolder .column.col1 img {
+    max-width: 100%;
+}
+.game-choice-box{background-color:#474747; border-radius: 10px;padding-top: 2rem;padding-bottom: 1rem;display: inline-block;}
+.game-choice-box .game-type{display: inline-block;float: left;padding: 1rem}
+.game-choice-box .game-type:hover{opacity: 0.8}
+.game-choice-box img{width: 100%!important}
+
+.accordionWrapp h4 {
+    margin-bottom: 0 !important;
+}
+
+#content .leftSidebar.gamblingGuideContent ul li a.active {
+    color: #d2ab67;
+}
+
+.paumentMethodsHolder a.imagelink img {
+    max-width: 35%;
+}
+#content .paumentMethodsHolder .gameWrapper h4 {
+    margin-bottom: 5px;
+}
+.liveDealerInfoWrapper ul li.half {
+    width: 50%;
+    float: left;
+}
+.liveDealerInfoWrapper ul li a i {
+    margin-right: 5px;
+}
+
+/*----------------- NEWSLETTER FORM START -----------------*/
+/*#header-search-form-container {
+    width: 62%;
+    float: left;
+    margin-top: 3rem;
+}
+#header-search-box {
+    width: 76%;
+    float: left;
+}
+.subscribeWrapp {
+    width: 36%;
+    float: right;
+    background-color: #474747;
+    box-sizing: border-box;
+    padding: 1.5%;
+    margin-right: 1.5%;
+}
+.subscribeWrapp p {
+    color: #e2e1e1;
+    font-weight: bold;
+    font-family: "Oswald",sans-serif;
+    margin-bottom: 0.7em;
+}
+.subscribeWrapp form.newsletterForm {
+    margin-bottom: 0;
+}
+.subscribeWrapp form.newsletterForm input {
+    background-color: #e2e1e1;
+    color: #000;
+    border-radius: 3px;
+    width: 68%;
+    margin-right: 2%;
+    float: left;
+    border: none;
+    font-family: "Oswald",sans-serif;
+    font-size: 1.4rem;
+}
+.subscribeWrapp form.newsletterForm input[type="text"]:focus {
+    box-shadow: none;
+}
+.subscribeWrapp form.newsletterForm button.buttonSubscribe {
+    background-color: #ee3333;
+    text-transform: uppercase;
+    border: medium none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 4px 0 5px;
+    text-align: center;
+    font-family: "Oswald",sans-serif;
+    width: 30%;
+    border-radius: 3px;
+}
+.subscribeWrapp form.newsletterForm button.buttonSubscribe:hover {
+    transition: all 0.2s ease-in-out 0s;
+    opacity: 0.7;
+}*/
+/*----------------- NEWSLETTER FORM END -----------------*/
+
+
+/*-------------------- All slots casino review -------------------------*/
+.casinoWrapper img.blackoutline {
+    box-shadow: 0 0 5px #666666;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.bonusesWrapper table tr {
+    border-bottom: 1px solid #7e7777;
+}
+#content h2.mainTitle.titleInDarkGreyBlock {
+    background-color: #343434;
+    border-bottom: 3px solid #ccc;
+    color: #ffffff;
+}
+#content .casinoReviewBlock h2 {
+    margin-top: 2rem;
+}
+#wcdCommentReplyBox form {
+    margin-bottom: 0;
+}
+#wcdCommentReplyBox input.wcdCommentSubmitButton {
+    margin-top: 20px;
+}
+table.bonusesTable th, table.bonusesTable tr td {
+    line-height: 120%;
+    padding: 1%;
+}
+table.bonusesTable th.green,
+table.bonusesTable tr td:nth-child(2) {
+    color: #99e067;
+}
+.rightColumnWrap {
+    position: relative;
+    width: 100%;
+}
+.rightColumninner.affix {
+    top: 70px;
+    width: 260px;
+}
+
+/*.rightColumninner.affix-bottom {
+    position: relative;
+}*/
+.visit_download_wrapp {
+    text-align: center;
+    margin-bottom: 20px;
+    clear:both;
+}
+.visit_download_wrapp a.buttonBig {
+    background: #d2ab67;
+    border: 0 none;
+    border-radius: 5px;
+    color: #ffffff !important;
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 2.3rem;
+    font-weight: bold;
+    outline: 0 none;
+    text-decoration: none;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+
+.visit_download_wrapp a.buttonBig:hover {
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out 0s;
+}
+table.casinoInfoTable tr {
+    border-bottom: 1px solid #c3bebe;
+}
+table.casinoInfoTable tr td {
+    line-height: 1.4;
+    vertical-align: top;
+    padding: 2% 1%;
+    font-size: 1.4rem;
+}
+table.casinoInfoTable tr td:nth-child(1) {
+    font-family: "Roboto" sans-serif;
+    width: 28%;
+    font-size: 1.5rem;
+}
+
+
+
+/*-------------------- game type - Baccarat, Blackjack ----------------------*/
+
+table.tableClassic {
+    border-left: 1px solid #fff;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table.tableClassic tr th, 
+table.tableClassic tr td {
+    line-height: 120%;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    background-color: #efefef;
+    padding: 1%;
+    font-family: 'Roboto';
+}
+table.tableClassic tr th {
+    background-color: #6b6262;
+    color: #fff;
+
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    font-size: 1.6rem;
+}
+
+.gameInfoWrapper .imgWrapp  {
+    float: left;
+    width: 33%;
+    margin-right: 2%;
+}
+.gameInfoWrapper .imgWrapp img {
+    max-width: 100%;
+}
+.gameInfoWrapper .quickInfoWrapp {
+    float: left; 
+    width: 65%;
+}
+#content .gameInfoWrapper .quickInfoWrapp h3 {
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+    line-height: 120%;
+}
+.border {
+    border-bottom:1px solid #a98d6b; 
+    margin-bottom:10px; 
+    padding-bottom:10px;
+    clear: both;
+}
+.blockcategorymenu p.info {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+.blockcategorymenu p.info span {
+    display: block;
+    width: 100%;
+}
+
+/*-------------------- Newest online casinos ----------------------*/
+.onlineCasinoWrapp {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d2ab67;
+}
+.leftSideWrapp {
+    width: 16%;
+    padding-right: 2%;
+    box-sizing: border-box;
+    float: left;
+}
+.rightSideWrapp {
+    width: 84%;
+    float: left;
+}
+#content .rightSideWrapp h3 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+#content .rightSideWrapp p.softwarelinks, #content .rightSideWrapp p.review, #content .rightSideWrapp p.bonus,
+#content .rightSideWrapp p.gameType, #content .rightSideWrapp p.software, #content .rightSideWrapp p.description {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+.rightSideWrapp p.review, .rightSideWrapp p.description {
+    margin-bottom: 10px;
+}
+#content .rightSideWrapp p.description, #content .rightSideWrapp p.software, #content .rightSideWrapp p.gameType {
+    font-size: 1.3rem;
+}
+#content .listOfCountries a {
+    line-height: 100%;
+    display: block;
+    padding: 4% 3%;
+    margin-bottom: 0;
+    color: #504f4d;
+    font-family: "Ubuntu",sans-serif;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+#content .listOfCountries a:hover {
+    background: #e4d0b8;
+    border-radius: 3px;
+    color: #7d6036;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+
+/*-------------------- Online casinos by country ----------------------*/
+
+.onlineCasinoCellFull .onlinecasino-cell > div {
+    display: block;
+    min-height: auto;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px !important;
+}
+
+/*-------------------- Newest online slots ----------------------*/
+
+.rightSideWrapp.rightSideWrapp1 {
+    width: 75%;
+}
+.leftSideWrapp.leftSideWrapp1 {
+    width: 25%;
+}
+
+/*-------------------- Free games ----------------------*/
+.onlinecasino-listRow.onlineCasinoWrapp {
+    width: 100% !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 10px !important;
+}
+.rowTop a img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.slotFirst  {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.slotsAll .others .oneRow .half:nth-child(1) {
+    padding-right: 2%;
+    box-sizing: border-box;
+}
+#content .slotsAll .others .oneRow .half h4 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+.slotsAll .others {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.slotsAll .others .oneRow .half p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    line-height: 130%;
+    margin-bottom: 0;
+}
+.leftSideWrapp.leftSideWrapp2 {
+    width: 19%;
+}
+.rightSideWrapp.rightSideWrapp2 {
+    width: 81%;
+}
+.rowTop .leftSideWrapp.leftSideWrapp2 a img {
+    margin-bottom: 0;
+}
+.game-navigation-bar {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 3px solid #a98d6b;
+    margin-bottom: 20px;
+    font-family: "Roboto";
+}
+.game-nav-button {
+    background-color: #a98d6b;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.game-nav-button:hover {
+    transition: all 0.2s ease-in-out 0s;
+    opacity: 0.8;
+}
+
+/*-------------------- Poker Game Variations ----------------------*/
+
+ul.pokerVariations li.half {
+    width: 49%;
+}
+ul.pokerVariations li.half:nth-child(2n+1) {
+    padding-right: 2%;
+}
+ul.pokerVariations li.half a {
+    display: block;
+    line-height: 120%;
+    margin-bottom: 1rem;
+}
+
+
+/*-------------------- Sports Betting ----------------------*/
+.toplist-logo  img {
+    max-width: 100%;
+}
+.toplist-box.toplist-box-newD {
+    min-width: auto;
+}
+
+/*-------------------- Greyhound Races ----------------------*/
+.formWrapper input[type="checkbox"], .formWrapper input[type="radio"] {
+    -moz-appearance: none;
+    display: inline;
+    float: none;
+    margin-right: 0;
+    opacity: 1;
+    width: 1em;
+    z-index: -1;
+}
+
+/*-------------------- Ecopayz ----------------------*/
+
+#content .play-restricted a {
+    color: #666;
+}
+table.wcd-onlinecasino-concise-casino-list tr.blocksubheader {
+    background-color: #efefef;
+}
+table.wcd-onlinecasino-concise-casino-list tr.blocksubheader td {
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    border-right: 1px solid #ffffff;
+}
+table.wcd-onlinecasino-concise-casino-list tr td {
+    padding: 2%;
+    line-height: 120%;
+}
+table.wcd-onlinecasino-concise-casino-list tr td:nth-child(4) {
+    width: 150px;
+    box-sizing: border-box;
+}
+
+/*-------------------- Lottery - Puerto-lottery-results ----------------------*/
+ul.unordered_list li {
+    line-height: 120%;
+    margin-bottom: 0.8rem;
+}
+ul.unordered_list li.half:nth-child(2n+1) {
+    width: 48%;
+    padding-right: 2%;
+    box-sizing: border-box;
+    clear: left;    
+}
+
+/*-------------------- Lottery - Ireland-lottery-results ----------------------*/
+
+table.lottery-results-table tr th {
+    font-family: 'Roboto';
+    text-align: left;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    line-height: 120%;
+    padding: 1%;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+.blockheader {
+    width:30%;
+}
+table.lottery-results-table tr th:nth-child(3) {
+    width: 10%;
+}
+table.lottery-results-table tr td {
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+    padding: 1%;
+    line-height: 120%;
+    font-weight: 500;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+table.lottery-results-table tr td.lr-numbers-cell {
+    color: #009933 !important;
+    font-family: 'Roboto';
+}
+table.lottery-results-table tr td.jackpot {
+padding: 1.5rem;
+text-align: center 
+}
+table.lottery-results-table span.jackpot {
+    font-size: 18px;
+    color: #009933;
+    font-weight: bold;
+}
+table.lottery-results-table span.draw-date {
+    color: #666 !important;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+table.lottery-results-table td.jackpot span.draw-date {
+    color: #fff !important;
+}
+/*-------------------- Playtech  ----------------------*/
+img.blackoutline {
+    padding-bottom: 0.5rem;
+}
+
+
+/*-------------------- Australia Casinos - Australia Casino Directory & Gambling Guide  ----------------------*/
+
+.buttonsHolder a.buttonLink {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    margin: 0 0.5% 1% 0;
+    padding: 1% 2%;
+    float: left;
+    display: block;
+    color: #d2ab67;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    outline: none;
+    -webkit-box-shadow: 1px 1px 0 1px #cccccc;
+    box-shadow: 1px 1px 0 1px #cccccc;
+} 
+.buttonsHolder a.buttonLink:hover {
+    transition: all 0.2s ease-in-out 0s;
+    background-color: #d2ab67;
+    color: #fff !important;
+}
+.contentInGreyBlock.hotelsList {
+    padding: 3%;
+}
+.contentInGreyBlock.hotelsList .hotel_country {
+    width: 24%;
+    float: left;
+    margin: 0 1% 10px 0;
+    line-height: 1.2;
+    font-size: 1.2rem;
+}
+.contentInGreyBlock.hotelsList .hotel_country:nth-child(4n+1) {
+    clear: left;
+}
+table.city-casino-list-table tr th,
+table.city-dining-table tr th {
+    background-color: #4d4d4d;
+    border-right: 1px solid #ffffff;
+    color: #f0f0f0;
+    font-family: 'Roboto';
+    line-height: 120%;
+    padding: 1%;
+    text-align: left;
+    vertical-align: middle;
+}
+table.city-casino-list-table tr td,
+table.city-dining-table tr td {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    font-family: "Roboto",sans-serif;
+    font-size: 1.4rem;
+    line-height: 120%;
+    padding: 1%;
+}
+.contentInGreyBlock span.gametype-title {
+    font-weight: bold;
+}
+
+/*-------------------- Australia - http://www.worldcasinodirectory.com/australia ---------------------*/
+.halfWidth {
+    float: left;
+    width: 260px;
+    height: 280px;
+    margin-top:12px;
+}
+/*.halfWidth:nth-child(2n+1) {
+    clear: left;
+}*/
+.list-half-container-a {
+    padding-right: 0;
+}
+.list-half-container-b {
+    padding-left: 0;
+}
+.halfWidth .image.left.casino-image {
+    height: 160px;
+    max-width: 100%;
+    width: 100%;
+}
+.item-header {
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    height: 280px;
+}
+
+.item-header p {
+    font-family: 'Roboto';
+    font-weight:600;
+    color:#da6265;
+    padding:15px;
+}
+div[id^="toggleThisCasino-"] {
+    width: 100%;
+    background: transparent;
+    color: black;
+}
+
+.CasinoName  a:hover {
+    text-decoration: underline;
+    color:#00aeef;
+}
+.rating-half {
+    color: black;
+}
+.hotel-container {
+    width: 100%;
+}
+.hotel-container a.reserve-container {
+    padding: 0;
+}
+table.membersPosts tr th {
+    background-color: #4d4d4d;
+    border-right: 1px solid #ffffff;
+    color: #f0f0f0;
+    font-family: 'Roboto';
+    line-height: 120%;
+    padding: 1%;
+    text-align: left;
+    vertical-align: middle;
+}
+table.membersPosts tr td.forum-thread-row,
+table.membersPosts tr td.forum-thread-last-poster {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+    line-height: 120%;
+    padding: 1%;
+    background-image: none;
+}
+.\33 u table.membersPosts tr th,
+.\33 u table.membersPosts tr td {
+    padding: 2%;
+
+}
+
+/*-------------------- Macau - https://www.worldcasinodirectory.com/macau/macau  ---------------------*/
+
+.stats-info-table td {
+    line-height: 120%;
+    padding: 2%;
+    vertical-align: top;
+}
+.stats-info-table td:nth-child(1) {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+}
+.contentInGreyBlock form.new-forum-thread {
+    margin-bottom: 0;
+}
+form.new-forum-thread input,
+form.new-forum-thread textarea {
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #404040;
+}
+form.new-forum-thread input.button-mini[type="submit"] {
+    background-color: #ee3333;
+    padding: 3% 10%;
+    margin-bottom: 0;
+}
+.casino-video-block {
+    position: relative;
+}
+.casino-video.cboxElement {
+    display: block;
+    position: relative;
+}
+.casino-video-block img.buttonPlay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -40px;
+    margin-top: -20px;
+}
+.casino-element-shell-inner-div.dark-links {
+    font-size: 1.2rem;
+    line-height: 120%;
+    margin-top: 0.5rem;
+    text-align: center;
+    box-shadow: none;
+}
+
+/*------------------------- https://www.worldcasinodirectory.com/united-states --------------------------------*/
+.\33 u.third-width {
+    float: left;
+    width: 24%;
+    margin-right: 1%;
+}
+.\33 u.third-width:nth-child(4n+5) {
+    clear: left;
+}
+.third-width .item-header {
+    background-color: #f0f0f0;
+    box-shadow: 0 1px 2px 0 #999999;
+}
+.third-width .item-header {
+    width: 100%;
+    padding: 0;
+}
+#content .third-width .item-header h4,
+#content .third-width .item-header h6 {
+    float: left;
+    width: 100%;
+    padding: 2%;
+    margin: 0;
+}
+#content .third-width .item-header h4 {
+    font-size: 1.6rem;
+}
+#content .third-width .item-header h6 {
+    font-size: 1.5rem;
+}
+#content .third-width .item-header img.image {
+    width: 100%;
+    padding: 0;
+}
+#content .third-width .item-header p {
+    float: left;
+    width: 100%;
+    padding: 0 2%;
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+
+/*------------------------------ http://www.worldcasinodirectory.com/owners ---------------------------------*/
+table.listOfOwners tr th {
+    background-color: #4d4d4d;
+    color: #f0f0f0;
+    font-family: 'Roboto';
+    text-align: left;
+    border-right: 1px solid #fff;
+    line-height: 120%;
+    padding: 1%;
+    vertical-align: middle;
+}
+table.listOfOwners tr td {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    font-family:'Roboto';
+    font-size: 1.4rem;
+    line-height: 120%;
+    padding: 1%;
+    background-image: none;
+}
+
+
+/*------------------------------ http://www.worldcasinodirectory.com/gambling_age_chart.htm ---------------------------------*/
+
+table.gamblingAge tr th {
+    background-color: #4d4d4d;
+    color: #f0f0f0;
+    font-family: 'Roboto';
+    text-align: left;
+    border-right: 1px solid #fff;
+    line-height: 120%;
+    padding: 1%;
+    vertical-align: middle;
+}
+table.gamblingAge tr td {
+    font-family:'Roboto';
+    font-size: 1.4rem;
+    padding: 1%;
+    line-height: 120%;
+    background-color: #f0f0f0;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/*-------------------- North Carolina - http://www.worldcasinodirectory.com/north-carolina  -----------------*/
+.violetBlock {
+    background-color:#450245;
+    text-align: center;
+}
+.violetBlock img {
+    margin-bottom: 10px;
+}
+.violetBlock .textInfoBox p {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.winningLotteryWrap iframe {
+    height: 1430px !important;
+}
+
+/*----------------------- Casion view - http://www.worldcasinodirectory.com/casino/legend-palace-hotel-casino ----------------------*/
+table.stats-info-table tr td {
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+    padding: 3%;
+    line-height: 120%;
+    background-color: #f0f0f0;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.slick-prev:before, .slick-next:before {
+    color: #666 !important;
+}
+.slick-list {
+    background-color: #f0f0f0 !important;
+}
+.inputHolder {
+    width: 50%;
+    float: left;
+    margin: 0 1% 0 0;
+}
+.contactInfo p {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #cccccc;
+}
+ul.hotelInfo li {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #cccccc;
+    line-height: 120%;
+}
+
+.casino-element-shell-inner-div,
+.forumWrapp input[type="text"].casino-element-shell-inner-div,
+.forumWrapp textarea {
+    background-color: #fff;
+    padding: 3%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 4px 0px #ccc;
+    -moz-box-shadow:    3px 3px 4px 0px #ccc;
+    box-shadow:         3px 3px 4px 0px #ccc;
+
+}
+.forumWrapp input[type="text"].casino-element-shell-inner-div,
+.forumWrapp textarea {
+    box-shadow: none;
+}
+#content .casino-element-shell-inner-div h4 {
+    margin-bottom: 10px;
+}
+.casino-element-shell-inner-div p, #content .casino-element-shell-inner-div h6 {
+    margin-bottom: 5px;
+}
+#content .casino-element-shell-inner-div h6 {
+    font-size: 1.5rem;
+}
+.casino-element-shell-inner-div .casinoInfo {
+    line-height: 140%;
+    font-size: 1.3rem;
+}
+
+/*------------------------------------ http://www.worldcasinodirectory.com/casinoopenings.htm --------------------------------------------*/
+
+.newestOnlineCasinosRight .leftSideWrapp,
+.newestOnlineCasinosRight .rightSideWrapp {
+    width: 100%;
+}
+
+
+/*------------------------------------ http://online.worldcasinodirectory.com/playtech/casinos ------------------------------------------*/
+
+.gamblingSoftwareWrapper .leftSideWrapp {
+    width: 24%;
+}
+.gamblingSoftwareWrapper .rightSideWrapp {
+    width: 76%;
+}
+
+.softwareDiv {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.softwareDiv img {
+    width: 90px;
+}
+.softwareDiv .mm-h2 {
+    margin-bottom: 5px;
+    line-height: 100%;
+}
+.softwareDiv .mm-h2 a {
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+}
+.softwareDiv span {
+    display: block;
+    line-height: 100%;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+
+/*------------------------------  http://online.worldcasinodirectory.com/jurisdiction/uk-gambling-commission ------------------------*/
+.wcdBody {
+    width: 43%;
+    float: left;
+    word-wrap: break-word;
+    font-size: 1.4rem;
+}
+.wcdBody p {
+    margin-bottom: 10px;
+    line-height: 120%;
+}
+
+/*--------------------------------- http://online.worldcasinodirectory.com/iphone ---------------------------*/
+
+.deviceWrapper .leftSideWrapp {
+    width: 24%;
+}
+.deviceWrapper .rightSideWrapp {
+    width: 76%;
+}
+
+/*---------------------------------  http://www.worldcasinodirectory.com/connecticut  ------------------------------------*/
+
+.cb-border.casino-photo-gallery {
+    display: none;
+}
+
+
+/*---------------------------------  https://www.worldcasinodirectory.com/reading-the-odds-board  ------------------------------------*/
+
+table.tableOdds tr td {
+    padding: 1.5%;
+    font-size: 1.3rem;
+}
+table.tableOdds tr.alt1 td {
+    background-color: #e2dddd;
+}
+
+
+
+
+/*------------------------------- http://www.worldcasinodirectory.com/arizona/casino-list ---------------------------------*/
+
+
+.ocdb-panel table.tableClassic {
+    border-left: 1px solid #ccc;
+}
+.ocdb-panel table.tableClassic tr td, .ocdb-panel table.tableClassic tr th {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.ocdb-panel table.tableClassic tr th {
+    padding: 1% 2%;
+}
+.casino-element-shell.ocdb-panel-titlebar-div {
+    background-color: #6b6262;
+}
+
+#searchForm fieldset.city label,
+#searchForm fieldset.nights label 
+{
+    line-height: 100%;
+    margin-bottom: 5px;
+}
+
+.cl-sort-header {cursor: pointer; }
+.cl-sort-arrows {
+    display: inline-block;
+    margin-bottom: -3px;
+    margin-right: 4px;
+    background-image: url(https://www.worldcasinodirectory.com/layout/populator/images/column-sort-arrows.png);
+    background-position: 9px 0px;
+    width: 9px;
+    height: 16px; 
+}
+.cl-sort-arrows-asc {background-position: 27px 0px !important; }
+.cl-sort-arrows-desc {background-position: 18px 0px !important; }
+#content .cb-border.contentInGreyBlock a {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    cursor: pointer;
+    line-height: 120%;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #E9DBCA;
+    display: block;
+}
+#content .cb-border.contentInGreyBlock a:hover {
+    color: #a98d6b;
+    transition: all 0.2s ease-in-out 0s; 
+}
+.casinoPictures {
+    background-color: #f0f0f0; 
+    display: inline-block;
+    width: 48%;
+    float: left;
+}
+.casinoPictures img {
+    max-width: 100%;
+    height: 200px;
+}
+.casinoPictures .casino-element-shell-inner-div.dark-links {
+    background-color: #f0f0f0;
+    margin-bottom: 0;
+}
+.casinoPictures .casino-element-shell-inner-div.dark-links .text {
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+/*----------------------- http://www.worldcasinodirectory.com/united-states/pari-mutuel --------------------*/
+#content .casinoCategoryTitle h3 {
+    background-color:  #6b6262;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 2rem;
+    line-height: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #fff;
+}
+.stat-gameType-panel p {
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/*----------------------- http://www.worldcasinodirectory.com/arizona/dining --------------------*/
+
+.rest-list-filter-features {
+    float: left;
+}
+
+.formWrapper .rest-list-filter-features input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+    appearance: checkbox;
+    -moz-appearance: checkbox;
+}
+
+
+/*----------------------- http://www.worldcasinodirectory.com/united-states/photos --------------------*/
+.imgContent {
+    width: 372px;
+    height: 340px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    padding: 10px;
+}
+.imgContent * {
+    text-align: center;
+    vertical-align: middle;
+}
+a.casino-photo.thumbnail-shadow {
+    float: left;
+    background-image: none !important;
+    background-color: #fff;
+    padding: 1rem;
+    width: 109px;
+    height: 109px;
+}
+a.casino-photo.thumbnail-shadow img {
+    width: 100%;
+    height: 100%;
+}
+
+.thumbsHolder {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*--------------------------  http://www.worldcasinodirectory.com/arizona/tucson/greyhounds -------------------------*/
+
+#content .cb-border.casino-jobs-holder h4 {
+    margin-bottom: 1rem !important;
+}
+#content .cb-border.casino-jobs-holder h4 b {
+    font-weight: normal !important;    
+}
+#content .cb-border.casino-jobs-holder p {
+    margin:  0 0 2rem 0 !important;    
+    line-height: 1.4 !important;
+    padding-left: 0 !important;
+}
+.tracksBlock {
+    background-color: #f0f0f0;
+    padding: 5%;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/*--------------------------  https://www.worldcasinodirectory.com/united-states/map -------------------------*/
+.styled-select.mapSelect.slate {
+    width: 100%;
+}
+.styled-select.mapSelect.slate select {
+    width: 101%;
+}
+input#casino-map-origin {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 0px;
+    height: 3.5rem;
+}
+.map-destination-link {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    width: 32.5%; 
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 1%;
+    position: relative;
+    cursor: pointer;
+    min-height: 6rem;
+}
+img.picker {
+    position: absolute; 
+    top: 10px;
+}
+#content .map-destination-link h3.map-data-name {
+    margin: 0 0 5px 20px;
+    line-height: 1.4;
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+}
+.map-destination-link span.map-data-address {
+    color: #666;   
+    margin: 0 0 0 20px;
+    line-height: 100%;
+    font-size: 1.2rem;
+    display: block;
+}
+.map-destination-link:hover {
+    background-color: #666;
+    transition: all 0.5s ease-in-out 0s;
+}
+#content .map-destination-link:hover  h3.map-data-name {
+    color: #fff;
+}
+.map-destination-link:hover span.map-data-address {
+    color: #ccc;
+}
+
+/*------------------------------ https://www.worldcasinodirectory.com/jelena-test - PART:  WORLD GAMBLING GUIDE - land-based and online casinos -- START --  --------------------------------*/
+.gambling-guide {
+    background-color: #f0f0f0;
+    padding: 3rem 4rem; 
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.guideWrapp {
+    position: relative;
+}
+.mapWrapper {
+    position: relative;
+}
+.mapWrapper a.rect {
+    position: absolute;
+    width: auto;
+    display: block;
+    top: 0;
+    left: 0%;
+    //background: url("https://www.worldcasinodirectory.com/assets/css/images/pin.png") center top no-repeat;
+    text-align: center;
+}
+.mapWrapper a.rect.north-america {
+    width: 10%;
+    left: 27%;
+}
+.mapWrapper a.rect.central-america {
+    left: 11%;
+    width: 8%;
+    top: 14%;
+}
+.mapWrapper a.rect.caribbean {
+    left: 6%;
+    width: 9%;
+    top: 35%;
+}
+.mapWrapper a.rect.south-america {
+    left: 5%;
+    width: 9%;
+    top: 59%;
+}
+.mapWrapper a.rect.casino-cruiseships {
+    left: 24%;
+    width: 12%;
+    top: 64%;
+}
+.mapWrapper a.rect.africa {
+    left: 40%;
+    width: 10%;
+    top: 44%;
+}
+.mapWrapper a.rect.western-europe {
+    left: 37%;
+    top: 7%;
+    width: 10%;
+}
+.mapWrapper a.rect.eastern-europe {
+    left: 51%;
+    top: 7%;
+    width: 9%;
+}
+.mapWrapper a.rect.middle-east {
+    left: 50%;
+    top: 33%;
+    width: 7%;
+}
+.mapWrapper a.rect.central-asia {
+    left: 60%;
+    top: 31%;
+    width: 7%;    
+}
+.mapWrapper a.rect.east-asia {
+    left: 68%;
+    top: 23%;
+    width: 7%;
+}
+.mapWrapper a.rect.oceania {
+    left: 82.5%;
+    top: 57%;
+    width: 9%;
+}
+.mapWrapper a.rect img.pin {
+    width: 30%;
+}
+.mapWrapper a.rect.central-america img.pin,
+.mapWrapper a.rect.south-america img.pin,
+.mapWrapper a.rect.africa img.pin,
+.mapWrapper a.rect.western-europe img.pin,
+.mapWrapper a.rect.eastern-europe  img.pin,
+.mapWrapper a.rect.middle-east img.pin,
+.mapWrapper a.rect.central-asia img.pin,
+.mapWrapper a.rect.east-asia img.pin {
+    width: 50%;
+}
+.mapWrapper a.rect.oceania img.pin {
+    width: 60%;
+}
+
+.mapWrapper a.rect img.pin:hover {
+    transform: scale(0.9) translate(5px);
+    transition: all 0.2s ease-in-out 0s;
+    opacity: 0.8;
+}
+#content .gambling-guide h2 {
+    background-color: #f0f0f0 !important;
+    color: #865d15!important;
+    font-size: 2.2rem !important;
+    background: url("images/world_icon.png") left center no-repeat;
+    background-size: auto 100%;
+    margin: 0 0 3rem 0;
+    line-height: 1;
+    border-bottom: 0;
+    padding:  0rem 0 0rem 5rem;
+}
+
+#content .gambling-guide h2 span {
+    color: #716e6e;
+    font-size: 4rem;
+    margin-right: 10px;
+}    
+
+.gambling-guide area {
+    outline: none;
+}
+.countriesFilter, .continentsFilterMobile, .countriesFilterMobile {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-left: 10px solid #865d15;
+    width: 100%;
+    padding: 1rem 1rem 1rem 3rem;
+    cursor: pointer;
+}
+#content .countriesFilter h3,
+#content .continentsFilterMobile h3,
+#content .countriesFilterMobile h3 {
+    margin-bottom: 0;
+}
+.countriesFilter span.stateName,
+.continentsFilterMobile span.ContName,
+.countriesFilterMobile span.stateName {
+    float: right;
+    color: #865d15;
+}
+.countriesFilter a.open,
+.continentsFilterMobile a.open,
+.countriesFilterMobile a.open {
+    float: right;
+    text-indent: -5000em;
+    background: url("images/arrow_down.png") center right 0.5rem no-repeat;
+    width: 40px;
+    text-align: center;
+    margin-left: 1rem;
+}
+.countriesFilter a.open.close,
+.continentsFilterMobile a.open.close,
+.countriesFilterMobile a.open.close {
+    background: url("images/close.png") center right 0.5rem no-repeat;
+    opacity: 1;
+}
+.countryInformation {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 3rem 4rem 2rem;
+    margin-top: 2rem;
+}
+.countryInformation .half {
+    width: 49%;
+    float: left;
+}
+.countryInformation .half:nth-child(2) {
+    padding-left: 2%;
+}
+.countryInformation .half p,
+.CruiseShipInfo p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+.ajaxCountriesHolder {
+    /*background-color: #fff;*/
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 3rem 4rem;
+    display: none;
+    position: absolute;
+    width: 100%;
+    box-shadow: rgba(128, 128, 128, 0.36) 0px 10px 12px;
+    background: rgb(255, 251, 245);
+    z-index: 99;
+}
+.ajaxCountriesHolder a.country {
+    width: 18%;
+    float: left;
+    display: block;
+    box-sizing: border-box;
+    line-height: 1.2;
+    font-family: 'Oswald', sans-serif;
+    padding: 0 0rem 0.5rem 0;
+    margin-right: 2%;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    color: #4d4d4d !important;
+}
+.ajaxCountriesHolder a.country:hover {
+    color: #D2AB67 !important;
+    transition: all 0.3s ease-in-out 0s;
+}
+.ajaxCountriesHolder a.country:nth-child(5n+1) {
+    clear: left;
+}
+.loadingWrapper {
+    background-color: transparent;
+    padding: 2rem;
+}
+.continentInformation {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 3rem 4rem 2rem;
+    margin-top: 2rem;
+    display: none;
+}
+.continentInformation .linksWrapper {
+    width: 32%;
+    float: left;
+}
+.continentInformation .informationWrapper {
+    width: 66%;
+    float: right;
+}
+.continentInformation .linksWrapper .allLinks {
+    padding-left: 3rem;
+    margin-bottom: 2rem;
+}
+.continentInformation .linksWrapper .allLinks a {
+    font-family: 'Roboto';
+    display: block;
+    line-height: 110%;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #8c8b8a !important
+}
+.continentInformation .linksWrapper .allLinks a i {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+.continentInformation .linksWrapper .allLinks a:hover {
+    color: #D2AB67 !important;
+    transition: all 0.2s ease-in-out 0s;
+}
+.continentInformation .informationWrapper p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.topListCasinosWrapper {
+    background-color: #fff;
+    border-radius: 4px;
+}
+.topListCasinosWrapper .main-toplist {
+    background-color: #fff !important;
+    padding: 1rem 0;
+
+}
+.topListCasinosWrapper .main-toplist img {
+    width: 90%;
+}
+/*.topListCasinosWrapper .main-toplist tr td {
+    padding: 0.5rem 1rem 0.5rem 0;
+}*/
+.topListCasinosWrapper .main-toplist tr td:nth-child(1) {
+    padding-left: 0.1rem;
+}
+.topListCasinosWrapper .main-toplist tr td:nth-child(2) {
+    font-size: 1.2rem;
+    line-height: 100%;
+    font-weight: bold;
+    color: #666;
+}
+.topListCasinosWrapper .main-toplist tr td:nth-child(4) {
+    padding-right: 0.1rem;
+}
+
+.topListCasinosWrapper .main-toplist tr td.bonus {
+    font-size: 1.3rem;
+    text-align: center; 
+    line-height: 1;
+    width: 30%;
+}
+#content .topListCasinosWrapper .main-toplist tr td.bonus a {
+    color: #666;
+}
+.topListCasinosWrapper .main-toplist tr td.bonus a span:nth-child(4) {
+    display: none;
+}
+.topListCasinosWrapper .main-toplist tr td.bonus a span:nth-child(1) {
+    clear: both;
+    display: inline;
+}
+/*.topListCasinosWrapper .main-toplist tr td.bonus a span:nth-child(2) {
+    float: left;
+}*/
+span.greenText, span.currency_symbols {
+    color: #3FA83D;
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: block;
+    padding-top: 0.3rem;
+}
+#content .topListCasinosWrapper h3.flush-bottom {
+    font-family:'Roboto';
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    color: #666;
+    font-weight: bold;
+}
+
+.topListCasinosWrapper .main-toplist a.button-mini {
+    background-color: #3FA83D;
+    font-weight: bold;
+    padding: 1rem 1.2rem;
+    margin-bottom: 1rem;
+    text-shadow: none;
+    font-family: 'Roboto', sans-serif;
+}
+#content .topListCasinosWrapper a.toplist-link {
+    color: #666;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.removeBottomBorder {
+    border-bottom:none;
+}
+
+
+/*------------------   TOP CASIONS - HEADER ----------------------*/
+.topOnlineCasinosHeader {
+
+}
+.topOnlineCasinosHeader .topListCasinosWrapper h3.flush-bottom {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: #666;
+    font-weight: bold;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    line-height: 1.2;
+    padding: 5px 0;    
+    margin:0;
+    border-bottom:1px solid #efefef;
+}
+.topOnlineCasinosHeader .topListCasinosWrapper .main-toplist img {
+    width: 50px;
+}
+.topOnlineCasinosHeader span.greenText, .topOnlineCasinosHeader span.currency_symbols,
+.topOnlineCasinosHeader .topListCasinosWrapper .main-toplist tr td:nth-child(2) {
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+
+.breadcrumb li:last-child {
+    color:#00aeef;
+}
+
+.topOnlineCasinosHeader .topListCasinosWrapper .main-toplist a.button-mini {
+    padding: 1rem;
+}
+.topOnlineCasinosHeader .topListCasinosWrapper .main-toplist a.button-mini:hover {
+    color: #fff !important;
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out 0s;
+}
+.topOnlineCasinosHeader.topOnlineCasinosSideBar .topListCasinosWrapper .main-toplist tr td:nth-child(1) {
+    width: 40%;
+}
+
+/*------------------------------ https://www. worldcasinodirectory.com/jelena-test - PART:  WORLD GAMBLING GUIDE - land-based and online casinos -- END --  --------------------------------*/
+.casinoWrapperHome .halfWidth {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 2rem !important;
+    height: 310px;
+    overflow-y: hidden;
+}
+.casinoWrapperHome .childEl:nth-child(2n+1) {
+    clear: left;
+}
+.casinoWrapperHome .childEl h4.name {
+    padding-left: 0.8rem !important;
+    color: #fff !important;
+}
+
+/*-------------------------- http://www.worldcasinodirectory.com/massachusetts/horse-tracks ---------------------------*/
+#content .horseRacingHolder h2 {
+    padding: 0.8rem !important;
+}
+.horseRacingHolder .location {
+    padding: 0.8rem;
+    margin: 0;
+}
+.horseRacingHolder  ul.star-rating {
+    padding: 0 0  0.8rem 0.8rem;
+}
+
+/*-------------------------- http://www.worldcasinodirectory.com/new-jersey/poker-rooms ---------------------------*/
+
+.quarterWidth {
+    width: 24%;
+    float: left;
+    margin: 0 1% 2rem 0; 
+}
+.quarterWidth:nth-child(4n+2) {
+    clear: left;
+}
+.poker-room-info {
+    /*box-shadow: rgba(128, 128, 128, 0.36) 0px 5px 6px;*/
+    box-shadow: 3px 3px 2px #c5c2c2;
+    background-color: #efefef;
+    padding: 2%;
+    margin-bottom: 1rem;
+    height: 18rem;
+}
+.poker-room-info.casino-card .location a {
+    color: #d2ab67 !important;
+}
+
+/*--------------------------------------------------------------
+-------------------------- REDIZAJN STRANE ---------------------------
+-------------------------- http://online.worldcasinodirectory.com/country-test ---------------------------
+--------------------------------------------------------------*/
+.casinoCountryWrap {
+    background: url("../images/ca-bgrd.png") center top no-repeat;
+    padding-top: 4rem;
+}
+#content .casinoCountryWrap h1,
+#content .casinoCountryWrap  h2.fancy_heading {
+    color: #887451;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 3.5rem;
+    text-transform: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+#content .casinoCountryWrap h1 img,
+#content .casinoCountryWrap  h2.fancy_heading img {
+    margin-right: 4rem;
+}
+ul.ulCentered {
+    width: 60%;
+    margin: 0 auto 2rem auto;
+}
+ul.ulCentered li {
+    float: left;
+    width: 45%;
+    padding: 1rem 0 1rem 5rem;
+    margin-bottom: 2rem;
+    color: #29AA60;
+    font-style: italic;
+    font-size: 1.7rem;
+    line-height: 1.3;
+    font-family: "Oswald", sans-serif;
+    background: url("../images/check-box.png") left center no-repeat;
+}
+ul.ulCentered li:nth-child(2n+1) {
+    clear: left;
+    margin-right: 10%;
+}
+.onlineCasinosList {
+    margin-bottom:2rem;
+}
+
+.onlineCasinosList .onlineCasino {
+    background-color: #F0F0F0;
+    border: 1px solid #D6D6D6;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+}
+.casinoCountryWrap .onlineCasino {
+    font-family: 'Roboto';
+}
+.casinoCountryWrap .onlineCasino .logo,
+.casinoCountryWrap .onlineCasino .rating, 
+.casinoCountryWrap .onlineCasino .deposit {
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0 1%;
+}
+.casinoCountryWrap .onlineCasino .rating, 
+.casinoCountryWrap .onlineCasino .deposit {
+    text-align: center;
+}
+.casinoCountryWrap .onlineCasino .deposit {
+    color: #29AA60;
+    font-size: 2rem;
+}
+.casinoCountryWrap .onlineCasino .logo img {
+    max-width: 100%;
+}
+.casinoCountryWrap .onlineCasino .name_software {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 0 1%;
+}
+.casinoCountryWrap .onlineCasino .name_software span.name,
+.casinoCountryWrap .onlineCasino .name_software span.software {
+    color: #AAA68D;
+    display: block;
+}
+.casinoCountryWrap .onlineCasino .name_software span.software {
+    font-size: 1.8rem;
+    line-height: 100%;
+}
+.casinoCountryWrap .onlineCasino .name_software span.software_name {
+    color: #333;
+}
+.casinoCountryWrap .onlineCasino .name_software span.name {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.casinoCountryWrap .onlineCasino .rating span.all_ratings {
+    display: block;
+    color: #9A9A9A;
+}
+.casinoCountryWrap  .onlineCasino .buttonWrapper {
+    width: 20%;
+    padding: 0 1%;
+    box-sizing: border-box;
+}
+.casinoCountryWrap  .onlineCasino .buttonWrapper a.buttonRed,
+#content .list_of_newest .el a.buttonRed {
+    background-color: #FC002A;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    color: #fff !important;
+    line-height: inherit;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+.casinoCountryWrap  .onlineCasino .buttonWrapper a.buttonRed.buttonGold {
+    background-color: #887450;
+    margin-bottom: 0;
+}
+.casinoCountryWrap  .onlineCasino .buttonWrapper a.buttonRed:hover {
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out 0s;
+}
+.onlineCasinosList a.load_more {
+    font-family: 'Roboto';
+    float: right;
+    font-style: italic;
+    color: #867650 !important;
+    font-size: 2rem;
+    font-weight: 500;
+}
+#content .filterWrapper h3 {
+    background-color: #F0F0F0;
+    border: 1px solid #D6D6D6;
+    color: #887451;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+.filterWrapper .globalInfo {
+    border: 1px solid #D6D6D6;
+    border-top: none;
+    display: flex;
+}
+.filterWrapper .globalInfo .totalRating {
+    padding: 0.2rem;
+    width: 20%;
+    background: url("../images/devider.png") right center no-repeat;
+    text-align: center;
+}
+.filterWrapper .globalInfo .totalRating span.text {
+    color: #867650;
+    font-weight: bold;
+    display: block;
+    clear: left;
+    line-height: 100%;
+    font-size: 1.2rem;
+}
+.filterWrapper .globalInfo .allStars {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 0.7rem;
+}
+.filterWrapper .globalInfo .allStars img {
+    margin-right: 1rem;
+}
+#content .filterWrapper h3.filterTitle {
+    background-color: #AA8F68;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #89754E; 
+}
+
+#content .filterWrapper .filterBrowser {
+    position: relative;
+}
+#content .filterWrapper .filterBrowser h4 {
+    background-color: #F0F0F0;
+    border: 1px solid #D6D6D6;
+    color: #887451;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+#content .filterWrapper .filterBrowser h4 span {
+    padding: 1rem;
+    display: inline-block;    
+}
+#content .filterWrapper .filterBrowser h4 a.button {
+    background: url("../images/img_countries/arrow_down.png") center no-repeat;
+    width: 50px;
+    border-left: 1px solid #D6D6D6;
+    text-indent: -4000rem;
+    float: right;
+    height: 42px;
+    display: block;
+}
+.filterWrapper .optionsHolder {
+    background-color: #fff;
+    border: 1px solid #E6E6E6;
+    border-top: none;
+    position: absolute;
+    box-shadow: rgba(128, 128, 128, 0.36) 0px 5px 6px;
+    -webkit-box-shadow: rgba(128, 128, 128, 0.36) 0px 5px 6px;
+    display: none;
+    z-index: 9;
+    width: 100%
+}
+.filterWrapper .optionsHolder form {
+    margin-bottom: 0;
+    border-bottom: 1px solid #d6d6d6;
+}
+.searchForm input {
+    background-color: #fff;
+    border: none;
+    width: 78%;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 0px;
+}
+.searchForm input[type="text"]:focus {
+    box-shadow: none;
+}
+.searchForm input.searchButton {
+    background: url("../images/img_countries/search.png") center no-repeat;
+    text-indent: -4000rem;
+    width: 50px;
+    height: 44px;
+    border: none;
+}
+.filterWrapper .optionsHolder .links {
+    padding: 1rem;
+}
+.filterWrapper .optionsHolder .links a.element {
+    display: block;
+    line-height: 100%;
+    color: #887451 !important;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+form.filterRadioButtons {
+    opacity: 1;
+}
+form.filterRadioButtons input[type="radio"] {
+    display: block;
+    width: auto;
+    appearance: radio;
+    -webkit-appearance: radio;
+    opacity: 1;
+    clear: left;
+    float: right;
+    margin: 1rem 0 0 0;
+}
+form.filterRadioButtons .holder {
+    background-color: #F0F0F0;
+    border: 1px solid #D6D6D6;
+    border-top: none;
+    padding: 0.6rem;
+    font-family: 'Roboto';
+    color: #887451;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+form.filterRadioButtons .holder.even {
+    background-color: #F0F0F0;
+}
+table.table_legal_info {
+    border-left: 1px solid #D6D6D6;
+    border-top: 1px solid #D6D6D6;
+    font-family: 'Roboto';
+    margin-bottom: 2rem;
+}
+table.table_legal_info tr th,
+table.table_legal_info tr td {
+    background-color: #F0F0F0;
+    border-right: 1px solid #D6D6D6;
+    border-bottom: 1px solid #D6D6D6;
+    text-align: center;
+    padding: 1.6rem 1rem;
+    line-height: 100%;
+    color: #887451;
+    font-size: 2rem;
+    width: 16.6%;
+}
+table.table_legal_info tr td {
+    background-color: #fff;
+    color: #4E4E4E;
+}
+table.table_legal_info tr td.sources span {
+    color: #64BF84;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    border: 1px solid #64BF84;
+    border-right: none;
+}
+table.table_legal_info tr td.sources span:nth-last-child(1) {
+    border-right: 1px solid #64BF84;
+}
+table.table_legal_info tr td.score {
+    color: #64BF84;
+}
+table.table_legal_info tr td.score span.digit {
+    text-decoration: underline;
+    margin-right: 1px;
+}
+#content .section_legal a {
+    font-style: italic;
+    color: #64BF84
+}
+.bankingInfo {
+    width: 80%;
+    margin: 0 auto 4rem;
+}
+.bankingInfo .child {
+    width: 16.6%;
+    text-align: center;
+    float: left;
+    border: 1px solid #D6D6D6;
+    border-right: none;
+}
+.bankingInfo .child:nth-last-child(1) {
+    border-right: 1px solid #D6D6D6;
+}
+.bankingInfo .child img {
+    clear: left;
+}
+.bankingInfo .child a.more_info {
+    clear: left;
+    font-family: 'Roboto';
+    color: #fff !important;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    font-style: italic;
+    padding: 0.5rem 0;
+    font-weight: 500;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#77a2d3+0,356496+100 */
+    background: #77a2d3; /* Old browsers */
+    background: -moz-linear-gradient(top, #77a2d3 0%, #356496 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #77a2d3 0%,#356496 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #77a2d3 0%,#356496 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77a2d3', endColorstr='#356496',GradientType=0 ); /* IE6-9 */
+}
+.bankingInfo .child a.more_info:hover {
+    transition: all 0.5s ease-in-out 0s;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#356496+0,77a2d3+100 */
+    background: #356496; /* Old browsers */
+    background: -moz-linear-gradient(top, #356496 0%, #77a2d3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #356496 0%,#77a2d3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #356496 0%,#77a2d3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356496', endColorstr='#77a2d3',GradientType=0 ); /* IE6-9 */ 
+
+}
+.gameBrowser {
+    background-color: #f0f0f0;
+    border: 1px solid #D6D6D6;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 49%;
+    float: left;
+    margin-left: 2%;
+}
+.gameBrowser:nth-child(2n+1) {
+    clear: left;
+    margin-left: 0;
+}
+.gameBrowser a.thumb {
+    display: block;
+    float: left;
+    margin: 0 1rem 0 0;
+}
+.gameBrowser a.thumb img {
+    vertical-align: middle;
+}
+#content .gameBrowser p {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+#content .gameBrowser a {
+    color: #887451;
+}
+#content .gameBrowser a.more {
+    font-style: italic;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.best_offer_section {
+    width: 76%;
+    display: inline-block;
+    margin: 0 12% 4rem;
+}
+.best_offer_section .offer {
+    width: 48%;
+    float: left;
+}
+.best_offer_section .offer:nth-last-child(1) {
+    margin-left: 4%;
+}
+.best_offer_section .offerInfo {
+    background-color: #f0f0f0;
+    border: 1px solid #D6D6D6;
+    padding: 1rem;
+    height: 446px;
+    overflow-y: hidden;
+}
+.best_offer_section .offerInfo img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+#content .best_offer_section .offerInfo h3 {
+    color: #887451;
+    font-size: 2rem;
+}
+.best_offer_section .offer a.bigButton {
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2.4rem;
+    background-color: #EF3334;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff !important;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.best_offer_section .offer a.bigButton:hover {
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out 0s;
+}
+.list_of_newest {
+    width: 76%;
+    display: inline-block;
+    margin: 0 12% 4rem;
+}
+.list_of_newest .el {
+    width: 17%;
+    margin: 0 1%;
+    float: left;
+    display: block;
+    border: 1px solid #D6D6D6;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.list_of_newest .el a img {
+    margin: 0 auto;
+    display: block;
+}
+#content .list_of_newest .el h5 {
+    color: #887451;
+    font-size: 1.6rem;    
+}
+#content .list_of_newest .bonus {
+    font-weight: 500;
+}
+.establish {
+    font-style: italic;
+    color: #D2AB67;
+    text-align: center;
+    font-size: 1.4rem;
+}
+#content .list_of_newest .el a.buttonRed {
+    margin-bottom: 0;
+}
+
+/*-------------------- http://www.worldcasinodirectory.com/northamericanbingo --------------------*/
+
+.navigationWithTabs .nav-tabs > li a {
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cccccc+0,ffffff+100 */
+    background: #cccccc; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cccccc 0%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #cccccc 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #cccccc 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    border-bottom: 1px solid #fff;
+    color: #000 !important;
+    outline: none;
+}
+.navigationWithTabs  .tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    -webkit-border-bottom-right-radius: 7px;
+    -webkit-border-bottom-left-radius: 7px;
+    -moz-border-radius-bottomright: 7px;
+    -moz-border-radius-bottomleft: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding: 1rem;
+}
+#content .leftSidebar.sidebarWithTabs ul.nav-tabs {
+    border-bottom: none;
+}
+#content .leftSidebar.sidebarWithTabs ul li {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.leftSidebar.sidebarWithTabs .nav-tabs > li > a {
+    padding: 0.5rem 1rem;
+}
+.leftSidebar.sidebarWithTabs .nav-tabs > li > a img {
+    margin-right: 0 !important;
+}
+.leftSidebar.sidebarWithTabs .tab-content {
+    background-color: #fff;
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+.leftSidebar.sidebarWithTabs .tab-content .listRow {
+    line-height: 1.5;
+}
+.leftSidebar.sidebarWithTabs .tab-content .listLabel {
+    float: right;
+    max-width: 80%;
+    text-align: right;
+}
+/*----------------------------  https://www.worldcasinodirectory.com/easteuropepoker.htm  -----------------------*/
+table.openings-list {
+    border-left: 1px solid #e3e1e1;
+}
+table.openings-list tr td {
+    background-color: #efefef;
+    border-bottom: 1px solid #e3e1e1;
+    border-right: 1px solid #e3e1e1;
+    padding: 1.3rem 1rem;   
+}
+table.openings-list tr td table, table.openings-list tr td table.additionalInfoTable tr td {
+    border: none;
+}
+table.openings-list tr td.opendate {
+    width: 25%;
+    font-family: 'Roboto';
+    line-height: 1.4;
+    text-align: center;
+}
+table.openings-list tr td table.additionalInfoTable tr td {
+    padding: 0 1rem;
+}
+table.additionalInfoTable span.place,
+table.additionalInfoTable span.moreInfo {
+    line-height: 1.2;
+    display: block;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+table.additionalInfoTable tr td:nth-child(1) {
+    width: 60%;
+}
+.pokerRoom {
+    float: left; 
+    margin:0 0 1% 0;
+    padding:1%;
+    background-color:#efefef; 
+    color: #000; 
+    width: 99%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 3px 0 #ccc;
+    -moz-box-shadow:    2px 2px 3px 0 #ccc;
+    box-shadow:         2px 2px 3px 0 #ccc;
+}
+.tabsWrapper span.pokerTabs {
+    font-family: 'Roboto';
+    padding-right: 4px; 
+}
+.tabsWrapper span.pokerTabs a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.pokerRoom:nth-child(4n+1) {
+    clear: left;
+}
+.pokerRoom > a {
+    font-size: 1.3rem;
+    line-height: 1.1;
+    display: block;
+    margin-bottom: 5px;
+}
+.casino_list-alphabetical.panel-group {
+    margin-bottom: 10px;
+}
+.casino_list-alphabetical .panel-default {
+    border-color: transparent;
+}
+.casino_list-alphabetical .panel-default>.panel-heading {
+    background-color:#efefef; 
+    margin:0;
+    padding:1%;
+    box-sizing: border-box;
+    border-radius: 0px;
+    -webkit-box-shadow: 2px 2px 3px 0 #ccc;
+    -moz-box-shadow:    2px 2px 3px 0 #ccc;
+    box-shadow:         2px 2px 3px 0 #ccc;
+}
+#content .panel-default>.panel-heading h4 {
+    margin-bottom: 0;
+}
+#content .panel-default>.panel-heading h4 a {
+    display: block;
+}
+.casino_list-alphabetical .panel-body {
+    border-top: transparent !important;
+}
+.casino_list-alphabetical .panel-collapse  {
+    margin-top: 5px;
+    background-color:#efefef; 
+    -webkit-box-shadow: 2px 2px 3px 0 #ccc;
+    -moz-box-shadow:    2px 2px 3px 0 #ccc;
+    box-shadow:         2px 2px 3px 0 #ccc;
+}
+.casino_list-alphabetical .panel-collapse a.casinoName {
+    width: 30%;
+    float: left;
+    display: block;
+    font-size: 1.2rem;
+    color: #333 !important;
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+.casino_list-alphabetical .panel-collapse a.casinoName:nth-child(3n+1) {
+    clear: left;
+}
+
+/* --------------------- https://www.worldcasinodirectory.com/hotels/arizona/tucson ------------------*/
+
+.flexHolder {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+.flexEl {  
+    flex: 1; 
+    /*height: 330px;*/ 
+    background-color: #efefef; 
+    width: 32%;
+    padding: 2%;
+    box-sizing: border-box;
+    margin: 0 1% 0 0;
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 4px 0px #ccc;
+    -moz-box-shadow: 3px 3px 4px 0px #ccc;
+    box-shadow: 3px 3px 4px 0px #ccc;
+}
+.bonus_hotel_holder {
+    display: none;
+}
+.bonus_hotel_holder .first {
+    float: left;
+    width: 43%;
+}
+.bonus_hotel_holder .second {
+    float: right;
+    width: 55%;
+}
+
+.casino-element-shell.ocdb-panel-titlebar-div .links {
+    width: 30%;
+    float: right;
+}
+.casino-element-shell.ocdb-panel-titlebar-div .links a {
+    font-size: 1.1rem;
+    display: block;
+    line-height: 1.2;
+}
+.casino-element-shell.ocdb-panel-titlebar-div .titleInfo {
+    width: 67%;
+    float: left;
+}
+
+
+table.poker_tournaments_table tr td:nth-child(2) {
+    font-size: 1.2rem;
+}
+table.openings-list.poker_tournaments_table tr td {
+    padding: 1rem;
+}
+
+/*------------------------ https://www.worldcasinodirectory.com/australia/200-free-spins-1-200-welcome-bonus--14039 -------------------*/
+.forum-row {
+    background-image: none;
+    background-color: #efefef;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.4);;
+    border-bottom: 0px;
+}
+
+/*-----------------------  https://online.worldcasinodirectory.com/online-casino-bonuses-promotions/no-deposit ----------------------*/
+.no_deposit_bonuses_wrap .flexElement {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+#content .no_deposit_bonuses_wrap .rowWrapp .column h2 {
+    font-size: 2.4rem;
+}
+.no_deposit_bonuses_wrap .rowWrapp .column:nth-child(5) {
+    width: 15%;
+}
+#contentInTabs .no_deposit_bonuses_wrap .rowWrapp .column:nth-child(3) {
+    width: 28%;
+}
+#content .no_deposit_bonuses_wrap .rowWrapp .column a.bonus {
+    font-size: 1.8rem;
+}
+
+/*----------------------- https://www.worldcasinodirectory.com/hotels/spain ---------------------*/
+.hotel-form-top {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.form-container {
+    background-image: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,000000+100 */
+    background: #666666; /* Old browsers */
+    background: -moz-linear-gradient(top, #666666 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #666666 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #666666 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    height: auto;
+    padding-bottom: 1rem;
+}
+.ui-widget-header {
+    background: #333;
+    border: 1px solid #333;
+}
+.ui-datepicker {
+    background: #666;
+}
+.ui-datepicker th {
+    color: #fff;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    color: #666;
+    border: none;
+}
+a.ui-state-default:hover {
+    border: none;
+    color: #d2ab67;
+}
+.hotel-form-field select, .hotel-form-field input {
+    width: 100px;
+}
+.main-hotel-form tr td.hotel-form-field {
+    padding-bottom: 5px;
+    padding-left: 0;
+}
+.hotel-form-field select option {
+    color: #000;
+}
+
+#hotel-form-submit {
+    box-shadow: none;
+    background: #897252;
+    border: none;
+}
+#hotel-form-submit:hover {
+    background: #897252;
+    box-shadow: none;
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out 0s;
+    border: none;
+}
+
+/*----------------- https://online.worldcasinodirectory.com/platipus/jewel-bang --------------------*/
+
+.img_ratingHolder {
+    width: 40%; 
+    float:right; 
+    margin: 0 0 20px 20px;
+}
+
+/*-------------------------- TEMPLATE - REGION-NAME/POKER START ----------------------------*/
+.PokerTournamentsHeader {
+    
+}
+.PokerTournamentsContainer {
+    background-color: #fff;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    box-shadow: rgba(220, 220, 220, 0.36) 0px 3px 3px;
+}
+#content .PokerTournamentsWraper h3 {
+    font-family:'Roboto';
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: #666;
+    font-weight: bold;
+}
+.PokerEvents td {
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 0.5rem 0.7rem;
+    line-height: 120%;
+    color: #666;    
+}
+.PokerEvents td.date {
+    font-family: 'Roboto';
+    width: 17%;
+}
+.PokerEvents td.logo {
+    width: 115px;
+}
+.PokerEvents td.logo img.OrganizerLogo {
+    width: 80%;
+}
+.PokerEvents tr:hover {
+    background-color: #F7F0E4;
+    transition: all 0.2s ease-in-out 0s;
+}
+.PokerEvents .Duration {
+    width: 100px;
+    margin-bottom: 7px;
+}
+.PokerEvents .Organizer {
+    padding-bottom: 5px;
+    display: block;
+}
+
+.PokerEvents  .Title {
+        display: block;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 120%;
+}
+
+.PokerEvents .Venue {   
+    float: right;
+}
+.PokerEvents .Venue .VenueName {   
+    font-size: 1.4rem;;
+}
+.PokerEvents .Venue .VenueLocation {   
+    font-size: 1.4rem;;
+
+}
+.PokerEvents #event_list {  
+    padding: 1rem 0;
+    border-top: 1px solid #ddd;
+}
+.PokerEvents #event_list tr {  
+    border-bottom: 1px solid #e6e6e6;
+}
+#NoEventsInfo {
+    text-align: center;
+    padding: 2rem 5rem;
+}
+
+/*-------------------------- TEMPLATE - REGION-NAME/POKER END ----------------------------*/
+
+
+/*----------------------------- Owners -------------------------------*/
+
+.ownersHolder .information {
+    margin-left: 244px;
+}
+
+.casino-list-casino.halfWidth {
+    width: 49%;
+    float: left;
+    margin: 0 2% 20px 0;
+    background-color: #efefef;
+    height: 14rem;
+    overflow-y: hidden;
+}
+.casino-list-casino.halfWidth:nth-child(2n+1) {
+    clear: left;
+}
+.casino-list-casino.halfWidth:nth-child(2n)  {
+    margin-right: 0;
+}
+.casino-list-casino.halfWidth p.address {
+    line-height: 1.4;
+    font-size: 1.4rem;
+}
+
+/*----------------------------- RSS owners -------------------------------*/
+
+.rssFeed {
+    padding-top: 1rem;
+    margin-top: 1rem;
+    border-top: 1px solid #ccc;
+}
+.rssFeed:nth-child(1) {
+    padding-top: 0;
+    border-top: 0px;
+}
+.rssFeed p.date, .rssFeed p.description {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #666;
+    line-height: 1;
+}
+.rssFeed p.description  {
+    line-height: 1.4;
+    font-size: 1.3rem;
+    color: #464646;
+}
+#content .rssFeed h6.title {
+    font-size: 1.5rem;
+    line-height: 1.4;    
+}
+#content .rssFeed h6.title a:hover {
+    color: #333;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+/*-------------------------- https://online.worldcasinodirectory.com/slotland-entertainment/games ------------------------*/
+table.tableGames tr td {
+    vertical-align: top;
+}
+table.tableGames tr td img.imgAlignLeft {
+    margin: 0 10px 8px 0;
+}
+#content table.tableGames tr td h6 {
+    font-size: 1.1em;
+    line-height: 1.4;
+}
+#content table.gamesInTable.tableGames tr td h6 {
+    margin-bottom: 0;
+}
+#content table.gamesInTable.tableGames tr td h6 a:hover {
+    color: #333;
+    transition: all 0.2s ease-in-out 0s;
+}
+.gameInfoBrowser {
+    height: 280px;
+    overflow-y: hidden;
+    background-color: #efefef
+}
+/*--------------------------- SVG MAP START --------------------------*/
+.svgMapHolder svg {
+    max-width: 100%;
+    height: auto;
+}
+#us-map{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+path:hover, circle:hover {
+  stroke-width:2px;
+  stroke-linejoin: round;
+  cursor: pointer;
+}
+#path67 {
+  fill: none !important;
+  stroke: #A9A9A9 !important;
+  cursor: default;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #F6F1E2;
+  border: 2px solid #897252;
+  /*box-shadow: #cdcdcd 3px 3px 3px;*/
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'Roboto';
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+
+
+/*--------------------------- SVG MAP END --------------------------*/
+
+/*--------------------------- JACKPOT BOX -https://www.worldcasinodirectory.com/euromillions.htm  --------------------------*/
+
+    .jackpot_lottery_wrap .rowHolder {
+        display: flex;
+    }
+    .jackpot_lottery_wrap .rowHolder.jacpotRow {
+        padding: 2rem;
+        text-align: center;
+        background-color: #87b964;
+        margin-bottom: 1px;
+        display: block;
+        border-radius: 5px;
+    }
+    .jackpot_lottery_wrap .rowHolder.jacpotRow p.jackpot {
+        color: #fff;
+        font-size: 6rem;
+        line-height: 1.2;
+        font-weight: bold;
+        font-family: 'Roboto';
+        margin-bottom: 0;
+        text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+    }
+    #content .jackpot_lottery_wrap h4.jackpotCurrent {
+        color: #fff;
+        font-weight: bold;
+        font-family: 'Roboto';
+        text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+        margin-bottom: 0;
+    }
+    .jackpot_lottery_wrap .rowHolder .half-width {
+        flex:1;
+        box-sizing: border-box;
+        padding: 2%;
+        background-color: #efefef;
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        font-family: 'Roboto';
+        font-size: 1.4rem;
+        border-radius: 5px;
+    }
+    .jackpot_lottery_wrap .rowHolder .half-width:nth-child(2n) {
+        border-right: none;
+    }
+    .jackpot_lottery_wrap .rowHolder p.numbers {
+        color: #578e30;
+        margin-bottom: 0;
+    }
+/*--------------------- FOOTER IMAGES -------------------------*/
+    .logosHolder a {
+        display: block;
+        float: left;
+        margin-right: 10px;
+    }
+    .logosHolder a img {
+        vertical-align: middle;
+    }
+    .logosHolder a.third img {
+        width: 26%;
+    }
+/*--------------------------------------------------------------
+---------------------  RESPONSIVE DESIGN -----------------------
+--------------------------------------------------------------*/
+@media screen and (min-width: 1200px) {
+    .mobileNavigation, a.short-menu, .header_mobile {
+        display: none !important;
+    }
+    .visit_download_wrapp.visit_download_wrapp_mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    body {
+        background: #fff none;
+    }
+    #content {
+        box-shadow: none;
+    }
+    .visit_download_wrapp.visit_download_wrapp_mobile {
+        display: block;
+        text-align: center;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        right: 0;
+        padding: 1rem;
+        background-color: #696A6C;
+        margin-bottom: 0;
+        z-index: 9999;
+    }
+    .rightColumninner .visit_download_wrapp {
+        display: none;
+    }
+    .rightColumninner.affix {
+        top: inherit;
+    }
+
+    /*---------------------------- MOBILE NAVIGATION START ----------------------------------*/
+
+
+    .mobileNavigation, a.short-menu, .header_mobile {
+        display: block !important;
+    }
+    .header_mobile {
+        position: relative;
+        height: auto;
+        background-color: #696A6C;
+        padding: 1rem 0;
+    }
+    .mobileNavigation {
+        background-color: #fff;
+        height: 100%;
+        position: fixed;
+        right: -240px;
+        /*left: 0;*/
+        top: 0;
+        width: 240px;
+        z-index: 9999;
+    }
+    .mobileNavigation ul {
+    margin: 0;
+    overflow-y: hidden !important;
+    padding:0;
+    }
+    .mobileNavigation ul li {
+        line-height: 100%;
+        width: 100%;
+        display: inline-block;
+        clear: both;
+        margin-bottom: 0;
+        padding-left:0;
+        padding-right:0;
+        border-bottom: 1px solid #efefef;
+    }
+    .mobileNavigation ul li:hover {
+        background-color: rgba(232, 229, 229, 0.15);
+        border-radius: 3px;
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .mobileNavigation ul.depth2 li.last, .mobileNavigation ul.depth3 li.last {
+        border-bottom: none;
+        text-align: center;
+    }
+    .mobileNavigation ul li a {
+        display: block;
+        width: 92%;
+        line-height: 100%;
+        color: #121424;
+        font-size: 1.2rem;
+        font-family: "Roboto", sans-serif;
+        padding: 0.5rem;        
+        padding-bottom: 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 400;
+    }
+    .mobileNavigation ul.depth3 li a {
+        width: 100%;
+        color:#808080;
+    }
+
+
+    .mobileNavigation ul.depth2, .mobileNavigation ul.depth3 {
+        padding: 1rem 0 0.5rem 0;
+    }
+    .mobileNavigation ul.depth2 {
+        display: none;
+        clear: left;
+        width: 100%;
+    }
+    .mobileNavigation ul.depth3 {
+        padding-top: 0.5rem;
+        width:100%;
+    }
+    .mobileNavigation ul.depth2 li, .mobileNavigation ul.depth2 li a {
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        text-align: center;
+        background-color: #d9e5f4;
+        padding-left:0;
+        padding-right:0;
+        border-bottom:none;
+    }
+
+    .depth2 .subTitle {
+        color: #121424;
+        text-transform: uppercase !important;
+    }
+
+
+    #titleBar {
+        display: none !important;
+    }
+    a.logo-mobile {
+        display: block;
+        margin: 0 auto;
+        width: 113px;
+    }
+    a.short-menu {
+        position: absolute;
+        right: 20px;
+        text-align: center;
+        font-size: 3.4rem;
+    }
+    a.short-menu i {
+        color: #f7cc98;
+    }
+    a.short-menu:hover {
+        opacity: 0.7;
+        transition: all 0.2s ease-in-out 0s;
+    }
+    /*---------------------------- MOBILE NAVIGATION END ----------------------------------*/
+
+
+    .megamenu-content {
+        display: none;
+    }
+
+    #content .gambling-guide h2 span {
+        font-size: 3rem;
+    }
+    .mapWrapper img.world_map {
+        max-width: 100%;
+    }
+    .mapWrapper a.rect.north-america {
+        left: 28%;
+    }
+    .mapWrapper a.rect.casino-cruiseships {
+        left: 25%;
+    }
+    .mapWrapper a.rect.africa {
+        left: 42%;
+        top: 46%;
+        width: 9%;
+    }
+    .mapWrapper a.rect.eastern-europe {
+        left: 53%;
+    }
+    .mapWrapper a.rect.western-europe {
+        left: 39%;
+    }
+    .mapWrapper a.rect.middle-east {
+        left: 51%;
+    }
+    .mapWrapper a.rect.central-asia {
+        left: 62%;
+    }
+    .mapWrapper a.rect.east-asia {
+        left: 70%;
+    }
+    .mapWrapper a.rect.oceania {
+        left: 85.5%;
+    }
+    .ajaxCountriesHolder a.country {
+        width: 23%;
+    }
+    .ajaxCountriesHolder a.country:nth-child(5n+1) {
+        clear: none;
+    }
+    .ajaxCountriesHolder a.country:nth-child(4n+1) {
+        clear: left;
+    }
+
+    #content .leftSidebar {
+        padding: 2% 3%;
+    }
+    #content .leftSidebar ul li {
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    /*--------------------------- CANADA - REDESIGN --------------------------*/
+    #content .casinoCountryWrap h1 img, #content .casinoCountryWrap h2.fancy_heading img {
+        margin-right: 2rem;
+        width: 50px;
+    }
+
+
+    .rightColumninner.affix {
+       /* position: relative;*/
+        width: 100%;
+    }
+
+    #NewsLand .row .\34 u, #NewsLand .row .\34 u\24 {
+        width: 33.3333% !important;
+    }
+    #NewsLand .news-thumb-headline {
+        width: 100%;
+    }
+    
+    .topCasinoWrapper .row .column {
+        width: 50% !important;
+        float: left;
+    }
+    .newest-lb .casinoWrapperHome .\36 u, .newest-lb .casinoWrapperHome .\36 u\24,
+    .upcoming-lb .casinoWrapperHome .\36 u, .newest-lb .casinoWrapperHome .\36 u\24 {
+        width: 50% !important;
+    }
+
+    table.openings-list tr td {
+        padding: 0.5rem 0.8rem;
+    }
+    table.trustedCasinosTable tr td a.play-review-button {
+        padding: 5% 10%;
+    }
+    .row:not(.no-collapse)>.hotel-form-label {
+        width: 145px !important;
+        float: none;
+    }
+}
+@media screen and (max-width: 985px) {
+    #content .gambling-guide h2 {
+        font-size: 1.8rem !important;
+        line-height: 120%;
+    }
+}
+@media screen and (min-width: 769px){
+    .topCasinosMobile {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    #searchForm img {
+        width: 30%;
+    }
+    .ocdb-panel .bonus, .ocdb-panel .bonus a {
+        font-size: 1rem !important;
+    }
+
+}
+@media screen and (min-width: 621px) {
+    .gamblingGuideContentMobile {
+        display: none;
+    }
+    .gamblingGuideContent {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .topCasinosMobile {
+        display: block !important;
+    }
+    .continentInformation .linksWrapper .TopCasinosHolder {
+        display: none;
+    }
+    .topCasinosMobile .topListCasinosWrapper .main-toplist tr:nth-child(3),
+    .topCasinosMobile .topListCasinosWrapper .main-toplist tr:nth-child(4),
+    .topCasinosMobile .topListCasinosWrapper .main-toplist tr:nth-child(5) {
+        display: none;
+    }
+    .topCasinosMobile .topListCasinosWrapper .main-toplist img {
+        width: 30%;
+    }
+    .topCasinosMobile .topListCasinosWrapper .main-toplist tr td.bonus a span:nth-child(1),
+    .topCasinosMobile span.greenText, .topCasinosMobile span.currency_symbols {
+        display: inline;
+    }
+    .topOnlineCasinosHeader.topOnlineCasinosSideBar .topListCasinosWrapper .main-toplist img {
+        width: 30%;
+    }
+    .topOnlineCasinosHeader.topOnlineCasinosSideBar .topListCasinosWrapper .main-toplist tr td:nth-child(1) {
+        width: 35%;
+    }
+    .ownersLogo {
+        display: block !important;
+    }
+    .multimenu-container-fade p {
+        float: left;
+        width: 50%;
+    }
+    .descriptionBlock {
+        clear: both;
+    }
+    .ownerLogoWrapp {
+        display: none;
+    }
+}
+@media screen and (max-width: 620px) {
+    .gamblingGuideContentMobile {
+        display: block;
+    }
+    .gamblingGuideContent {
+        display: none;
+    }
+    #content .gambling-guide h2 {
+        background: transparent;
+        padding: 0;
+        font-size: 1.5rem !important;
+    }
+    #NewsLand .row .\34 u, #NewsLand .row .\34 u\24 {
+        width: 50% !important;
+    }
+
+    .topCasinosMobile .topListCasinosWrapper .main-toplist img {
+        width: 50%;
+    }
+    .topCasinosMobile span.greenText, .topCasinosMobile span.currency_symbols {
+        font-size: 1.3rem;
+    }
+    #content .topCasinosMobile .topListCasinosWrapper a.toplist-link {
+        font-size: 1rem;
+    }
+    .topCasinosMobile .topListCasinosWrapper .main-toplist tr td.bonus {
+        width: 30%;
+    }
+    .topCasinosMobile .topListCasinosWrapper .main-toplist tr td:nth-child(2) {
+        font-size: 1.2rem;
+    }
+    .topCasinosMobile .topListCasinosWrapper .main-toplist tr td.bonus a span:nth-child(1),
+    .topCasinosMobile span.greenText, .topCasinosMobile span.currency_symbols {
+        display: block;
+    }
+}
+@media screen and (max-width: 619px) {
+    .continentsFilterMobile, .countriesFilterMobile {
+        padding-left: 1rem;
+        border-left: 3px solid #865d15;
+    }
+    .countriesFilterMobile {
+        margin-top: 2rem;
+    }
+    #content .continentsFilterMobile h3, #content .countriesFilterMobile h3 {
+        font-size: 1.6rem;
+    }
+    .continentsMobileHolder, .ajaxCountriesMobileHolder  {
+        border: 1px solid #ccc;
+        border-top: none;
+        padding: 2rem;
+        display: none;
+        position: absolute;
+        width: 100%;
+        box-shadow: rgba(128, 128, 128, 0.36) 0px 10px 12px;
+        background: rgb(255, 251, 245);
+    }
+    .ajaxCountriesMobileHolder {
+        z-index: 99;
+    }
+    .continentsMobileHolder {
+        position: relative;
+    }
+    .continentsMobileHolder a, .ajaxCountriesMobileHolder a {
+        display: block;
+        width: 100%;
+        font-family: "Oswald",sans-serif;
+        line-height: 1.2;
+        margin-bottom: 0.5rem;
+        border-bottom: 1px solid #cccccc;
+        padding: 0 0rem 0.5rem 0;
+        color: #4d4d4d !important;
+    }
+    .continentsMobileHolder a:hover {
+        color: #d2ab67 !important;
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .countryInformation {
+        padding: 2rem 2rem 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 11pt;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .noLeftColumnForMobile {
+        display: none;
+    }
+
+    .sumome-share-client-wrapper.sumome-share-client-wrapper-left-page {
+        width: 50px !important;
+    }
+    .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-left-page .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-right-page .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-desktop-bottom-bar .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-mobile-top-bar .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-mobile-bottom-bar .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-right-sidebar-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-left-sidebar-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-top-left-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-top-center-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-top-right-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-header-left-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-header-center-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-header-right-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-bottom-left-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-bottom-center-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-bottom-right-article .sumome-share-client-share {
+        height: 50px !important;    
+    }
+    .sumome-share-client-wrapper div.sumome-share-client .sumome-share-client-share {
+        width: 50px !important;
+    }
+    .sumome-share-client-wrapper div.sumome-share-client .sumome-share-client-share img {
+        width: 30px !important;
+        height: 30px !important;    
+    }
+    .sumome-share-client-wrapper.sumome-share-client-wrapper-desktop-bottom-bar, .sumome-share-client-wrapper.sumome-share-client-wrapper-mobile-top-bar, .sumome-share-client-wrapper.sumome-share-client-wrapper-mobile-bottom-bar {
+        height: 50px !important;        
+    }
+
+    .visit_download_wrapp.visit_download_wrapp_mobile {
+        bottom: 50px;
+    }
+    #contentInTabs .nav-pills > li > a {
+        font-size: 1.1rem;
+        padding: 0.7rem 0.9rem;
+    }
+    #contentInTabs .casinorating-item-name {
+        display: none;
+    }
+    #content #contentInTabs .rowWrapp .column h2 {
+        line-height: 1;
+        font-size: 1.5rem;
+    }
+    #content #contentInTabs .rowWrapp .column a.bonus {
+        line-height: 1;
+        font-size: 1.2rem;
+    }
+    #contentInTabs .rowWrapp .column a.button-mini {
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+    #NewsLand .row .\34 u, #NewsLand .row .\34 u\24,
+    .newest-lb .casinoWrapperHome .\36 u, .newest-lb .casinoWrapperHome .\36 u\24,
+    .upcoming-lb .casinoWrapperHome .\36 u, .newest-lb .casinoWrapperHome .\36 u\24 {
+        width: 100% !important;
+    }
+    .flexHolder, .flexEl {
+        display: block;
+    }
+    .flexEl {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+    table.bonus_hotel_holder_table {
+        display: none;
+    }
+    .bonus_hotel_holder {
+        display: block;
+    }
+    .bonus_hotel_holder .first, .bonus_hotel_holder .second {
+        float: left;
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .bonus_hotel_holder .searchFormHeader img {
+        display: none;
+    }
+    #searchForm img {
+        width: 20%;
+    }
+    table.wcd-onlinecasino-concise-casino-list {
+        font-size: 0.7em !important;
+    }
+    .topOnlineCasinosHeader.topOnlineCasinosSideBar .topListCasinosWrapper .main-toplist img {
+        width: 60%;
+    }
+    .hotel-form-field select, .hotel-form-field input {
+        width: 70px;
+    }
+    .hotel-form-label {
+        line-height: 1;
+    }
+    img.best-price-stamp {
+        display: none;
+    }
+    .form-container {
+        padding: 0 1rem 1rem;
+    }
+    .img_ratingHolder {
+        width: 100%;
+    }
+    
+    .multimenu-container-fade p {
+        float: none;
+        width: 100%;
+    }
+    .casino-list-casino.halfWidth {
+        width: 100%;
+        float: none;
+    }
+
+}
+@media screen and (max-width: 375px) {
+    .continentsFilterMobile span.ContName, .countriesFilterMobile span.stateName {
+        display: inline;
+        width: 49%;
+        text-align: right;
+    }
+    #content .gambling-guide h2 span {
+        font-size: 2rem;
+    }
+
+}
+@media screen and (max-width: 320px) {
+    .continentsFilterMobile span.ContName, .countriesFilterMobile span.stateName {
+        font-size: 1.4rem;
+        width: 39%;
+    }
+    .continentsFilterMobile a.open, .countriesFilterMobile a.open {
+        margin-left: 0;
+    }
+    #contentInTabs .nav-pills > li > a {
+        padding: 0.4rem 0.5rem;
+    }
+}
+/*bonus block-casino review page*/
+
+.review-bonus-blocks{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    overflow-y: hidden;
+}
+.bonus-block{
+    flex: 1 1 27%;
+    max-width: 27%;
+    padding: 0 10px;
+    display: inline-table;
+}
+
+
+.pricingTable > .pricingTable-header{
+    color:#fff;
+    position: relative;
+
+}
+
+.pricingTable-header > .heading{
+    display: block;
+    padding-bottom: 0px;
+}
+.heading > h3{
+    margin: 0;
+    text-transform: uppercase;
+    color: #73a7d3;
+}
+.pricingTable-header > .price-value{
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+.pricingTable-header > .price-value > .mo{
+    font-size: 14px;
+    display: block;
+    line-height: 0.5;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+.pricingTable-header > .price-value > .currency{
+    font-size: 24px;
+    margin-right: 4px;
+    position: relative;
+    bottom:30px;
+}
+.pricingTable > .pricingContent{
+    text-transform: uppercase;
+    color:#fff
+}
+.pricingTable > .pricingContent > ul{
+    list-style: none;
+    padding: 0;
+}
+.pricingTable > .pricingContent > ul > li{
+    padding: 15px 0;
+    border-bottom: 1px solid #fff;
+    font-size: 13px;
+}
+.pricingTable > .pricingContent > ul > li:last-child{
+    border: 0px none;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #0097dc;
+    line-height: 1;
+    padding:0;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+}
+
+
+.accordion-toggle {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color:#323648 !important;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.pricingTable-sign-up{
+    padding: 5px 0;
+}
+/*
+.pricingTable-sign-up > .btn-block{
+    width: 70%;
+    margin: 0 auto;
+    background: #77ab53;
+    border:2px solid #fff;;
+    padding: 15px 12px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 4px;
+    display: inline-block;
+    color: #fff !important;
+    cursor: pointer;
+}*/
+.pricingTable-sign-up > .btn-block:hover{
+    opacity: 0.9;
+}
+.btn-default:hover {
+    color: #333 !important;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    text-decoration: none;
+}
+@media only screen and (max-width: 767px) {
+    .review-bonus-blocks{flex-direction: column;}
+    .bonus-block{padding: 0; flex: 1 1 100%; max-width: 100%; margin: 0 0 1rem 0;}
+}
+
+.customer-support{
+    padding-top: 6.9rem;
+}
+/*bonus block-casino review page*/
+
+.modal.and.carousel {
+    position: fixed; 
+
+}
+
+.casino-screenshots .thumb{
+    width: 100%
+}
+#lightbox .modal-content{
+    background-color: transparent!important;
+    box-shadow: none!important;
+    border: none!important;
+}
+#lightbox .carousel-control.right{
+    background-image: none;
+}
+#lightbox .carousel-control.left{
+    background-image: none;
+}
+@media (min-width: 768px){
+    #lightbox .modal-dialog {
+        width: 775px;
+        margin: 30px auto;
+    }   
+}
+@media (min-width: 480px) and (max-width:768px){
+    #lightbox .modal-dialog{
+        bottom:80rem;
+    }
+}
+
+/*Casino screenshots lightbox slider*/
+
+/* Lottery result box lottery_result_box_2017 */ 
+
+.lottery-results-table .lr-game-name .lottery-table-image{
+    width:6rem;
+}
+
+@media screen and (max-width:480px){
+    .lottery-results-table .lr-game-name{
+        width:auto;
+        min-width:auto;
+    }
+}
+@media screen and (min-width:768px){
+
+.lottery-results-table .lr-date-cell {
+   min-width: 8rem;
+}
+table.lottery-results-table tr td.jackpot {
+   min-width: 23rem;
+}
+}
+
+/* Lottery result box lottery_result_box_2017 */ 

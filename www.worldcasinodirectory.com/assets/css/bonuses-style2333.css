@@ -1,0 +1,636 @@
+
+
+.container-a {
+    width: -webkit-fill-available;
+
+    position: relative;
+}
+
+.pricingTable ul li {
+    list-style-type: none;
+}
+#review-ThreeBonus-block .pricingTable {
+    display: flex;
+    max-height: initial;
+}
+#review-ThreeBonus-block .detailsDescription-TwoThreeBlocks {
+  max-height: 380px;
+}
+#review-ThreeBonus-block ul{
+    text-align: center;
+}
+
+.review-OneBonus-blocks .signUpOneBonus {
+    min-height: 25px;
+}
+
+
+.content {
+    border-right: 1px solid #efefef;
+}
+
+
+.container-a div:not(.bonus-icon-holder) {
+ float:left;
+}
+.container-a .header {
+padding: 12px;
+font-weight: bold;
+}
+
+
+.container-a .content {
+display: none;
+padding : 5px;
+}
+
+.review-TwoBonus-blocks {
+display:flex;
+border-top:1px solid #efefef;
+}
+
+.pricingTable {
+flex: 1;
+display: contents;
+}
+
+p.signUpThreeBonuses,
+.price-value,
+.bonus-heading,
+.pricingContentTwoBlocks,
+.pricingTable-header-TwoBlocks {
+    width:100%;
+    text-align: center;
+}
+
+.show-element {
+    display: block;
+}
+
+.hide-element {
+    display: none;
+}
+.carousel-inner .carousel-col:first-child{
+    border-bottom:2px solid #00aeef; 
+    background-color: rgb(217,229,244, 0.2);
+
+}
+#carousel-col {
+    width: 100%;
+}
+
+.carousel-col .tcUrl {
+    margin-top: 2%
+}
+
+#casino-bonuses-pricing-table {
+    min-height: 325px;
+}
+
+
+.pricingTable-header-TwoBlocks h3.bonus-heading {
+    padding:0;
+}
+
+.signUpBonus {
+    height: 30px;
+}
+
+.carousel-col {
+    border-right: 1px solid #e2dae2;
+}
+
+
+.btn-play {
+    min-width: 185px;
+    height: 50px;
+    text-align: center;
+    line-height:2.5 !important;
+}
+
+#review-ThreeBonus-block {
+    margin-bottom:10px;
+}
+
+.detailsDescription-TwoBlocks {
+    padding:5px 10px;
+}
+
+.bonus-ThreeBlocks {
+    width: 44%;
+}
+
+.mobilePadding .bonus-heading{
+    padding-left: 0;
+}
+
+.detailsDescription-mobile {
+    float:left; 
+    text-align: justify;
+    padding: 10px;
+    margin-top:10%;
+}
+
+/*bonus block-casino review page*/
+
+.bonus-heading {
+    min-height: 70px;
+
+}
+
+#carousel-inner .bonus-block .pricingTable-header span.heading {
+    min-height: 70px;
+}
+.bonus-heading{
+    background-color: rgba(0, 0, 0, 0);
+    border-left: medium none;
+    border-top: medium none;
+    box-shadow: none;
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    padding: 1rem;
+    text-align: center;
+    margin: 0!important;
+}
+
+.price-value {
+    line-height: 1.3;
+}
+.review-bonus-blocks{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    overflow-y: hidden;
+}
+.bonus-block{
+    padding: 0 10px;
+    display: inline-table;
+}
+.bonus-block:not(.inner-bonus-block){
+    flex: 1 1 27%;
+    max-width: 27%;
+}
+
+.pricingTable > .pricingTable-header{
+    color:#fff;
+    position: relative;
+}
+
+.pricingTable-header > .heading{
+    display: block;
+    padding-bottom: 0px;
+}
+.heading > h3{
+    margin: 0;
+    text-transform: uppercase;
+   
+}
+.pricingTable-header > .price-value{
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+.pricingTable-header > .price-value > .mo{
+    font-size: 14px;
+    display: block;
+    line-height: 0.5;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+.pricingTable-header > .price-value > .currency{
+    font-size: 24px;
+    margin-right: 4px;
+    position: relative;
+    bottom:30px;
+}
+.pricingTable > .pricingContent{
+    text-transform: uppercase;
+    color:#fff 
+}
+.pricingTable > .pricingContent > ul{
+    list-style: none;
+    padding: 0;
+}
+.pricingTable > .pricingContent > ul > li{
+    padding: 15px 0;
+    border-bottom: 1px solid #fff;
+    font-size: 13px;
+}
+.pricingTable > .pricingContent > ul > li:last-child{
+    border: 0px none;
+}
+.pricingTable-sign-up{
+    padding: 5px 0;
+}
+
+
+
+.btn-default:hover {
+    color: #333 !important;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    text-decoration: none;
+}
+
+.panel-body a:link {
+    color:#999;
+}
+
+.accordion-toggle {
+    padding-top:1px;
+}
+.panel-default>.panel-heading a:hover {
+    color:#333;
+}
+.panel-default>.panel-heading {
+    height:40px;
+}
+#content #accordion {
+    max-width: 780px;
+}
+.panel-default > .panel-heading {
+    background-color: transparent ;
+}
+.panel-group .panel {
+    border-color:#fff;
+}
+#questions_and_answers>#accordion {
+    max-width: -webkit-fill-available;
+}
+
+
+.bonus-block{
+    padding-top:0;
+    width: 25%;
+    padding:10px;
+    border-right:1px solid #e2dae2;
+}
+.bonus-block.inner-bonus-block{
+    padding: 5px;
+    width: 100%;
+}
+.pricingTable{
+    max-height:345px;
+}
+.container-fluid {
+    background-image: url('../images/banner-background-image.jpg');
+}
+.btn-default {
+    border: 1px solid #fff;
+}
+.signUpBonus {
+    text-align: center;
+    padding-top: 25px;
+    font-size:14px;
+    font-family: 'Roboto';
+}
+.imgFlag {
+    max-width:22px;
+    max-height: 22px;
+    margin-top:0;
+    margin-left: 5px;
+}
+.pricingTable-sign-up {
+    padding-top:15px;
+}
+.currency {
+    font-size: 24px;
+    color: #323648;
+}
+.pricingContent, .pricingContentTwoBlocks {
+    font-size: 16px;
+    color: #0097dc;
+    line-height: 1;
+   
+}
+
+.pricingTable-sign-upTwoBlocks a {
+    font-family:'Roboto';
+    font-weight:500;
+}
+
+.pricingContent {
+    margin-top: 10px;
+
+    
+}
+
+.pricingContentTwoBlocks > ul > li,
+#carousel-inner .pricingContent > ul > li {
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    min-height: 18px;
+}
+
+.pricingTable > .pricingContent > ul > li:last-child {
+    border: 0px none;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #0097dc;
+    line-height: 1;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+}
+
+.review-bonus-blocks div:last-child {
+    border-right: none; 
+}
+
+.OneBonus-wrap, .TwoBonuses-wrap {
+    overflow: hidden;
+    margin-bottom:15px;
+}
+
+.descriptions, .gamesWrapper, .bonuses-wrap {
+    margin-bottom:15px;
+}
+.bonus-OneBlock {
+    padding: 0 10px;
+}
+
+.review-OneBonus-blocks p.currencyOneBlock span {
+   font-size: 1.5rem;
+}
+
+.review-OneBonus-blocks {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 2rem 0;
+    overflow-y: hidden;
+    padding-top: 20px;
+    padding-left: 0px;
+    max-height: 140px;
+}
+.signUpOneBonus {
+   font-size: 14px;
+   float: left;
+   text-align: left;
+   font-family: 'Roboto';
+   font-weight: 400;
+}
+.pricingTable-header-OneBlock {
+    max-width: 155px;
+}
+span.moOneBlock .currencyOneBlock {
+   font-size: 23px;
+   float: left;
+   font-family: 'Roboto';
+   font-weight: 400;
+   color: #323648;
+   line-height: 1;
+}
+
+.bonus-OneBlock {
+   width:100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 0;
+}
+.bonus-OneBlock .pricingTable{
+    display: block;
+    flex: 0 0 auto;
+}
+.bonus-OneBlock .bonus-icon-holder{
+    padding: 10px;
+    margin: 0;
+}
+.bonus-OneBlock .bonus-icon-holder.exclusive-star::after{
+    right: initial;
+    left: 0;
+}
+.bonus-OneBlock .pricingTable-header-OneBlock{
+    max-width: initial;
+}
+.bonus-OneBlock .pricingTable-header-OneBlock .moOneBlock{
+    margin-left: 0;
+    float: none;
+}
+.price-value {
+   text-align: left;
+}
+.moOneBlock {
+   font-size: 20px;
+   float: left;
+   margin-left: -13px;
+   width: 175px;
+   font-family: 'Roboto';
+   font-weight: 400;
+   color: #323648;
+   line-height: 0.5;
+   margin-top: 10px;
+}
+.detailsDescription-OneBlock {
+    width: 100%;
+    height: 105px;
+    float: right;
+    overflow-x: hidden;
+    font-size: 12px;
+    padding:10px;
+    font-family: 'Roboto';
+   font-weight: 400;
+}
+.pricingContentOneBlock {
+    font-size: 16px;
+    color: #0097dc;
+    line-height: 1;
+    max-width: 123px;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+}
+
+.pricingContentOneBlock ul li,
+.bonus-block ul li {
+    list-style-type: none;
+}
+div.pricingContentOneBlock>ul {
+   min-width: 90px;
+}
+.pricingTable-sign-upOneBlock {
+    
+    max-height: 20px;
+}
+
+.pricingTable-sign-upOneBlock .tcUrl{
+    margin-top: 5%;
+    font-weight: 600;
+}
+
+.bonus-TwoBlocks .tcUrl-wrap {
+    width: 50%;
+    margin-top: 2%;
+    justify-content: left;
+}
+
+.btn-playTwoBlocks {
+   min-width: 160px;
+}
+#content .btn-playOneBlock, .btn-playThreeBlocks {
+    min-width: 120px;
+    height: 41px;
+    display: table-cell;
+}
+
+.btn-playThreeBlocks {
+    border-radius: 4px
+}
+
+.signUpThreeBonuses {
+   margin-top:15px;
+}
+
+.bonus-TwoBlocks {
+   width:50%;
+   float: left;
+   margin-left: 10px;
+   border-right: 1px solid #efefef;
+}
+
+.bonus-TwoBlocks:last-of-type {
+    border-right:none; 
+}
+
+
+.signUpTwoBonuses {
+   padding-left: 10px;
+}
+
+.signUpThreeBonuses {
+   padding-left: 0;
+}
+
+.header {
+    border-right:1px solid #efefef;
+}
+
+
+.signUpTwoBonuses,
+.signUpThreeBonuses {
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 15px;
+   float: left;
+   min-height: 50px;
+}
+
+.signUpTwoBonuses {
+    margin-top:5%;
+    padding-left: 0;
+    min-height: 8%;
+    width: 50%;
+
+}
+.pricingTable-header-TwoBlocks {
+    clear: both;
+    float: left;
+    width:195px;
+}
+
+.container-a .pricingContentThreeBlocks {
+   max-width:100%;
+   text-align: center;
+}
+
+
+.pricingContentTwoBlocks {
+   max-width:max-content;
+   text-align: left;
+   float: left;
+   clear:both;
+}
+
+
+.moTwoBlocks {
+   font-size: 20px;
+   color: #323648;
+   font-family: 'Roboto';
+   font-weight: 400;
+   min-height: 25px;
+   display: inline-block;
+}
+
+.pricingTable-header-TwoBlocks span.currency {
+   display: inline-block;
+   min-height: 70px;
+   line-height: 1
+}
+
+.pricingTable-sign-upThreeBlocks {
+   margin-top:15px;
+   width: 100%;
+   display: inline-table;
+}
+.review-TwoBonus-blocks {
+    min-height: 310px;
+}
+
+
+.detailsDescription-ThreeBlocks {
+   width: 200px;
+   padding-right: 10px;
+   padding-left: 5%;
+}
+
+#review-ThreeBonus-block .pricingTable-sign-upThreeBlocks {
+   width:100%;
+   display: table;
+
+}
+
+#review-ThreeBonus-block .tcUrl-wrap {
+    margin-top: 3%
+}
+
+.tcUrl-wrap {
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 600
+}
+
+.pricingTable-sign-upTwoBlocks {
+   width:50%;
+   display: table;
+   float: left;
+   clear: both;
+}
+
+
+
+.pricingTable-sign-upThreeBlocks {
+   display: table;
+   padding: 0 10%;
+}
+
+
+.detailsDescription-TwoBlocks{
+   max-width: -webkit-fill-available;
+   
+}
+
+.detailsDescription-TwoThreeBlocks {
+   height: -webkit-fill-available;
+   font-size: 12px;
+   overflow-x: hidden;
+   text-align: justify;
+   font-family: 'Roboto';
+   font-weight: 400;
+   max-height: 300px;
+
+}
+
+@media only screen and (max-width: 767px) {
+    .review-bonus-blocks{
+       flex-direction: column;
+   }
+    .bonus-block{
+       padding: 0;
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin: 0 0 1rem 0;
+   }
+}

@@ -1,0 +1,3139 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+/* Basic */
+
+body
+{
+    min-width: 737px;
+    /*background: black url('//news.worldcasinodirectory.com/wp-content/uploads/2015/02/pattern_gray_patterns_damask_1_1920x1200_.jpg') no-repeat fixed;*/
+    background: black url('../images/damask-1920x1200-62.jpg') no-repeat fixed;
+
+}
+
+section:last-child
+{
+    margin-bottom: 0 !important;
+}
+
+/* Wrappers */
+
+#header-wrapper
+{
+    /*background: #3B4346 url('images/bg01.jpg');*/
+    /*border-bottom: solid 1px #272d30;
+    box-shadow: inset 0px -1px 0px 0px #51575a;
+    text-shadow: -1px -1px 1px rgba(0,0,0,0.75);*/
+}
+
+#content-wrapper
+{
+    border-bottom: solid 1px #272d30;
+    box-shadow: inset 0px -1px 0px 0px #51575a;
+    /*text-shadow: -1px -1px 1px rgba(0,0,0,0.75);*/
+    margin: 0;
+    /*border-top: solid 1px #888;*/
+    /*padding: 45px 0 45px 0;*/
+}
+
+.subpage #header-wrapper
+{
+    height: 255px;
+}
+
+#features-wrapper
+{
+    background: #353D40 url('images/bg02.jpg');
+    border-bottom: solid 1px #272e31;
+    padding: 45px 0 45px 0;
+    text-shadow: -1px -1px 1px rgba(0,0,0,0.75);
+}
+
+/*#content-wrapper
+{
+background: #f7f7f7 url('images/bg04.png');
+border-top: solid 1px #fff;
+padding: 45px 0 45px 0;
+}*/
+
+#footer-wrapper
+{
+    padding: 45px 0 45px 0;
+    text-shadow: 1px 1px 1px rgba(255,255,255,1);
+}
+
+/* Header */
+
+#header
+{
+    min-height: 180px;
+    position: relative;
+    box-shadow: 0 9px 0 0 rgba(255, 255, 255, 0), 0 -9px 0 0 rgba(255, 255, 255, 0), 10px 0 30px 0 rgba(0, 0, 0, 0.15), -10px 0 30px 0 rgba(0, 0, 0, 0.15);
+
+    /*background-image: url('//news.worldcasinodirectory.com/wp-content/uploads/2015/02/pattern-dark-grey_3652301-crop.jpg');*/
+    background-image: url('../images/dark-grey-fade.jpg');
+}
+
+/*#header #logo img {
+margin-top: -20px;
+}*/
+
+#header #logo img {
+    padding-top: 10px; 
+    padding-left: 30px;
+}
+
+
+#header h1
+{
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+    font-family: 'Lobster', sans-serif;
+    font-size: 2.75em;
+}
+
+#header h1 a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+#header nav
+{
+    /*   -moz-box-shadow:    inset  0  8px 8px -8px #666, 
+    inset  0 -8px 8px -8px #666;
+    -webkit-box-shadow: inset  0  8px 8px -8px #666, 
+    inset  0 -8px 8px -8px #666;
+    box-shadow:        inset  0  8px 8px -8px #111, 
+    inset  0 -8px 8px -8px #111;*/
+    /*	position: absolute;
+    right: 0;
+    bottom: 35px;*/
+    font-weight: 200;
+    width: 100%;
+}
+
+#header nav a
+{
+    /*color: #c6c8c8;*/
+    text-decoration: none;
+    font-size: 1.4em;
+    /*margin-left: 60px;*/
+    outline: 0;
+}
+
+#header nav a:hover
+{
+    color: #f6f8f8;
+}
+
+#header-search-form-container {
+    z-index: 1001;
+}
+
+#header-search-box {
+    /*width: 33.7%;*/
+    width: 84%;
+    display: inline;
+    padding: 0 0.5em;
+    /*margin-left: 1em;*/
+    margin-top: 0;
+    height: 2em;
+    color: #fff;
+    background: rgba(144, 144, 144, 0.175) none repeat scroll 0 0;
+}
+
+#header-search-form {
+    margin: 0;
+    margin-right: 1em;
+    text-align: right;
+}
+
+.megamenu-content:hover, .megamenu-content.subshow{
+    display: block;
+}
+.megamenu-content {
+    display: none;
+    position: absolute;
+    padding: 1em 1em 0 1em;
+    /*background-color: #a98d6b;*/
+    /*background-color: #ccc;*/
+    line-height: 1.3em;
+    z-index: 9999;
+    color: #000 !important;
+
+    background: #f1f1f1!important;
+
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top left, #EEEEEE 0%, #AAAAAA 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top left, #EEEEEE 0%, #AAAAAA 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top left, #EEEEEE 0%, #AAAAAA 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #EEEEEE), color-stop(1, #AAAAAA));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top left, #EEEEEE 0%, #AAAAAA 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom right, #EEEEEE 0%, #AAAAAA 100%);	    
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2), -5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.megamenu-content li{
+    padding: 0.5rem;
+    font-family: 'Oswald';
+    transition: ease-in 0.2s;
+    border-bottom: 1px solid #E9DBCA;
+}
+
+.megamenu-content li:hover{
+    background: #e4d0b8;
+    cursor: pointer;
+
+    border-radius: 3px;
+}
+.megamenu-content p {
+    line-height: 120%;
+    font-size: 1.3rem;
+    display: block;
+    clear: left;
+}
+#mm-lottery-content.megamenu-content .main-toplist a {
+    color: #f1f1f1!important;
+}
+
+.megamenu-content b{
+    color: #a5804e;
+    font-family: 'Oswald';
+}
+
+/*
+.megamenu-content:before {
+box-shadow: -15px 0 15px -15px inset;
+content: " ";
+height: 100%;
+left: -15px;
+position: absolute;
+top: 0;
+width: 15px;
+}
+
+.megamenu-content:after {
+box-shadow: -15px -15px 15px 0 inset;
+content: " ";
+height: 100%;
+right: -15px;
+position: absolute;
+top: 0;
+width: 15px;
+}
+*/
+.megamenu-content .row {
+    width: 1200px;
+}
+
+.megamenu-content .main-toplist{
+    background-color: #424242 !important;
+    margin-bottom: 10px;
+}
+.megamenu-content .main-toplist td{
+    padding: 0.1rem;
+}
+
+.megamenu-content .flush-bottom{
+    font-family: 'Oswald';
+    font-size: 19px;
+    color: #f1f1f1;
+}
+
+.megamenu-content a {
+    color: #504f4d;
+    text-decoration: none;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 1.3rem;
+}
+
+.megamenu-content a:hover {
+    color: #7d6036!important;
+    cursor: pointer;
+}
+.megamenu-content .main-toplist img {
+    width: 80%;
+}
+
+/*#mm-online-casinos-content a {
+color: #d2ab67;
+}	*/
+
+#mm-search a {
+    padding-top: 9px !important;
+    /*padding-left: 4px !important;*/
+    padding-bottom: 15px !important;
+}
+
+#mm-logo {
+    padding: 0;
+    padding-top: 8px;
+    padding-right: 1em;
+}
+
+#mm-logo a {
+    padding: 0 !important;
+
+
+}
+
+#mm-logo a:hover {
+    background-color: transparent !important;
+}
+
+.mm-hover {
+    /*background-color: #a98d6b;*/
+    background-color: #eee !important;
+    color: #333 !important;
+}
+
+.mm-h1 {
+    font-size: 1.1em;
+    display: block;
+    margin-bottom: 0.5em;
+    font-family: 'Open Sans';
+}
+
+.mm-h2 {
+    font-size: 1.1em;
+    display: block;
+    margin-bottom: 0.5em;
+    font-family: 'Open Sans';
+    color: #666;
+}
+
+/*********************
+NAVIGATION STYLES
+*********************/
+#cb-small-menu {
+    left: 0;
+    top: 0;
+    -moz-transform: translate3d(-220px, 0, 0);
+    -webkit-transform: translate3d(-220px, 0, 0);
+    transform: translate3d(-220px, 0, 0);
+    position: absolute;
+    height: 100%;
+    width: 220px;
+    overflow: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+}
+#cb-small-menu ul li a {
+    padding: 10px;
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#cb-small-menu ul li ul li a {
+    padding: 10px 10px 10px 25px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+}
+#cb-small-menu ul li ul li ul li a {
+    padding: 10px 10px 10px 40px;
+}
+#cb-small-menu #cb-small-menu-close {
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    padding: 10px 20px 0 0;
+}
+
+#cb-small-menu.cb-dark-menu {
+    background: #2d2d2d;
+}
+#cb-small-menu.cb-dark-menu ul li a {
+    color: #E6E6E6;
+}
+#cb-small-menu.cb-dark-menu #cb-small-menu-close {
+    color: #f0f0f0;
+}
+
+#cb-small-menu.cb-light-menu {
+    background: #f5f5f5;
+    border-right: 3px solid #f0f0f0;
+}
+#cb-small-menu.cb-light-menu ul li a {
+    color: #808080;
+}
+#cb-small-menu.cb-light-menu #cb-small-menu-close {
+    color: #666666;
+}
+
+#cb-bg-to {
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: inline;
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+}
+
+#cb-outer-container.cb-small-menu {
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+#cb-outer-container.cb-small-menu.cb-main-nav-on {
+    -moz-transform: translate3d(220px, 0, 0);
+    -webkit-transform: translate3d(220px, 0, 0);
+    transform: translate3d(220px, 0, 0);
+}
+#cb-outer-container.cb-small-menu.cb-main-nav-on #cb-small-menu {
+    left: 0;
+}
+
+#cb-top-menu {
+    /*background: #e5e5e5;*/
+    /*background: #333;*/
+    /*background: rgba(27, 27, 27, 0.95);*/
+    background: rgba(0, 0, 0, 0.2);
+    height: 38px;
+    width: 100%;
+    float: left;
+}
+#cb-top-menu #cb-small-menu-trigger {
+    display: inline-block;
+    width: 10%;
+    height: 35px;
+    float: left;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    color: #808080;
+}
+#cb-top-menu .cb-small-menu-icons {
+    font-size: 17px;
+    color: #808080;
+    float: right;
+    text-align: center;
+    width: 10%;
+    line-height: 35px;
+    padding-right: 5px;
+}
+#cb-top-menu .cb-breaking-news {
+    width: 70%;
+    height: 35px;
+    overflow: hidden;
+    line-height: 38px;
+    float: left;
+    font-family: "Oswald",sans-serif;
+}
+#cb-top-menu .cb-breaking-news.news-bypass{
+    overflow: visible;
+}
+#cb-top-menu .cb-breaking-news span {
+    text-align: center;
+    font-size: 10px;
+    padding: 0 10px 0 5px;
+    letter-spacing: 1px;
+    /* color: #808080;*/
+    color: #aaa;
+    float: left;
+    text-transform: uppercase;
+}
+#cb-top-menu .cb-breaking-news span .fa-long-arrow-right {
+    margin-left: 5px;
+    font-size: 12px;
+}
+#cb-top-menu .cb-breaking-news ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0 5px 0 0;
+}
+#cb-top-menu .cb-breaking-news ul li {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    margin-top: -4px;
+}
+#cb-top-menu .cb-breaking-news ul li a {
+    color: #aeaeae;
+}
+#cb-top-menu .cb-top-nav {
+    display: none;
+}
+
+#cb-top-menu.cb-light-menu {
+    background: #f7f7f7;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+#cb-top-menu .cb-breaking-news ul li a { 
+    /*color:#dd3333; */
+    color:#ee3333; 
+}
+
+/*********************
+MODAL STYLES
+*********************/
+.cb-login-modal, #cb-search-modal, .cb-register-modal {
+    margin-left: -175px;
+}
+
+.lwa, .cb-join-modal, #cb-search-modal {
+    width: 350px;
+}
+
+.cb-boxed {
+    box-shadow: 0px 9px 0px 0px rgba(255, 255, 255, 0), 0px -9px 0px 0px rgba(255, 255, 255, 0), 10px 0px 30px 0px rgba(0, 0, 0, 0.15), -10px 0px 30px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 9px 0px 0px rgba(255, 255, 255, 0), 0px -9px 0px 0px rgba(255, 255, 255, 0), 10px 0px 30px 0px rgba(0, 0, 0, 0.15), -10px 0px 30px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 9px 0px 0px rgba(255, 255, 255, 0), 0px -9px 0px 0px rgba(255, 255, 255, 0), 10px 0px 30px 0px rgba(0, 0, 0, 0.15), -10px 0px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+#cb-top-menu .cb-small-menu-icons {
+    font-size: 20px;
+    padding-right: 15px;
+}
+#cb-top-menu .cb-small-menu-icons.cb-small-menu-login {
+    width: 8%;
+}
+#cb-top-menu .cb-small-menu-icons.cb-small-menu-search {
+    padding-right: 0;
+}
+#cb-top-menu .cb-breaking-news span {
+    font-size: 12px;
+    padding: 0 10px;
+    letter-spacing: 2px;
+}
+#cb-top-menu .cb-breaking-news ul.animate {
+    padding: 0 70px 0 0;
+}
+#cb-top-menu .cb-breaking-news ul li {
+    letter-spacing: 1px;
+}
+
+.cb-large {
+    width: 480px;
+}
+
+.cb-medium {
+    width: 480px;
+}
+
+#cb-related-posts li {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/*********************
+NAVIGATION STYLES
+*********************/
+div.wrap.clearfix.clear-bypass{
+    overflow: initial;
+}
+.cb-login-search {
+    width: 20%;
+    float: left;
+    text-align: right;
+    padding: 5px 0;
+}
+.cb-login-search a {
+    color: #b3b3b3;
+    margin-right: 20px;
+}
+.cb-login-search a .fa-user, .cb-login-search a .fa-sign-in, .cb-login-search a .fa-search, .cb-login-search a .fa-envelope-o {
+    margin-right: 5px;
+}
+.cb-login-search a:hover .fa-user, .cb-login-search a .fa-sign-in, .cb-login-search a .fa-search, .cb-login-search a .fa-envelope-o {
+    text-decoration: none;
+}
+#cb-top-menu {
+    width: 100%;
+}
+#cb-top-menu .wrap {
+    padding-right: 0;
+}
+#cb-top-menu .cb-breaking-news {
+    width: 50%;
+}
+#cb-top-menu .cb-breaking-news ul li {
+    font-size: 16px;
+}
+#cb-top-menu .cb-breaking-news span {
+    padding: 0 20px;
+}
+#cb-top-menu .cb-breaking-news span .fa-long-arrow-right {
+    margin-left: 15px;
+    font-size: 16px;
+}
+#cb-top-menu a {
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 0;
+    color: #999999;
+}
+#cb-top-menu a:hover {
+    text-decoration: underline;
+}
+#cb-top-menu .cb-top-nav {
+    width: 50%;
+    float: right;
+    text-align: right;
+    display: block;
+    border: 0;
+    margin: 0;
+    height: 35px;
+}
+#cb-top-menu .cb-top-nav .cb-has-children > a:after {
+    content: "\f067";
+    font-family: fontawesome;
+    font-size: 8px;
+    color: #b3b3b3;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+#cb-top-menu .cb-top-nav li {
+    display: inline-block;
+    position: relative;
+    line-height: 35px;
+    height: 100%;
+    transition: all 0.35s;
+    transition: all 0.35s;
+    transition: all 0.35s;
+    transition: all 0.35s;
+}
+#cb-top-menu .cb-top-nav li:hover {
+    background: #2d2d2d;
+}
+#cb-top-menu .cb-top-nav li:hover a {
+    color: #f5f5f5;
+}
+#cb-top-menu .cb-top-nav li a {
+    border-bottom: 0;
+    padding: 0 10px;
+    display: inline-block;
+    height: 100%;
+}
+#cb-top-menu .cb-top-nav li a:hover {
+    text-decoration: none !important;
+}
+#cb-top-menu .cb-top-nav li ul.sub-menu,
+#cb-top-menu .cb-top-nav li ul.children {
+    text-align: center;
+    margin-top: 0;
+    position: absolute;
+    display: none;
+    z-index: 8999;
+    background: #e5e5e5;
+    border-top: 1px dashed #cccccc;
+}
+#cb-top-menu .cb-top-nav li ul.sub-menu li,
+#cb-top-menu .cb-top-nav li ul.children li {
+    width: 100%;
+    border-bottom: 1px dashed #cccccc;
+    position: relative;
+    transition: background 0.35s;
+    transition: background 0.35s;
+    transition: background 0.35s;
+    transition: background 0.35s;
+    padding: 0;
+}
+#cb-top-menu .cb-top-nav li ul.sub-menu li:hover a,
+#cb-top-menu .cb-top-nav li ul.children li:hover a {
+    color: #f5f5f5;
+}
+#cb-top-menu .cb-top-nav li ul.sub-menu li a,
+#cb-top-menu .cb-top-nav li ul.children li a {
+    border-right: 0;
+    width: 100%;
+    display: block;
+    color: #b3b3b3;
+    line-height: 1.5;
+    padding: 10px;
+}
+#cb-top-menu .cb-top-nav li ul.sub-menu li:last-child,
+#cb-top-menu .cb-top-nav li ul.children li:last-child {
+    border-bottom: none;
+}
+#cb-top-menu .cb-top-nav li ul.sub-menu li:last-child a,
+#cb-top-menu .cb-top-nav li ul.children li:last-child a {
+    border-bottom: 0;
+}
+#cb-top-menu .cb-top-nav li:hover > ul {
+    top: 100%;
+    display: block;
+}
+#cb-top-menu .cb-top-nav li:hover > ul li ul {
+    display: none;
+}
+#cb-top-menu .cb-top-nav li:hover > ul li:hover > ul {
+    left: 100%;
+    display: block;
+    top: 0;
+}
+
+#cb-top-menu.cb-hidden {
+    display: none;
+}
+
+.cb-no-top #cb-top-menu {
+    display: none;
+}
+
+#cb-top-menu #cb-small-menu-trigger, .cb-small-menu-icons {
+    display: none;
+}
+/* added for light gray menu */
+#cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav {
+    width: 50%;
+    float: right;
+    text-align: right;
+    display: block;
+    border: 0;
+    margin: 0;
+    height: 40px;
+    position: absolute;
+    right: -1.2em;
+    overflow: visible;
+    padding-top: 0.3em;
+}  
+
+#cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li {
+    float: left;
+    display: table;
+    position: relative;
+    height: 100%;
+    -webkit-transition: all 0.35s;
+    -ms-transition: all 0.35s;
+    -o-transition: all 0.35s;
+    -transition: all 0.35s;
+    transition: all 0.35s;
+    overflow: auto;
+}
+
+#cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li a {
+    border-bottom: 0;
+    padding: 0 10px;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    color: #999999;
+    text-decoration: none;
+    line-height: 38px;
+}
+
+#cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li a:hover{
+    color: #f5f5f5;
+}
+
+#cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li ul.sub-menu, #cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li ul.children {
+    text-align: center;
+    margin-top: 0;
+    position: absolute;
+    display: none;
+    z-index: 99999;
+    background: #e5e5e5;
+    border-top: none;
+}
+
+#cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li ul.sub-menu li,#cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li ul.children li {
+    width: 100%;
+    border-bottom: none;;
+    position: relative;
+    -webkit-transition: background 0.35s;
+    -ms-transition: background 0.35s;
+    -o-transition: background 0.35s;
+    -transition: background 0.35s;
+    transition: background 0.35s;
+    padding: 0;
+}
+
+#cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li ul.sub-menu li a, #cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li ul.children li a {
+    border-right: 0;
+    width: 100%;
+    display: block;
+    color: #363636;
+    line-height: 1.5;
+    padding: 11px 10px;
+    white-space: initial;
+}  
+#cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li ul.sub-menu li:hover, 
+#cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li ul.children li:hover{
+    background: #8a8986;
+}
+#cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li ul.sub-menu li a:hover, 
+#cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li ul.children li a:hover{
+    color: #000000 !important;
+}
+#cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li:hover{}
+#cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li:hover > ul {
+    top: 100%;
+    display: block;
+    left: 0;
+    padding: 0;
+}
+#cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li:hover > ul li ul {
+    display: none;
+}
+#cb-top-menu .cb-breaking-news ul#grey-menu.cb-top-nav li:hover > ul li:hover > ul {
+    left: 100%;
+    display: block;
+    top: 0;
+}
+
+.sticky {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(27, 27, 27, 1) !important;
+    /*  width: 1200px !important;*/
+}
+
+.sticky-search {
+    background-color: rgba(27, 27, 27, 1);
+    display: none;
+    /*background-image: url("//www.worldcasinodirectory.com/assets/images/dark-grey-fade.jpg");*/
+    position: fixed !important;
+    padding-top: 0.5em;
+    width: 1200px;
+}
+
+.sticky-mm-content {
+    position: fixed !important;
+    top: 54;
+}
+
+#nav {
+    z-index: 1001;
+}
+
+#nav .cb-login-modal, #nav #cb-search-modal, #nav .cb-register-modal {
+    margin-top: 150px;
+}
+
+#nav #cb-main-menu {
+    display: block;
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+#nav #cb-main-menu .main-nav {
+    border: 0;
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+#nav #cb-main-menu .main-nav li {
+    transition: background, 0.35s;
+    transition: background, 0.35s;
+    transition: background, 0.35s;
+    transition: background, 0.35s;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: -2px;
+}
+
+#nav #cb-main-menu .main-nav li > a:hover,
+#nav #cb-main-menu .main-nav li > a:focus {
+    background-color: #a98d6b;
+}
+
+#nav #cb-main-menu .main-nav li.selected > a {
+    background-color: #a98d6b;
+}
+
+#nav #cb-main-menu .main-nav li > a {
+    padding: 9px 7px;
+    display: inline-block;
+    /*transform: translate3d(0, 0, 0);*/
+    letter-spacing: 1px;
+    /*transition: all 0.35s;*/
+
+}
+#nav #cb-main-menu .main-nav li > a {
+    letter-spacing: 1px;
+    padding: 12px 15px;
+    color: #fafafa;
+    font-size: 1.2em;
+}
+#nav #cb-main-menu .main-nav li li {
+    margin-right: 0;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu {
+    position: absolute;
+    left: 0;
+    width: 750px;
+    overflow: hidden;
+    display: none;
+    z-index: 900;
+    backface-visibility: hidden;
+    backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles {
+    width: 100%;
+    float: right;
+    padding: 0 0 20px 0;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-mega-title {
+    padding: 10px 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-mega-title span {
+    border-bottom: 3px solid transparent;
+    padding: 0 0 10px 0;
+    display: inline-block;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent {
+    float: left;
+    width: 50%;
+    padding: 0 30px 500px 30px;
+    margin-bottom: -500px;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul {
+    margin: 0;
+    text-align: left;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li {
+    width: 100%;
+    margin: 0 0 10px 0;
+    display: inline-block;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-mask {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    display: none;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-mask .cb-review-ext-box {
+    top: 0;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-mask:hover img {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-mask a {
+    display: block;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-mask a img {
+    transition: all 0.35s;
+    transition: all 0.35s;
+    transition: all 0.35s;
+    transition: all 0.35s;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .h4 {
+    margin: 0 0 2px 0;
+    text-transform: none;
+    font-size: 13px;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .h4:hover, #nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .h4:focus {
+    text-decoration: underline;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .cb-byline {
+    display: none;
+    font-size: 11px;
+    color: #b3b3b3;
+    letter-spacing: 1px;
+    margin: 0;
+    text-transform: none;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .cb-byline a:hover {
+    text-decoration: underline;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li:last-child {
+    margin: 0;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent.cb-recent-fw ul li {
+    width: 48%;
+    float: left;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent.cb-recent-fw ul .cb-article-1, #nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent.cb-recent-fw ul .cb-article-3 {
+    margin: 0 4% 15px 0;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent.cb-recent-fw ul .cb-article-5 {
+    margin: 0 4% 0 0;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent.cb-recent-fw ul .cb-article-6 {
+    margin: 0;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-featured {
+    width: 50%;
+    float: left;
+    padding: 0 20px 500px 20px;
+    margin-bottom: -500px;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-featured ul li {
+    position: relative;
+    overflow: hidden;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-featured ul li .cb-mask {
+    position: relative;
+    float: left;
+    background: #2d2d2d;
+    width: 260px;
+    height: 130px;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-featured ul li .cb-mask .cb-review-ext-box {
+    top: 0;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-featured ul li .cb-mask a {
+    display: block;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-featured ul li .cb-mask img {
+    transition: all 0.35s;
+    transition: all 0.35s;
+    transition: all 0.35s;
+    transition: all 0.35s;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-featured ul li:hover .cb-mask img {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6;
+    transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-featured ul li .cb-meta {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 16;
+    width: 100%;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-featured ul li .cb-meta h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0 40px 15px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35), 0px 0px 3px rgba(0, 0, 0, 0.35);
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-featured ul li .cb-meta h2 a {
+    color: #fff;
+    border-bottom: 2px white solid;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-featured ul li .cb-meta .cb-byline {
+    display: none;
+    margin: 0 0 20px 0;
+    color: #f5f5f5;
+    text-transform: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35), 0px 0px 3px rgba(0, 0, 0, 0.35);
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-featured ul li .cb-meta .cb-byline i {
+    color: #f2f2f2;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-featured ul li .cb-meta .cb-byline a {
+    color: #f5f5f5;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-featured ul li .cb-meta .cb-byline a:hover {
+    text-decoration: underline;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-featured ul li .cb-meta .cb-byline .cb-byline-element a {
+    color: #fff;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-slider-a {
+    margin: 0;
+    padding: 0 20px;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-slider-a .flexslider-1-fw-menu, #nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-slider-a .flexslider-1-menu {
+    width: 710px;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-slider-a .flexslider-1-fw-menu .slides li, #nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-slider-a .flexslider-1-menu .slides li {
+    margin-right: 3px;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-slider-a .flexslider-1-fw-menu .slides li .cb-byline i, #nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-slider-a .flexslider-1-menu .slides li .cb-byline i {
+    color: #f0f0f0;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-slider-a .flexslider-1-fw-menu .slides li .cb-byline a:hover, #nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-slider-a .flexslider-1-menu .slides li .cb-byline a:hover {
+    text-decoration: underline;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles.cb-with-sub {
+    width: 80%;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles.cb-with-sub .cb-slider-a .flexslider-1-fw-menu, #nav #cb-main-menu .main-nav li .cb-big-menu .cb-articles.cb-with-sub .cb-slider-a .flexslider-1-menu {
+    width: 560px;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-sub-menu {
+    width: 20%;
+    border-right: 1px solid #333333;
+    margin: 0 0 -500px 0;
+    padding-bottom: 500px;
+    float: left;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-sub-menu li {
+    width: 100%;
+    border-bottom: 1px solid #333333;
+    position: relative;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-sub-menu li:hover {
+    background: #333333;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-sub-menu li a {
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-sub-menu li .cb-grandchild-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    z-index: 16;
+    border-left: 1px dashed #f5f5f5;
+}
+#nav #cb-main-menu .main-nav li .cb-big-menu .cb-sub-menu li .cb-grandchild-menu li:last-child {
+    border-bottom: none !important;
+}
+#nav #cb-main-menu .main-nav li .cb-mega-menu {
+    position: absolute;
+    left: 0;
+    width: 750px;
+    overflow: hidden;
+    display: none;
+    z-index: 900;
+    background: #2d2d2d;
+    backface-visibility: hidden;
+    backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 10px 0 20px 0;
+}
+#nav #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu {
+    margin: 0;
+}
+#nav #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu > li {
+    padding: 0 20px 1000px 20px;
+    margin-bottom: -1000px;
+    float: left;
+}
+#nav #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu li {
+    width: 25%;
+}
+#nav #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu li a {
+    display: inline-block;
+    color: #f7f7f7;
+    font-weight: 700;
+    border-bottom: 3px solid transparent;
+    padding: 15px 0 10px 0;
+    margin: 0 0 15px 0;
+}
+#nav #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu li .cb-grandchild-menu {
+    margin: 0;
+    width: 100%;
+    z-index: 15;
+}
+#nav #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu li .cb-grandchild-menu li {
+    width: 100%;
+    margin: 0;
+    border: none;
+    padding: 5px 20px;
+}
+#nav #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu li .cb-grandchild-menu li a {
+    text-transform: none;
+    border: none;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0;
+    transition: background 0.35s;
+    transition: background 0.35s;
+    transition: background 0.35s;
+    transition: background 0.35s;
+}
+#nav #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu li .cb-grandchild-menu li a:hover {
+    text-decoration: underline;
+}
+#nav #cb-main-menu .main-nav li .cb-links-menu {
+    position: relative;
+    z-index: 900;
+}
+#nav #cb-main-menu .main-nav li .cb-links-menu .cb-sub-menu {
+    min-height: 37px;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    display: none;
+    width: 200px;
+    border-top: 1px dashed #f5f5f5;
+}
+#nav #cb-main-menu .main-nav li .cb-links-menu .cb-sub-menu li {
+    width: 200px;
+    border-bottom: 1px solid #333333;
+    position: relative;
+    transition: background 0.35s;
+    transition: background 0.35s;
+    transition: background 0.35s;
+    transition: background 0.35s;
+}
+#nav #cb-main-menu .main-nav li .cb-links-menu .cb-sub-menu li:hover {
+    background: #333333;
+}
+#nav #cb-main-menu .main-nav li .cb-links-menu .cb-sub-menu li a {
+    padding: 8px 12px;
+    width: 100%;
+}
+#nav #cb-main-menu .main-nav li .cb-links-menu .cb-sub-menu li .cb-grandchild-menu {
+    z-index: 15;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -180px;
+    width: 180px;
+    margin: 0;
+    border-left: 1px dashed #f5f5f5;
+}
+#nav #cb-main-menu .main-nav li .cb-links-menu .cb-sub-menu li:last-child {
+    border-bottom: none;
+}
+#nav #cb-main-menu .main-nav .cb-icons {
+    float: right;
+    margin-right: 0;
+}
+#nav #cb-main-menu .main-nav .cb-icons .cb-icon-login, #nav #cb-main-menu .main-nav .cb-icons .cb-icon-search, #nav #cb-main-menu .main-nav .cb-icons .cb-icon-logged-in {
+    float: right;
+}
+#nav #cb-main-menu .main-nav .cb-icons .cb-icon-login a, #nav #cb-main-menu .main-nav .cb-icons .cb-icon-search a, #nav #cb-main-menu .main-nav .cb-icons .cb-icon-logged-in a {
+    display: block;
+    padding: 9px 8px;
+    transition: padding 0.35s;
+    transition: padding 0.35s;
+    transition: padding 0.35s;
+    transition: padding 0.35s;
+}
+#nav #cb-main-menu .main-nav .cb-icons .cb-icon-login a .fa-user, #nav #cb-main-menu .main-nav .cb-icons .cb-icon-login a .fa-search, #nav #cb-main-menu .main-nav .cb-icons .cb-icon-search a .fa-user, #nav #cb-main-menu .main-nav .cb-icons .cb-icon-search a .fa-search, #nav #cb-main-menu .main-nav .cb-icons .cb-icon-logged-in a .fa-user, #nav #cb-main-menu .main-nav .cb-icons .cb-icon-logged-in a .fa-search {
+    font-size: 16px;
+}
+#nav #cb-main-menu .main-nav .cb-icons .cb-icon-logged-in a img {
+    margin: 3px 5px -3px 0;
+    height: 25px;
+    width: 25px;
+}
+#nav #cb-main-menu .main-nav .cb-icons .cb-icon-search {
+    margin-right: 1px;
+}
+#nav #cb-main-menu .main-nav .cb-icons .cb-icon-logged-in a {
+    padding: 5px 8px;
+}
+#nav #cb-main-menu .main-nav .cb-has-children > a:after {
+    content: "\f067";
+    font-family: fontawesome;
+    font-size: 10px;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+#nav #cb-main-menu .main-nav .cb-mega-menu .cb-has-children a:after {
+    content: "";
+}
+
+#nav.cb-stuck {
+    position: fixed;
+    top: 0;
+    z-index: 900;
+    width: 750px;
+    box-shadow: 0 3px 20px -5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 3px 20px -5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 3px 20px -5px rgba(0, 0, 0, 0.6);
+}
+#nav.cb-stuck #cb-main-menu .main-nav .cb-icons .cb-icon-login a .fa-user, #nav.cb-stuck #cb-main-menu .main-nav .cb-icons .cb-icon-search a .fa-search {
+    font-size: 14px;
+}
+
+#nav.cb-stuck.cb-full-width {
+    width: 100%;
+}
+
+#nav.cb-dark-menu {
+    background-color: #2d2d2d;
+    background-color: rgba(27, 27, 27, 1);
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-big-menu {
+    background: #2d2d2d;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-mega-title span {
+    color: #f7f7f7;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent {
+    border-left: 1px solid #333333;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .cb-byline, #nav.cb-dark-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .cb-byline .fa-clock-o, #nav.cb-dark-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .cb-byline .fa-folder, #nav.cb-dark-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .cb-byline .fa-comment, #nav.cb-dark-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .cb-byline .fa-user {
+    color: #999999;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .cb-byline a, #nav.cb-dark-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .cb-byline .fa-clock-o a, #nav.cb-dark-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .cb-byline .fa-folder a, #nav.cb-dark-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .cb-byline .fa-comment a, #nav.cb-dark-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .cb-byline .fa-user a {
+    color: #999999;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-big-menu .cb-sub-menu {
+    border-right: 1px solid #333333;
+    background: #2d2d2d;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-big-menu .cb-sub-menu li {
+    border-bottom: 1px dashed #fafafa;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-big-menu .cb-sub-menu li:hover {
+    background: #333333 !important;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-links-menu ul {
+    background-color: #2d2d2d;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-links-menu ul li {
+    border-bottom: 1px dashed #f7f7f7;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-links-menu ul li:hover {
+    background: #333333 !important;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-mega-menu {
+    background-color: #2d2d2d;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu {
+    background: #2d2d2d !important;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu li {
+    background: #2d2d2d !important;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu li a {
+    color: #f7f7f7;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu li .cb-grandchild-menu {
+    background: #2d2d2d !important;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu li .cb-grandchild-menu li a {
+    color: #cccccc;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li:hover > a {
+    color: #fff;
+    background-color: #a98d6b;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav li a {
+    color: #f2f2f2;
+}
+#nav.cb-dark-menu #cb-main-menu .main-nav .current-menu-item a, #nav.cb-dark-menu #cb-main-menu .main-nav .current_page_item a, #nav.cb-dark-menu #cb-main-menu .main-nav .current-page-ancestor a, #nav.cb-dark-menu #cb-main-menu .main-nav .current-category-ancestor a, #nav.cb-dark-menu #cb-main-menu .main-nav .current-menu-ancestor a, #nav.cb-dark-menu #cb-main-menu .main-nav .current-menu-parent a, #nav.cb-dark-menu #cb-main-menu .main-nav .current-post-parent a, #nav.cb-dark-menu #cb-main-menu .main-nav .current-post-ancestor a {
+    color: #fafafa;
+}
+
+#nav.cb-light-menu {
+    background-color: #f2f2f2;
+    background-color: rgba(240, 240, 240, 0.92);
+}
+#nav.cb-light-menu #cb-main-menu .main-nav .cb-icons .fa-search, #nav.cb-light-menu #cb-main-menu .main-nav .cb-icons .fa-user {
+    color: #b3b3b3;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-big-menu {
+    background: #f2f2f2;
+    box-shadow: 0px 7px 7px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 7px 7px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 7px 7px -6px rgba(0, 0, 0, 0.5);
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-mega-title {
+    color: #808080;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .h4 a {
+    color: #808080;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .cb-byline {
+    color: #cccccc;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .cb-byline a {
+    color: #cccccc;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .cb-byline i {
+    color: #cccccc;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-recent ul li .cb-meta .cb-byline .cb-byline-element a {
+    color: #cccccc;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-big-menu .cb-articles .cb-slider-a a {
+    color: #f7f7f7;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-big-menu .cb-featured {
+    border-right: 1px solid #e5e5e5;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-big-menu .cb-sub-menu {
+    border-right: 1px solid #e5e5e5;
+    background: #f5f5f5;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-big-menu .cb-sub-menu li {
+    border-bottom: 1px dashed #fafafa;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-big-menu .cb-sub-menu li a {
+    color: #fafafa;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-big-menu .cb-sub-menu li:hover {
+    background: #4d4d4d !important;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-big-menu .cb-sub-menu li .cb-grandchild-menu {
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    margin-top: -1px;
+    background: #f5f5f5;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-links-menu .cb-sub-menu {
+    background: #f5f5f5;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-links-menu .cb-sub-menu li {
+    border-bottom: 1px dashed #e5e5e5;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-links-menu .cb-sub-menu li a {
+    color: #fafafa;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-links-menu .cb-sub-menu li:hover {
+    background: #4d4d4d !important;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-links-menu .cb-sub-menu li:last-child {
+    border-bottom: none;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-links-menu .cb-sub-menu li .cb-grandchild-menu {
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    margin-top: -1px;
+    background: #f5f5f5;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-mega-menu {
+    background: #f5f5f5;
+    box-shadow: 0px 7px 7px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 7px 7px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 7px 7px -6px rgba(0, 0, 0, 0.5);
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu {
+    background: #f5f5f5;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu li {
+    background: #f5f5f5 !important;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu li a {
+    color: #808080;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li .cb-mega-menu .cb-sub-menu li .cb-grandchild-menu li a {
+    background: #f5f5f5;
+    border: none;
+    color: #999999;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li:hover > a {
+    color: #fff;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li a {
+    color: #999999;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav li ul li:hover a {
+    color: #b3b3b3;
+}
+#nav.cb-light-menu #cb-main-menu .main-nav .current-menu-item a, #nav.cb-light-menu #cb-main-menu .main-nav .current_page_item a, #nav.cb-light-menu #cb-main-menu .main-nav .current-page-ancestor a, #nav.cb-light-menu #cb-main-menu .main-nav .current-category-ancestor a, #nav.cb-light-menu #cb-main-menu .main-nav .current-menu-ancestor a, #nav.cb-light-menu #cb-main-menu .main-nav .current-menu-parent a, #nav.cb-light-menu #cb-main-menu .main-nav .current-post-parent a, #nav.cb-light-menu #cb-main-menu .main-nav .current-post-ancestor a {
+    color: #fafafa;
+}
+
+/*#nav.cb-dark-menu.stickybar {
+background-color: #2d2d2d;
+background-color: rgba(27, 27, 27, 0.95);
+}*/
+
+#nav.cb-light-menu.stickybar {
+    background-color: #f0f0f0;
+    background-color: rgba(240, 240, 240, 0.92);
+}
+
+#nav.cb-light-menu.cb-stuck {
+    border-bottom: none;
+}
+
+#cb-small-menu, #cb-small-menu-trigger {
+    display: none;
+}
+
+#cb-previous-next-links #cb-previous-link .fa-long-arrow-left, #cb-previous-next-links #cb-previous-link .fa-long-arrow-right, #cb-previous-next-links #cb-next-link .fa-long-arrow-left, #cb-previous-next-links #cb-next-link .fa-long-arrow-right {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Banner */
+
+#banner
+{
+    border-top: solid 1px #222628;
+    box-shadow: inset 0px 1px 0px 0px #3e484a;
+    padding: 35px 0 35px 0;
+    color: #fff;
+}
+
+#banner .bordered-feature-image
+{
+    margin-bottom: 0;
+}
+
+#banner p
+{	
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 1.25em;
+    padding-right: 1em;
+    margin: 0 0 1em 0;
+}
+
+/* Features */
+
+#features
+{
+    color: #a0a8ab;
+}
+
+#features h2
+{
+    font-size: 1.25em;
+    color: #fff;
+    margin: 0 0 0.25em 0;
+}
+
+#features a
+{
+    color: #e0e8eb;
+}
+
+#features strong
+{
+    color: #fff;
+}
+
+#features .row > div:nth-child(5n+5) {
+    clear: both;
+}
+
+
+/*	.onlinecasino-cell:nth-child(4n+5) {
+clear: both;
+}*/
+
+/* Content */
+
+#content
+{
+    /*padding: 15px 0 15px 0;*/
+    /*padding: 20px;
+    padding-top: 15px;*/
+    padding: 1em 2em;
+}
+
+#content section
+{
+    background: #fff;
+    padding: 40px 30px 45px 30px;
+    box-shadow: 2px 2px 2px 1px rgba(128,128,128,0.1);
+    margin: 0 0 10% 0;
+}
+
+
+#content a
+{
+    /*color: #ED391B;*/
+    color: #D2AB67;
+    /*color: #E5CCA2;*/
+}
+
+#content header
+{
+    margin: 0 0 2em 0;
+}
+
+/* Footer */
+
+#footer
+{
+    color: #546b76;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.5);
+}
+
+#footer h2
+{
+    font-size: 1.25em;
+    color: #212f35;
+    margin: 0 0 1em 0;
+}
+
+#footer a
+{
+    color: #546b76;
+}
+
+/* Copyright */
+
+#copyright
+{
+    border-top: solid 1px #b5bec3;
+    box-shadow: inset 0px 1px 0px 0px #e0e4e7;
+    text-align: center;
+    padding: 45px 0 80px 0;
+    color: #8d9ca3;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.5);
+}
+
+#copyright a
+{
+    color: #8d9ca3;
+}
+
+
+/* Megamenu Desktop */
+
+#jt-menu-container {
+
+}
+
+/*menu 2*/
+.jt-menu2 {
+    /*background: -moz-linear-gradient(center top , #ffcc00, #ff9900) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+    /*height: 43px;*/
+    list-style: none outside none;
+    margin: 0 0 0 20px;
+    padding: 0 0px;
+    overflow: hidden;
+    width: 100%;
+    /* z-index: 999;*/
+
+    /* Rounded Corners */
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    /* Background color and gradients */
+
+    background: #002651 url('https://www.worldcasinodirectory.com/layout/megamenu/img/ie-bg.png');
+    /*background: -moz-linear-gradient(top, #0272a7, #013953);*/
+    /*background: -moz-linear-gradient(top, #ffd500, #ff9900);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffd500), to(#ff9900));*/
+    background: -moz-linear-gradient(top, #3A3A3A , #1A1A1A);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3A3A3A), to(#1A1A1A));
+
+    /* Borders */
+
+    /*border: 1px solid #002232;*/
+    border: 1px solid #002232 ;
+    border-bottom: 0;
+
+    /*-moz-box-shadow:inset 0px 0px 0px #ff6600;
+    -webkit-box-shadow:inset 0px 0px 0px #ff6600;*/
+    box-shadow:inset 0px 0px 1px #fff;
+
+}
+.jt-sep2{width: auto; width: 0px !important;height:40px;margin: 0; border: 0; padding: 0;border-left:1px solid #111; overflow: hidden;}
+.jt-active2{
+    /*background: #831e1e; */
+    /*background-color: #f70;*/
+    background: #f60 url('https://www.worldcasinodirectory.com/layout/megamenu/img/ie-bg.png');
+    /*background: -moz-linear-gradient(top, #0272a7, #013953);*/
+    /*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f90), to(#f50));
+    background: -moz-linear-gradient(center top , #f90, #f50) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#02DBFF), to(#0072FD));
+    background: -moz-linear-gradient(center top , #02DBFF, #0072FD) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #000 !important;
+
+
+}
+
+ul.jt-megamenu2{
+    width:100%;
+    /*height:20px;*/
+    /*line-height: 40px;*/
+    display:table;
+    font-size: 0.8em;
+    margin: 0px;
+    /*font-family: Verdana, Geneva, sans-serif;
+    text-transform: uppercase;*/
+    /*background: #e08485;*/
+    /*background: #3e0d0d;*/
+    /*background-color: #FFCC00;*/
+    /*border-top:2px solid #280505;
+    border-bottom:2px solid #280505;*/
+}
+ul.jt-megamenu2 li{
+
+
+    width:auto;height:20px;display: table-cell;
+
+
+
+
+}
+
+
+.mm-ico {
+    float: left;
+    position: absolute;
+    display: none;
+}
+
+.mm-ico-oc {
+    background-image: url('images/megamenu/online-casinos.png'); width: 39px; height: 41px;
+    margin-top: -3px; margin-left: -12px;
+}
+
+.mm-ico-wc {
+    background-image: url('images/megamenu/world-casinos.png'); width: 33px; height: 40px;
+    margin-top: -3px; margin-left: -7px;
+}
+
+
+ul.jt-megamenu2 li a{
+    display:block;
+    text-align:center;
+    color:#fff;
+    text-decoration: none !important;
+    padding:0 0px;
+    text-shadow: 1px 1px 0px #000;
+}
+
+
+
+/* MENU */
+
+
+.jt-menu{
+    /*float: left;*/
+    width: 100%;
+
+}
+
+
+
+
+.jt-sep{width:auto;width: 1px;height:40px;border-right:1px solid #282828;}
+.jt-active{
+    background: #831e1e;
+}
+
+.submenu{
+    float: left;
+    width:1150px;
+    margin:0px 0 0 14px;
+    font-size: 0.8em;
+    /*font-family: Verdana, Geneva, sans-serif;
+    text-transform: uppercase;*/
+    color:#fff;
+    /*z-index: 50;*/
+    background-color: #00183D; 
+    line-height: 1.4em;
+    padding: 20px;
+}
+
+.oc-wrap p {
+    clear: both;
+}
+
+.jt-menu-wrapper{
+    float: left;
+    width: 105px;
+    margin:0 2px;
+    text-align:center;
+    color:#fff;
+}
+a.jt-menu-wrapper span, .jt-menu-wrapper:link, .jt-menu-wrapper:visited {
+    color:#fff !important;
+    text-decoration: none !important; }
+
+a.jt-menu-wrapper:hover span{
+    color:#fb0 !important;
+}
+
+
+
+.oc-wrapper{
+    float: left;
+    width:100px;
+    height:87px;
+    margin:0 0 10px 0;
+    padding-top: 100px;
+    position: relative;
+}
+
+
+/*ONLINE CASINOS ICONS*/
+.ico-online-casino{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -21px -15px;
+    width: 90px;
+    height: 90px;
+}
+.ico-online-casino:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -21px -136px;
+    width: 90px;
+    height: 90px;
+}
+.ico-online-slots{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -125px -15px;
+    width: 90px;
+    height: 90px;
+}
+.ico-online-slots:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -125px -137px;
+    width: 90px;
+    height: 90px;
+}
+.ico-online-bingo{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -228px -16px;
+    width: 90px;
+    height: 90px;
+}
+.ico-online-bingo:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -228px -138px;
+    width: 90px;
+    height: 90px;
+}
+.ico-online-poker{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -339px -19px;
+    width: 90px;
+    height: 90px;
+}
+.ico-online-poker:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -339px -140px;
+    width: 90px;
+    height: 90px;
+}
+.ico-online-betting{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -440px -17px;
+    width: 90px;
+    height: 90px;
+}
+.ico-online-betting:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -440px -136px;
+    width: 90px;
+    height: 90px;
+}
+.ico-online-lotto{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -542px -18px;
+    width: 90px;
+    height: 90px;
+}
+.ico-online-lotto:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -542px -132px;
+    width: 90px;
+    height: 90px;
+}
+.ico-new-online-casino{
+    position: absolute;
+    left:-5px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -642px -21px;
+    width: 102px;
+    height: 90px;
+}
+.ico-new-online-casino:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -642px -135px;
+    width: 102px;
+    height: 90px;
+}
+.ico-new-slot-games{
+    position: absolute;
+    left:-5px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -764px -23px;
+    width: 102px;
+    height: 90px;
+}
+.ico-new-slot-games:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -764px -135px;
+    width: 102px;
+    height: 90px;
+}
+.ico-online-bonus{
+    position: absolute;
+    left:-3px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -889px -17px;
+    width: 100px;
+    height: 90px;
+}
+.ico-online-bonus:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -889px -137px;
+    width: 100px;
+    height: 90px;
+}
+.ico-online-software{
+    position: absolute;
+    left:9px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1023px -25px;
+    width: 80px;
+    height: 83px;
+}
+.ico-online-software:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1023px -136px;
+    width: 80px;
+    height: 83px;
+}
+.ico-mobile-casinos{
+    position: absolute;
+    left:9px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1116px -19px;
+    width: 78px;
+    height: 89px;
+}
+.ico-mobile-casinos:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1116px -136px;
+    width: 78px;
+    height: 89px;
+}
+/*END ONLINE CASINOS ICONS*/
+
+
+
+
+/*WORLD CASINOS*/
+.ico-n-america{
+    position: absolute;
+    left:20px;
+    bottom:-6px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1230px -27px;
+    width: 67px;
+    height: 80px;
+    margin:0 0 0 0px;
+}
+.ico-n-america:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1230px -118px;
+    width: 67px;
+    height: 80px;
+}
+.ico-c-america{
+    position: absolute;
+    left:17px;
+    bottom:-1px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1330px -33px;
+    width: 85px;
+    height: 70px;
+}
+.ico-c-america:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1330px -114px;
+    width: 85px;
+    height: 70px;
+}
+.ico-s-america{
+    position: absolute;
+    left:24px;
+    bottom:-4px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1431px -32px;
+    width: 64px;
+    height: 73px;
+}
+.ico-s-america:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1431px -113px;
+    width: 64px;
+    height: 73px;
+}
+.ico-carribbean{
+    position: absolute;
+    left:6px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1509px -35px;
+    width: 99px;
+    height: 65px;
+}
+.ico-carribbean:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1509px -126px;
+    width: 99px;
+    height: 65px;
+}
+.ico-w-europe{
+    position: absolute;
+    left:21px;
+    bottom:-2px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1625px -25px;
+    width: 65px;
+    height: 78px;
+}
+.ico-w-europe:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1625px -106px;
+    width: 65px;
+    height: 78px;
+}
+.ico-e-europe{
+    position: absolute;
+    left:13px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1719px -36px;
+    width: 77px;
+    height: 65px;
+}
+.ico-e-europe:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1719px -117px;
+    width: 77px;
+    height: 65px;
+}
+.ico-middle-east{
+    position: absolute;
+    left:20px;
+    bottom:-3px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1810px -33px;
+    width: 69px;
+    height: 71px;
+}
+.ico-middle-east:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1810px -114px;
+    width: 69px;
+    height: 71px;
+}
+.ico-africa{
+    position: absolute;
+    left:22px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1891px -36px;
+    width: 64px;
+    height: 65px;
+}
+.ico-africa:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1891px -116px;
+    width: 64px;
+    height: 65px;
+}
+.ico-c-asia{
+    position: absolute;
+    left:20px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1968px -36px;
+    width: 67px;
+    height: 65px;
+}
+.ico-c-asia:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1968px -117px;
+    width: 67px;
+    height: 65px;
+}
+.ico-far-east{
+    position: absolute;
+    left:22px;
+    bottom:-3px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2059px -30px;
+    width: 64px;
+    height: 74px;
+}
+.ico-far-east:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2059px -111px;
+    width: 64px;
+    height: 74px;
+}
+
+.ico-australia{
+    position: absolute;
+    left:20px;
+    bottom:-2px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2143px -34px;
+    width: 70px;
+    height: 70px;
+}
+.ico-australia:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2143px -115px;
+    width: 70px;
+    height: 70px;
+}
+/*END WORLD CASINOS*/
+
+
+
+/*CASINO NEWS*/
+
+.ico-casino-news{
+    position: absolute;
+    left:-5px;
+    bottom:1px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -23px -247px;
+    width: 101px;
+    height: 91px;
+}
+.ico-casino-news:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -23px -365px;
+    width: 101px;
+    height: 91px;
+}
+
+.ico-landbased{
+    position: absolute;
+    left:15px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -152px -251px;
+    width: 72px;
+    height: 90px;
+}
+.ico-landbased:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -152px -353px;
+    width: 72px;
+    height: 90px;
+}
+.ico-video-news{
+    position: absolute;
+    left:-7px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -234px -249px;
+    width: 98px;
+    height: 90px;
+}
+.ico-video-news:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -234px -352px;
+    width: 98px;
+    height: 90px;
+}
+
+.ico-lasvegas-news{
+    position: absolute;
+    left:9px;
+    bottom:2px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -363px -254px;
+    width: 87px;
+    height: 89px;
+}
+.ico-lasvegas-news:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -363px -360px;
+    width: 87px;
+    height: 89px;
+}
+
+.ico-macau-news{
+    position: absolute;
+    left:1px;
+    bottom:2px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -486px -254px;
+    width: 90px;
+    height: 89px;
+}
+.ico-macau-news:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -486px -361px;
+    width: 90px;
+    height: 89px;
+}
+.ico-atlantic-city-news{
+    position: absolute;
+    left:7px;
+    bottom:2px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -601px -252px;
+    width: 96px;
+    height: 88px;
+}
+.ico-atlantic-city-news:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -601px -375px;
+    width: 96px;
+    height: 88px;
+}
+.ico-openings{
+    position: absolute;
+    left:-6px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -745px -255px;
+    width: 124px;
+    height: 90px;
+}
+.ico-openings:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -745px -364px;
+    width: 124px;
+    height: 90px;
+}
+.ico-closings{
+    position: absolute;
+    left:-1px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -894px -258px;
+    width: 124px;
+    height: 90px;
+}
+.ico-closings:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -894px -361px;
+    width: 124px;
+    height: 90px;
+}
+.ico-lotto-news{
+    position: absolute;
+    left:18px;
+    bottom:-2px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1063px -260px;
+    width: 72px;
+    height: 88px;
+}
+.ico-lotto-news:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1063px -366px;
+    width: 72px;
+    height: 88px;
+}
+.ico-poker-news{
+    position: absolute;
+    left:5px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1180px -253px;
+    width: 95px;
+    height: 91px;
+}
+.ico-poker-news:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1180px -354px;
+    width: 95px;
+    height: 91px;
+}
+.ico-twg{
+    position: absolute;
+    left:5px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1309px -258px;
+    width: 96px;
+    height: 77px;
+}
+.ico-twg:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1309px -365px;
+    width: 96px;
+    height: 77px;
+}
+
+/*END CASINO NEWS*/
+
+
+
+/*CASINO HOTELS*/
+
+.ico-atlantic{
+    position: absolute;
+    left:6px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2058px -250px;
+    width: 97px;
+    height: 84px;
+}
+.ico-atlantic:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2058px -352px;
+    width: 99px;
+    height: 84px;
+}
+
+.ico-sanjose{
+    position: absolute;
+    left:10px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2214px -261px;
+    width: 89px;
+    height: 77px;
+}
+.ico-sanjose:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2214px -354px;
+    width: 89px;
+    height: 79px;
+}
+.ico-california{
+    position: absolute;
+    left:7px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2323px -255px;
+    width: 97px;
+    height: 83px;
+}
+.ico-california:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2323px -346px;
+    width: 97px;
+    height: 85px;
+}
+.ico-london{
+    position: absolute;
+    left:15px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2469px -257px;
+    width: 80px;
+    height: 81px;
+}
+.ico-london:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2469px -348px;
+    width: 82px;
+    height: 81px;
+}
+.ico-panama{
+    position: absolute;
+    left:3px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2581px -262px;
+    width: 93px;
+    height: 76px;
+}
+.ico-panama:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2581px -354px;
+    width: 93px;
+    height: 76px;
+}
+.ico-prauge{
+    position: absolute;
+    left:9px;
+    bottom:-1px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1936px -258px;
+    width: 79px;
+    height: 78px;
+}
+.ico-prauge:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1936px -354px;
+    width: 78px;
+    height: 81px;
+}
+.ico-lasvegas{
+    position: absolute;
+    left:5px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1814px -255px;
+    width: 99px;
+    height: 79px;
+}
+.ico-lasvegas:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1814px -348px;
+    width: 99px;
+    height: 80px;
+}
+.ico-manila{
+    position: absolute;
+    left:15px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1711px -257px;
+    width: 71px;
+    height: 77px;
+}
+.ico-manila:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1711px -350px;
+    width: 75px;
+    height: 77px;
+}
+.ico-santo{
+    position: absolute;
+    left:10px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1575px -263px;
+    width: 92px;
+    height: 71px;
+}
+.ico-santo:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1575px -353px;
+    width: 92px;
+    height: 72px;
+}
+
+.ico-macau{
+    position: absolute;
+    left:15px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1446px -262px;
+    width: 71px;
+    height: 72px;
+}
+.ico-macau:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1446px -347px;
+    width: 77px;
+    height: 75px;
+}
+.ico-singapore{
+    position: absolute;
+    left:4px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2704px -253px;
+    width: 100px;
+    height: 79px;
+}
+.ico-singapore:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2704px -354px;
+    width: 101px;
+    height: 79px;
+}
+
+/*END CASINO HOTELS*/
+
+
+/*LOTTERY*/
+
+.ico-elgorodo{
+    position: absolute;
+    left:5px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2842px -213px;
+    width: 95px;
+    height: 65px;
+}
+.ico-elgorodo:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2842px -292px;
+    width: 95px;
+    height: 65px;
+}
+.ico-enalotto{
+    position: absolute;
+    left:7px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2838px -40px;
+    width: 100px;
+    height: 65px;
+}
+.ico-enalotto:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2838px -121px;
+    width: 100px;
+    height: 65px;
+}
+.ico-euro{
+    position: absolute;
+    left:14px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2599px -37px;
+    width: 90px;
+    height: 65px;
+}
+.ico-euro:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2599px -116px;
+    width: 90px;
+    height: 65px;
+}
+.ico-uk-euro{
+    position: absolute;
+    left:16px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2500px -27px;
+    width: 76px;
+    height: 75px;
+}
+.ico-uk-euro:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2500px -108px;
+    width: 76px;
+    height: 75px;
+}
+.ico-mega{
+    position: absolute;
+    left:-4px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2252px -37px;
+    width: 101px;
+    height: 65px;
+}
+.ico-mega:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2252px -111px;
+    width: 101px;
+    height: 65px;
+}
+.ico-powerball{
+    position: absolute;
+    left:6px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2378px -37px;
+    width: 98px;
+    height: 65px;
+}
+.ico-powerball:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2378px -111px;
+    width: 98px;
+    height: 65px;
+}
+.ico-irish{
+    position: absolute;
+    left:18px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2978px -46px;
+    width: 77px;
+    height: 66px;
+}
+.ico-irish:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2978px -125px;
+    width: 77px;
+    height: 66px;
+}
+
+.ico-uk-national{
+    position: absolute;
+    left:20px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -3083px -191px;
+    width: 64px;
+    height: 73px;
+}
+.ico-uk-national:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -3083px -276px;
+    width: 64px;
+    height: 73px;
+}
+.ico-euro-jackpot{
+    position: absolute;
+    left:2px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2704px -37px;
+    width: 96px;
+    height: 65px;
+}
+.ico-euro-jackpot:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2704px -115px;
+    width: 96px;
+    height: 65px;
+}
+
+.ico-canada-lottery{
+    position: absolute;
+    left:20px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2982px -213px;
+    width: 64px;
+    height: 65px;
+}
+.ico-canada-lottery:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2982px -294px;
+    width: 64px;
+    height: 65px;
+}
+
+.ico-usa-lottery{
+    position: absolute;
+    left:20px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -3080px -38px;
+    width: 64px;
+    height: 65px;
+}
+.ico-usa-lottery:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -3080px -116px;
+    width: 64px;
+    height: 65px;
+}
+
+/*END LOTTERY*/
+
+
+/*ONLINE CASINO GAMES*/
+
+.ico-reel-slot{
+    position: absolute;
+    left:13px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -30px -681px;
+    width: 82px;
+    height: 82px;
+}
+.ico-reel-slot:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -30px -773px;
+    width: 82px;
+    height: 82px;
+}
+
+.ico-progressive{
+    position: absolute;
+    left:19px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -145px -493px;
+    width: 81px;
+    height: 79px;
+}
+.ico-progressive:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -145px -592px;
+    width: 82px;
+    height: 83px;
+}
+
+.ico-video-slots{
+    position: absolute;
+    left:17px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -38px -493px;
+    width: 81px;
+    height: 79px;
+}
+.ico-video-slots:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -38px -592px;
+    width: 82px;
+    height: 83px;
+}
+
+.ico-video-poker{
+    position: absolute;
+    left:18px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -834px -486px;
+    width: 81px;
+    height: 79px;
+}
+.ico-video-poker:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -834px -591px;
+    width: 82px;
+    height: 83px;
+}
+
+.ico-online-keno{
+    position: absolute;
+    left:19px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -370px -493px;
+    width: 81px;
+    height: 79px;
+}
+.ico-online-keno:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -370px -593px;
+    width: 82px;
+    height: 83px;
+}
+
+.ico-online-blackjack{
+    position: absolute;
+    left:20px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -484px -493px;
+    width: 82px;
+    height: 79px;
+}
+.ico-online-blackjack:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -484px -593px;
+    width: 82px;
+    height: 83px;
+}
+
+.ico-online-baccarat{
+    position: absolute;
+    left:18px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -588px -493px;
+    width: 82px;
+    height: 79px;
+}
+.ico-online-baccarat:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -588px -593px;
+    width: 82px;
+    height: 83px;
+}
+
+.ico-online-craps{
+    position: absolute;
+    left:17px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -712px -493px;
+    width: 82px;
+    height: 79px;
+}
+.ico-online-craps:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -712px -593px;
+    width: 82px;
+    height: 83px;
+}
+
+.ico-online-roulette{
+    position: absolute;
+    left:17px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -257px -493px;
+    width: 81px;
+    height: 79px;
+}
+.ico-online-roulette:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -257px -592px;
+    width: 82px;
+    height: 83px;
+}
+
+.ico-poker-games{
+    position: absolute;
+    left:16px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1066px -486px;
+    width: 81px;
+    height: 79px;
+}
+.ico-poker-games:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1066px -591px;
+    width: 82px;
+    height: 83px;
+}
+
+.ico-fixed-odds{
+    position: absolute;
+    left:16px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -956px -486px;
+    width: 80px;
+    height: 79px;
+}
+.ico-fixed-odds:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -956px -591px;
+    width: 82px;
+    height: 83px;
+}
+
+/*END ONLINE CASINO GAMES*/
+
+
+
+/*GAMES GUIDES*/
+
+.ico-play-blackjack{
+    position: absolute;
+    left:10px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1182px -467px;
+    width: 111px;
+    height: 82px;
+}
+.ico-play-blackjack:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1182px -575px;
+    width: 111px;
+    height: 82px;
+}
+
+.ico-play-craps{
+    position: absolute;
+    left:19px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1316px -473px;
+    width: 91px;
+    height: 72px;
+}
+.ico-play-craps:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1316px -568px;
+    width: 91px;
+    height: 72px;
+}
+
+.ico-roulette-strategies{
+    position: absolute;
+    left:22px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1448px -476px;
+    width: 101px;
+    height: 65px;
+}
+.ico-roulette-strategies:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1448px -571px;
+    width: 101px;
+    height: 65px;
+}
+
+.ico-play-baccarat{
+    position: absolute;
+    left:20px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1588px -477px;
+    width: 98px;
+    height: 66px;
+}
+.ico-play-baccarat:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1588px -572px;
+    width: 98px;
+    height: 66px;
+}
+
+.ico-play-poker{
+    position: absolute;
+    left:20px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1721px -477px;
+    width: 98px;
+    height: 65px;
+}
+.ico-play-poker:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1721px -572px;
+    width: 98px;
+    height: 65px;
+}
+
+.ico-other-tables{
+    position: absolute;
+    left:15px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2467px -476px;
+    width: 85px;
+    height: 70px;
+}
+.ico-other-tables:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2467px -572px;
+    width: 85px;
+    height: 70px;
+}
+
+.ico-play-keno{
+    position: absolute;
+    left:18px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1855px -474px;
+    width: 109px;
+    height: 72px;
+}
+.ico-play-keno:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1855px -569px;
+    width: 109px;
+    height: 72px;
+}
+
+.ico-sportsbetting{
+    position: absolute;
+    left:24px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2100px -467px;
+    width: 98px;
+    height: 84px;
+}
+.ico-sportsbetting:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2100px -560px;
+    width: 98px;
+    height: 84px;
+}
+.ico-slots-guide{
+    position: absolute;
+    left:15px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1993px -460px;
+    width: 72px;
+    height: 88px;
+}
+.ico-slots-guide:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -1993px -562px;
+    width: 72px;
+    height: 88px;
+}
+
+.ico-video-poker-guide{
+    position: absolute;
+    left:15px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2212px -462px;
+    width: 72px;
+    height: 88px;
+}
+.ico-video-poker-guide:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2212px -564px;
+    width: 72px;
+    height: 88px;
+}
+
+.ico-pari-mutuel{
+    position: absolute;
+    left:16px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2311px -477px;
+    width: 101px;
+    height: 65px;
+}
+.ico-pari-mutuel:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2311px -574px;
+    width: 101px;
+    height: 65px;
+}
+
+/*END GAMES GUIDES*/
+
+
+
+/*FREE*/
+
+.ico-free-blackjack{
+    position: absolute;
+    left:10px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2599px -656px;
+    width: 111px;
+    height: 82px;
+}
+.ico-free-blackjack:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2599px -756px;
+    width: 111px;
+    height: 82px;
+}
+.ico-free-craps{
+    position: absolute;
+    left:15px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2603px -476px;
+    width: 95px;
+    height: 72px;
+}
+.ico-free-craps:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2603px -574px;
+    width: 95px;
+    height: 72px;
+}
+
+.ico-free-roulette{
+    position: absolute;
+    left:19px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2757px -483px;
+    width: 104px;
+    height: 65px;
+}
+.ico-free-roulette:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2757px -580px;
+    width: 104px;
+    height: 65px;
+}
+.ico-free-baccarat{
+    position: absolute;
+    left:17px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2902px -477px;
+    width: 101px;
+    height: 66px;
+}
+.ico-free-baccarat:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2902px -574px;
+    width: 101px;
+    height: 66px;
+}
+.ico-free-poker{
+    position: absolute;
+    left:16px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -3032px -476px;
+    width: 102px;
+    height: 65px;
+}
+.ico-free-poker:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -3032px -573px;
+    width: 102px;
+    height: 65px;
+}
+.ico-free-keno{
+    position: absolute;
+    left:11px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2330px -668px;
+    width: 112px;
+    height: 72px;
+}
+.ico-free-keno:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2330px -765px;
+    width: 112px;
+    height: 72px;
+}
+
+.ico-free-videpoker{
+    position: absolute;
+    left:13px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -3042px -654px;
+    width: 76px;
+    height: 88px;
+}
+.ico-free-videpoker:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -3042px -751px;
+    width: 76px;
+    height: 88px;
+}
+.ico-free-fixed{
+    position: absolute;
+    left:11px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2828px -651px;
+    width: 75px;
+    height: 88px;
+}
+.ico-free-fixed:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2828px -752px;
+    width: 75px;
+    height: 88px;
+}
+
+.ico-free-progressive{
+    position: absolute;
+    left:15px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2473px -654px;
+    width: 76px;
+    height: 88px;
+}
+.ico-free-progressive:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2473px -751px;
+    width: 76px;
+    height: 88px;
+}
+.ico-free-reelslots{
+    position: absolute;
+    left:15px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2928px -651px;
+    width: 75px;
+    height: 88px;
+}
+.ico-free-reelslots:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2928px -752px;
+    width: 75px;
+    height: 88px;
+}
+.ico-free-videoslots{
+    position: absolute;
+    left:11px;
+    bottom:0px;
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2716px -657px;
+    width: 76px;
+    height: 88px;
+}
+.ico-free-videoslots:hover{
+    background: url('https://www.worldcasinodirectory.com/layout/new-menu-sprites.jpg') no-repeat -2716px -750px;
+    width: 76px;
+    height: 88px;
+}
+
+/*END FREE*/
+
+/* ADJUSTED CASINO LIST */
+#multimenu-locations{}
+.read-more-state{
+    display: none;
+}
+.read-more-state:checked ~ .
+.toggleList{}
+/* ADJUSTED CASINO LIST */
+
+
+/* ------------------ NEWSLETTER --------------------- */
+.subscribeWrapper {
+    background-color: #b3b6b9;
+    padding: 20px 0;
+}
+.subscribeFormWrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.subscribeFormWrapper form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.subscribeFormWrapper form.newsletterForm input {
+    background-color: #efefef;
+    border: 1px solid #999595;
+    border-radius: 5px;
+    width: 63%;
+    float: left;
+    margin-right: 1%;
+    font-size: 1.6rem;
+}
+.subscribeFormWrapper form.newsletterForm input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #333 !important;
+}
+.subscribeFormWrapper form.newsletterForm input::-moz-placeholder { /* Firefox 19+ */
+    color: #333 !important;
+}
+.subscribeFormWrapper form.newsletterForm input:-ms-input-placeholder { /* IE 10+ */
+    color: #333 !important;
+}
+.subscribeFormWrapper form.newsletterForm input:-moz-placeholder { /* Firefox 18- */
+    color: #333 !important;
+}
+.subscribeFormWrapper form.newsletterForm  button {
+    max-width: 36%;
+    float: right;
+    padding: 0 4%;
+    border-radius: 5px;
+    height: 44px;
+    line-height: 44px;
+    background-color: #a98d6b;
+    border: none;
+    color: #fff;
+    font-family: 'Oswald';
+}
+.subscribeFormWrapper form.newsletterForm  button:hover {
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+/*----------------- NEWSLETTER FORM START -----------------*/
+#header-search-form-container {
+    width: 62%;
+    float: left;
+    margin-top: 3rem;
+}
+#header-search-box {
+    width: 75%;
+    float: left;
+}
+.subscribeWrapp {
+    width: 36%;
+    float: right;
+    background-color: #474747;
+    box-sizing: border-box;
+    padding: 1.5%;
+    margin-right: 1.5%;
+}
+.subscribeWrapp p {
+    color: #ffffff;
+    /*font-weight: bold;*/
+    font-family: "Oswald",sans-serif;
+    margin-bottom: 0.7em;
+}
+.subscribeWrapp form.newsletterForm {
+    margin-bottom: 0;
+}
+.subscribeWrapp form.newsletterForm input {
+    background-color: #e2e1e1;
+    color: #000;
+    border-radius: 3px;
+    width: 68%;
+    margin-right: 2%;
+    float: left;
+    border: none;
+    font-family: "Oswald",sans-serif;
+    font-size: 1.4rem;
+}
+.subscribeWrapp form.newsletterForm input[type="text"]:focus {
+    box-shadow: none;
+}
+.subscribeWrapp form.newsletterForm button.buttonSubscribe {
+    background-color: #ee3333;
+    text-transform: uppercase;
+    border: medium none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 4px 0 5px;
+    text-align: center;
+    font-family: "Oswald",sans-serif;
+    width: 30%;
+    border-radius: 3px;
+}
+.subscribeWrapp form.newsletterForm button.buttonSubscribe:hover {
+    transition: all 0.2s ease-in-out 0s;
+    opacity: 0.7;
+}
+/*----------------- NEWSLETTER FORM END -----------------*/
+
+.footerBannerBox {
+   width:25%;    
+   border-right: solid 1px #b5bec3;
+   padding-left:0;
+}
+
+.BannerBoxImg {
+   width:100%;
+   text-align:center;
+   padding-left:0;
+   height:300px;
+}
